@@ -1,13 +1,40 @@
+/// lA PARTIE HEADER DU SITE \\\
+
 .site-header{
-    background-color: darkgray;
     //flex: 1 1 1;
 }
 
 .site-branding{
     display: flex;
+    align-items: center;
     justify-content: space-around;
 }
 
 .site-title{
     margin-top: 0;
+    margin-bottom: 0;
+    a{
+        font-family: magistral,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/// lA PARTIE BODY DU SITE \\\
+
+body{
+    background-color: rgb(121, 124, 140);
+}
+
+.bulle1{
+    width: 40rem;
+}
+.bulle2{
+    width: 20rem;
+}
+
+.bulle3{
+    width: 38rem;
 }
