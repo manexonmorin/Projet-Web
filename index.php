@@ -18,19 +18,121 @@ get_header();
 	<main id="primary" class="site-main">
 
 	<div class="bulleIntera">
-		<svg class="bulle1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			<path fill="#F2F4F8" d="M48.1,-55.4C62.2,-45.6,73.2,-30.2,74.4,-14.4C75.7,1.4,67.1,17.6,58.4,34.5C49.6,51.5,40.6,69.1,26.5,75.3C12.4,81.6,-6.8,76.5,-14.2,63.3C-21.7,50.1,-17.4,28.8,-24.7,14.9C-32,0.9,-51,-5.7,-54.8,-14.2C-58.7,-22.7,-47.6,-33.1,-36,-43.3C-24.3,-53.5,-12.2,-63.6,2.4,-66.5C17,-69.4,34.1,-65.2,48.1,-55.4Z" transform="translate(100 100)" />
-			<!-- ­<text>Technique d'intégration Multimédia</text> -->
-		</svg>
-
-		<svg class="bulle2" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			<path fill="#F2F4F8" d="M26.3,-35.5C38.3,-27.5,55.3,-25.5,63.3,-16.8C71.3,-8.1,70.3,7.2,63.5,18.3C56.7,29.3,43.9,36.1,32.4,39.9C20.8,43.6,10.4,44.3,1.9,41.6C-6.6,39,-13.1,33,-17.6,27C-22,20.9,-24.3,14.8,-34,6.1C-43.6,-2.6,-60.6,-13.9,-65.6,-28.4C-70.6,-42.9,-63.7,-60.5,-50.8,-68.3C-37.9,-76,-18.9,-73.7,-5.9,-65.6C7.1,-57.5,14.3,-43.5,26.3,-35.5Z" transform="translate(100 100)" />
-		</svg>
-
-		<svg class="bulle3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-			<path fill="#F2F4F8" d="M30.4,-50C42.2,-39.8,56.4,-36,60.4,-27.5C64.3,-19,58.1,-5.8,52.6,5C47.1,15.9,42.4,24.3,37.3,35C32.2,45.8,26.7,58.9,16.3,67.4C5.9,76,-9.4,80,-23.6,77.3C-37.8,74.5,-51,65.1,-61.8,53.2C-72.7,41.4,-81.2,27.1,-78.8,14.1C-76.3,1.1,-62.9,-10.7,-53.2,-21.1C-43.5,-31.5,-37.6,-40.5,-29.4,-52.3C-21.2,-64.2,-10.6,-78.9,-0.6,-78C9.3,-77,18.6,-60.3,30.4,-50Z" transform="translate(100 100)" />
-		</svg>
+		<h1 class="titreBulle">TIM</h1>
+		<div id="particle-container">
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+	<div class="particle"></div>
+</div>
 	</div>
+
+	<!-- <div class="hero">
+
+    <div class="snow">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1536" preserveAspectRatio="xMidYMax slice">
+        <g fill="#FFF" fill-opacity=".15" transform="translate(55 42)">
+         <g id="snow-bottom-layer">
+          <ellipse cx="6" cy="1009.5" rx="6" ry="5.5"/>
+          <ellipse cx="138" cy="1110.5" rx="6" ry="5.5"/>
+          <ellipse cx="398" cy="1055.5" rx="6" ry="5.5"/>
+          <ellipse cx="719" cy="1284.5" rx="6" ry="5.5"/>
+          <ellipse cx="760" cy="1155.5" rx="6" ry="5.5"/>
+          <ellipse cx="635" cy="1459.5" rx="6" ry="5.5"/>
+          <ellipse cx="478" cy="1335.5" rx="6" ry="5.5"/>
+          <ellipse cx="322" cy="1414.5" rx="6" ry="5.5"/>
+          <ellipse cx="247" cy="1234.5" rx="6" ry="5.5"/>
+          <ellipse cx="154" cy="1425.5" rx="6" ry="5.5"/>
+          <ellipse cx="731" cy="773.5" rx="6" ry="5.5"/>
+          <ellipse cx="599" cy="874.5" rx="6" ry="5.5"/>
+          <ellipse cx="339" cy="819.5" rx="6" ry="5.5"/>
+          <ellipse cx="239" cy="1004.5" rx="6" ry="5.5"/>
+          <ellipse cx="113" cy="863.5" rx="6" ry="5.5"/>
+          <ellipse cx="102" cy="1223.5" rx="6" ry="5.5"/>
+          <ellipse cx="395" cy="1155.5" rx="6" ry="5.5"/>
+          <ellipse cx="826" cy="943.5" rx="6" ry="5.5"/>
+          <ellipse cx="626" cy="1054.5" rx="6" ry="5.5"/>
+          <ellipse cx="887" cy="1366.5" rx="6" ry="5.5"/>
+          <ellipse cx="6" cy="241.5" rx="6" ry="5.5"/>
+          <ellipse cx="138" cy="342.5" rx="6" ry="5.5"/>
+          <ellipse cx="398" cy="287.5" rx="6" ry="5.5"/>
+          <ellipse cx="719" cy="516.5" rx="6" ry="5.5"/>
+          <ellipse cx="760" cy="387.5" rx="6" ry="5.5"/>
+          <ellipse cx="635" cy="691.5" rx="6" ry="5.5"/>
+          <ellipse cx="478" cy="567.5" rx="6" ry="5.5"/>
+          <ellipse cx="322" cy="646.5" rx="6" ry="5.5"/>
+          <ellipse cx="247" cy="466.5" rx="6" ry="5.5"/>
+          <ellipse cx="154" cy="657.5" rx="6" ry="5.5"/>
+          <ellipse cx="731" cy="5.5" rx="6" ry="5.5"/>
+          <ellipse cx="599" cy="106.5" rx="6" ry="5.5"/>
+          <ellipse cx="339" cy="51.5" rx="6" ry="5.5"/>
+          <ellipse cx="239" cy="236.5" rx="6" ry="5.5"/>
+          <ellipse cx="113" cy="95.5" rx="6" ry="5.5"/>
+          <ellipse cx="102" cy="455.5" rx="6" ry="5.5"/>
+          <ellipse cx="395" cy="387.5" rx="6" ry="5.5"/>
+          <ellipse cx="826" cy="175.5" rx="6" ry="5.5"/>
+          <ellipse cx="626" cy="286.5" rx="6" ry="5.5"/>
+          <ellipse cx="887" cy="598.5" rx="6" ry="5.5"/>
+         </g>
+        </g>
+        <g fill="#FFF" fill-opacity=".3" transform="translate(65 63)">
+         <g id="snow-top-layer">
+          <circle cx="8" cy="776" r="8"/>
+          <circle cx="189" cy="925" r="8"/>
+          <circle cx="548" cy="844" r="8"/>
+          <circle cx="685" cy="1115" r="8"/>
+          <circle cx="858" cy="909" r="8"/>
+          <circle cx="874" cy="1438" r="8" transform="rotate(180 874 1438)"/>
+          <circle cx="657" cy="1256" r="8" transform="rotate(180 657 1256)"/>
+          <circle cx="443" cy="1372" r="8" transform="rotate(180 443 1372)"/>
+          <circle cx="339" cy="1107" r="8" transform="rotate(180 339 1107)"/>
+          <circle cx="24" cy="1305" r="8" transform="rotate(180 24 1305)"/>
+          <circle cx="8" cy="8" r="8"/>
+          <circle cx="189" cy="157" r="8"/>
+          <circle cx="548" cy="76" r="8"/>
+          <circle cx="685" cy="347" r="8"/>
+          <circle cx="858" cy="141" r="8"/>
+          <circle cx="874" cy="670" r="8" transform="rotate(180 874 670)"/>
+          <circle cx="657" cy="488" r="8" transform="rotate(180 657 488)"/>
+          <circle cx="443" cy="604" r="8" transform="rotate(180 443 604)"/>
+          <circle cx="339" cy="339" r="8" transform="rotate(180 339 339)"/>
+          <circle cx="24" cy="537" r="8" transform="rotate(180 24 537)"/>
+         </g>
+        </g>
+    </svg>
+    </div> -->
+  
+  <!-- <div class="hero__content">
+    <h1>SVG Snow</h1>
+  </div> -->
+
+</div>
 
 
 		<?php
