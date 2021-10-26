@@ -61,7 +61,7 @@ get_header();
       </div>
 
       <div class="bulleIntera bulleIntera2">
-        <h1 class="titreBulle titreBulle2">BIENVENUE</h1>
+        <h1 class="titreBulle titreBulle2">BIENVENUE À TOUS SUR TIM</h1>
       </div>
 
       <div class="bulleIntera bulleIntera3">
