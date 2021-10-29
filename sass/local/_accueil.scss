@@ -1,6 +1,19 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************** lA PARTIE HEADER DU SITE **************************************** \\
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.entry-header{
+    display: none;
+}
+
+.entry-footer{
+    display: none;
+}
+
+.menu-image{
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+}
 
 .site-branding{
     display: flex;
@@ -59,6 +72,11 @@ body{
     transform: scale(1);
     animation: wave 5s linear infinite alternate;
     margin: 100px;
+}
+
+.bulleIntera1{
+    position: absolute;
+    top: 10%;
 }
 
 // Le texte dans la première bulle.
