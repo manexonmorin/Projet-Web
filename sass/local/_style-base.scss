@@ -1,0 +1,68 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ***************************************************** lA PARTIE NAV **************************************** \\
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.menu-menutim-container{
+    width: 100vw;
+    ul{
+        display: flex;
+        justify-content: space-between;
+        // logo TIM NAV
+        img{
+            scale: 1.4;
+        }
+        // les onglets du nav
+        li{
+            justify-content: space-between;
+        }
+    }
+
+}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// ***************************************************** lA PARTIE HEADER DU SITE **************************************** \\
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.entry-header{
+    display: none;
+}
+
+.entry-footer{
+    display: none;
+}
+
+.menu-image{
+    width: 50px;
+    height: 50px;
+    align-self: flex-start;
+}
+
+.site-branding{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.site-title{
+    margin-top: 0;
+    margin-bottom: 0;
+    a{
+        font-family: magistral,sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+    }
+}
+
+/// lA PARTIE BODY DU SITE \\\
+
+body{
+    background-color: rgb(121, 124, 140);
+    // overflow: hidden;
+}
+
+.site-main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+}
