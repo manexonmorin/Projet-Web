@@ -17,8 +17,6 @@ get_header();
 
  
 	<main id="primary" class="site-main">
-    <h1>front page</h1>
-
     <!-- Balise div qui contient les particules à faire bouger -->
     <div id="particle-container">
       <div class="particle"></div>
@@ -54,7 +52,7 @@ get_header();
     </div>
 
       <!-- Balise qui contient les Bulles à effet flottant -->
-    <div id="bulleAnim" class="lesbulles">
+    <!-- <div id="bulleAnim" class="lesbulles">
 
       <div class="bulleIntera">
           <h1 class="titreBulle"> <span class="effetGras-bulle1" >T</span>echnique <br> <span class="effetGras-bulle1" >I</span>ntégration <br> <span class="effetGras-bulle1" >M</span>ultimédia </h1>
@@ -66,7 +64,7 @@ get_header();
 
       <div class="bulleIntera bulleIntera3">
       </div>
-    </div>
+    </div> -->
 
 		<?php
 		if ( have_posts() ) :
