@@ -4,25 +4,134 @@
     background-repeat: no-repeat;
     //premier groupe titre et img
     .groupeTitreIMG{
+        padding-top: 10vh;
         // titre
         h1{
-            width: 300px;
+            margin: 0 0 0 9%;
+            width: 220px;
+            font-size: 1.5rem;
+            @include media-tablette{
+                width: 320px;
+                font-size: 2.3rem;
+            }
         }
+        // image etudiant
         img{
-            width: 31vw;
+            width: 15vw;
+            margin-left: 7vw;
         }
     }
 
-    .groupeTextesAccueilFutur{
+    .groupetxtETfleche{
+        width: 80vw;
+        margin: 0 auto;
+        margin-top: -5vh;
+        position: relative;
+        @include media-tablette{
+            margin-top: -10vh;
+        }
+        // groupe parent qui contient 3 mots
         .wp-block-group__inner-container{
             display: flex;
+            flex-wrap: wrap;
+            // groupe contient 3 mots
+            .groupeMotsFutur{
+                width: 100%;
+                .wp-block-group__inner-container{
+                    display: flex;
+                    justify-content: space-between;
+                    .wp-block-group:nth-child(1){
+                        padding-left: 12vw; // mot "stages"
+                        p:hover{
+                            cursor: pointer;
+                            text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
+                        }
+                        p:hover ~ .infoTxtFuturAbsolute{
+                            opacity: 1;
+                            top: -30vh;
+                            @include media-tablette{
+                                top: -45vh;
+                            }
+                        }
+                    }
+                    .wp-block-group:nth-child(2){ // mot "marche travail"
+                        p:hover{
+                            cursor: pointer;
+                            text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
+                        }
+                        p:hover ~ .infoTxtFuturAbsolute{
+                            opacity: 1;
+                            top: -30vh;
+                            @include media-tablette{
+                                top: -45vh;
+                            }
+                        }
+                    }
+                    .wp-block-group:nth-child(3){
+                        padding-right: 12vw;// mot "etudes"
+                        p:hover{
+                            cursor: pointer;
+                            text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
+                        }
+                        p:hover ~ .infoTxtFuturAbsolute{
+                            opacity: 1;
+                            top: -30vh;
+                            @include media-tablette{
+                                top: -45vh;
+                            }
+                        }
+                    }
+
+                    .wp-block-group{
+                        // mot diagonale
+                        p{
+                            margin: 0;
+                            z-index: 2;
+                            font-size:clamp(.7rem, 3vw , 1rem);
+                            @include media-tablette{
+                                font-size: 1.3rem;
+                            }
+                        }
+                        // bulles flotantes infos
+                        .infoTxtFuturAbsolute{
+                            z-index: 0;
+                            opacity: 0;
+                            transition: all .5s ease-out;
+                            position: absolute;
+                            width:  250px;
+                            top: -35vh;
+                            margin-left: -22%;
+                            border-radius: 10px;
+                            padding: 10px;
+                            text-align: center;
+                            @include media-tablette{
+                                margin-left: -12%;
+                                width:  400px;
+                            }
+                            p:hover{cursor: inherit; text-shadow: inherit;}
+                            h2{
+                                margin: 0 auto;
+                                font-size:clamp(.9rem, 2vw , 1.1rem);
+                                @include media-tablette{
+                                    font-size:clamp(1.2rem, 2vw , 1.5rem);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
+
         .imgFleche{
+            width: 100%;
             display: flex;
             justify-content: center;
             img{
-                width: 80vw;
+                margin-top: -19px;
+                @include media-tablette{
+                    margin-top: -30px;
+                }
             }
         }
     }
-}
+}// fin groupe futur
