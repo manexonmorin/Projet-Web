@@ -131,9 +131,9 @@ get_header();
   <!-- </section> -->
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
-  <!-- <section class="projet_etudiant" id="projet_etudiant"> -->
+  <section class="projet_etudiant" id="projet_etudiant">
 
-    <!-- <div id="particle-container">
+    <div id="particle-container">
       <div class="particle"></div>
       <div class="particle"></div>
       <div class="particle"></div>
@@ -167,7 +167,7 @@ get_header();
     </div>
 
     <div class="conteneur_titre-etudiant">
-    </div>  -->
+    </div> 
 
     <!-- <div class="conteneur_titre-etudiant">
 
@@ -187,11 +187,7 @@ get_header();
       <div class="conteneur_projet projet-quatre"></div>
       <div class="conteneur_projet projet-cinq"></div>
 
-    </div>
-
-  </section> -->
     </div> -->
-
   </section>
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
