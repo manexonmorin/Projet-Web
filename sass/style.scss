@@ -101,7 +101,21 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------- */
 @import "utilities/alignments";
 
+
+
+
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\*/
+/*//////////////////////////////////*\
 /* Accueil
 --------------------------------------------- */
 @import "local/accueil-bulle";
 @import "local/accueil-camaraderie";
+@import "local/accueil-projetsEtudiants";
+@import "local/accueil-logicielETlangue";
+@import "local/accueil-futur";
+
+/* Cours
+--------------------------------------------- */
+
+
+@import "local/style-base"; // style general de la structure WP
