@@ -1,14 +1,23 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // **************************************** PARTIE ANIMATION BULLES ET COMPOSANTES *************************************** \\
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.GroupeBulle{
-    height: 100%;
+body{
+    overflow-x: hidden;
+}
+
+.entry-content{
+    margin: 0;
+}
+
+.category-accueil{
+    margin: 0;
 }
 
 // Balise parent des bulles à effet flottant
 .lesbulles{
     display: flex;
     flex-direction: row;
+    height: 100vh;
 }
 
 // *************************************************** Première bulle à effet flottant **************************************** \\
@@ -22,7 +31,7 @@
     height: 250px;
     content: "";
     border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    // background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
     transform: scale(1);
     animation: wave 5s linear infinite alternate;
     margin: 100px;
@@ -67,7 +76,7 @@
     position: absolute;
     top: 17%;
     right: 0%;
-    background-image: url(images/Capture.PNG);
+    //background-image: url(images/Capture.PNG);
 }
 
 // Les animation de la première bulle par keyframes
@@ -161,8 +170,8 @@
 // balise section avec classe projet_etudiant
 .projet_etudiant{
     position: relative;
-    width: 99vw;
-    height: 99vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 // Div qui s'appelle conteneur_titre-etudiant. Il contient le titre et la bulle qui affiches les projets en entier
@@ -248,8 +257,8 @@
 .language_logiciel{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     width: 99vw;
     height: 99vh;
     background-image: linear-gradient(to bottom, rgb(237,237,255), rgb(170,201,237));
