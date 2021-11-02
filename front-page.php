@@ -17,7 +17,6 @@ get_header();
 
  
 	<main id="primary" class="site-main">
-    <h1>front page</h1>
 
   <!-- Balise div qui contient les particules à faire bouger -->
     <div id="particle-container">
@@ -54,7 +53,7 @@ get_header();
     </div>
 
       <!-- Balise qui contient les Bulles à effet flottant -->
-    <div id="bulleAnim" class="lesbulles">
+    <!-- <div id="bulleAnim" class="lesbulles">
 
       <div class="bulleIntera">
           <h1 class="titreBulle"> <span class="effetGras-bulle1" >T</span>echnique <br> <span class="effetGras-bulle1" >I</span>ntégration <br> <span class="effetGras-bulle1" >M</span>ultimédia </h1>
@@ -66,7 +65,7 @@ get_header();
 
       <div class="bulleIntera bulleIntera3">
       </div>
-    </div>
+    </div> -->
 
 		<?php
 		if ( have_posts() ) :
@@ -102,7 +101,7 @@ get_header();
 	</main><!-- #main -->
 
   <!-- ************************************************************* SECTION CAMMADERIE APPERCU ACCUEIL ************************************************************* -->
-  <section class="un cammaderie">
+  <!-- <section class="un cammaderie">
     <div class="conteneur_cammaderie">
       <h1 class="titre_cammaderie" >CAMMADERIE</h1>
       <p class="text_cammaderie">
@@ -111,10 +110,10 @@ get_header();
       eirmod tempor invidunt ut labore et dolore magnajv deg mi sola de tiuid. Demmo Aden 
       </p>
     </div>
-  </section>
+  </section> -->
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
-  <section class="projet_etudiant" id="projet_etudiant">
+  <!-- <section class="projet_etudiant" id="projet_etudiant">
 
   <div id="particle-container">
       <div class="particle"></div>
@@ -169,14 +168,12 @@ get_header();
 
     </div>
 
-  </section>
+  </section> -->
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
 
-    <section class="language_logiciel">
-      <!-- <div class="conteneur_titre_language"> -->
+    <!-- <section class="language_logiciel">
         <h1 class="titre_language_logiciel">LANGUAGES & <br> LOGICIELS</h1>
-      <!-- </div> -->
 
       <div class="conteneur_logiciel_language">
 
@@ -206,13 +203,13 @@ get_header();
         </div>
 
       </div>
-    </section>
+    </section> -->
 
     <!-- ******************************************************** SECTION FUTURE APPERCU ACCUEIL ************************************************************* -->
 
-    <section class="avenir">
+    <!-- <section class="avenir">
 
-    </section>
+    </section> -->
 
 <?php
 get_sidebar();
