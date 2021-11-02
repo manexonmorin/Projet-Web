@@ -15,7 +15,9 @@
 get_header();
 ?>
 
+ 
 	<main id="primary" class="site-main">
+    <h1>front page</h1>
 
   <!-- Balise div qui contient les particules à faire bouger -->
     <div id="particle-container">
