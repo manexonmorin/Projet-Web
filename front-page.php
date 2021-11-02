@@ -97,21 +97,21 @@ get_header();
 	</main><!-- #main -->
 
   <!-- ************************************************************* SECTION CAMMADERIE APPERCU ACCUEIL ************************************************************* -->
-  <section class="un cammaderie">
-    <div class="conteneur_cammaderie">
+  <!-- <section class="un cammaderie"> -->
+    <!-- <div class="conteneur_cammaderie"> -->
       <!-- <h1 class="titre_cammaderie" >CAMARADERIE</h1> -->
       <!-- <p class="text_cammaderie">
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br>
       invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et d diam nonumy <br> 
       eirmod tempor invidunt ut labore et dolore magnajv deg mi sola de tiuid. Demmo Aden 
       </p> -->
-    </div>
-  </section>
+    <!-- </div> -->
+  <!-- </section> -->
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
-  <section class="projet_etudiant" id="projet_etudiant">
+  <!-- <section class="projet_etudiant" id="projet_etudiant"> -->
 
-  <div id="particle-container">
+    <!-- <div id="particle-container">
       <div class="particle"></div>
       <div class="particle"></div>
       <div class="particle"></div>
@@ -142,9 +142,9 @@ get_header();
       <div class="particle"></div>
       <div class="particle"></div>
       <div class="particle"></div>
-    </div>
+    </div>  -->
 
-    <div class="conteneur_titre-etudiant">
+    <!-- <div class="conteneur_titre-etudiant">
 
       <h1 class="titre_projet-etudiant">PROJET <br> ETUDIANT</h1>
 
@@ -162,16 +162,14 @@ get_header();
       <div class="conteneur_projet projet-quatre"></div>
       <div class="conteneur_projet projet-cinq"></div>
 
-    </div>
+    </div> -->
 
   </section>
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
 
-    <section class="language_logiciel">
-      <!-- <div class="conteneur_titre_language"> -->
+    <!-- <section class="language_logiciel">
         <h1 class="titre_language_logiciel">LANGUAGES & <br> LOGICIELS</h1>
-      <!-- </div> -->
 
       <div class="conteneur_logiciel_language">
 
@@ -201,13 +199,13 @@ get_header();
         </div>
 
       </div>
-    </section>
+    </section> -->
 
     <!-- ******************************************************** SECTION FUTURE APPERCU ACCUEIL ************************************************************* -->
-
+<!-- 
     <section class="avenir">
 
-    </section>
+    </section> -->
 
 <?php
 get_sidebar();
