@@ -1,0 +1,103 @@
+.sectionCamaraderie{
+    width: 100vw;
+    // groupe de mots de la section camaraderie
+    .GroupeMotCamaraderie{
+        display: flex;
+        justify-content: center;
+        padding-top: 5vh;
+        @include media-desktop{
+            padding-top: 10vh;
+        }
+        .wp-block-group__inner-container{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            // CAMARADERIE
+            h1{
+                margin: 0 auto;
+                text-align: center;
+                width: 100%;
+                font-size:clamp(1.5rem, 2.5vw , 1.75rem);
+                text-shadow: 0px 0px 25px #ffb8057e;
+                @include media-tablette{
+                    font-size:clamp(2.4rem, 2vw , 3rem);
+                }
+            }
+
+            // mots autour de "Camaderie"
+            .sousMotsCamaraderie{
+                .wp-block-group__inner-container{
+                    position: relative;
+                    h2{
+                        position: absolute;
+                        animation: opacite 3.5s ease-in-out infinite alternate;
+                        opacity: 0;
+                    }
+                    h2:nth-child(1){
+                        top: -0vw;
+                        left:  -40vw;
+                    }
+                    h2:nth-child(2){
+                        top: 20vw;
+                        left:  -50vw;
+                    }
+                    h2:nth-child(3){
+                        top: 10vw;
+                        right: -30vw;
+                    }
+                    h2:nth-child(4){
+                        bottom: -25vw;
+                        right:  -26vw;
+                    }
+                }
+            }
+        }
+    }
+    // image TIM orange
+    .wp-block-image{
+        @include media-desktop{
+            margin-top: 10vh;
+        }
+        margin-bottom: 0;
+        figure{
+            width: 70vw;
+            height: 50vh;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 50vw;
+                height: 50vw;
+            }
+            @include media-tablette{
+                img{
+                    width: 35vw;
+                    height: 35vw;
+                }   
+            }
+            @include media-desktop{
+                width: inherit;
+                height: inherit;
+                scale: 1.3;
+                img{
+                    width: 25vw;
+                    height: 25vw;
+                }
+            }
+        }
+    }
+    .imgCamaraderie{
+        margin-top: -20vh;
+        img{
+            width: 100%;
+        }
+
+    }
+}
+
+
+@keyframes opacite{
+
+    from{ opacity: 0;}
+
+    to{ opacity: 1;}
+}

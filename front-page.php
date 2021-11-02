@@ -19,6 +19,7 @@ get_header();
 	<main id="primary" class="site-main">
 
   <!-- Balise div qui contient les particules à faire bouger -->
+    <!-- Balise div qui contient les particules à faire bouger -->
     <div id="particle-container">
       <div class="particle"></div>
       <div class="particle"></div>
@@ -87,6 +88,8 @@ get_header();
 				 * If you want to override this in a child theme, then include a file
 				 * called content-___.php (where ___ is the Post Type name) and that will be used instead.
 				 */
+        affichageAccueil($tPropriete);
+
 				get_template_part( 'template-parts/content', get_post_type() );
 
 			endwhile;
@@ -116,6 +119,21 @@ get_header();
   <!-- <section class="projet_etudiant" id="projet_etudiant">
 
   <div id="particle-container">
+<section class="un cammaderie"> -->
+    <!-- <div class="conteneur_cammaderie"> -->
+      <!-- <h1 class="titre_cammaderie" >CAMARADERIE</h1> -->
+      <!-- <p class="text_cammaderie">
+      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor <br>
+      invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et d diam nonumy <br> 
+      eirmod tempor invidunt ut labore et dolore magnajv deg mi sola de tiuid. Demmo Aden 
+      </p> -->
+    <!-- </div> -->
+  <!-- </section> -->
+
+  <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
+  <!-- <section class="projet_etudiant" id="projet_etudiant"> -->
+
+    <!-- <div id="particle-container">
       <div class="particle"></div>
       <div class="particle"></div>
       <div class="particle"></div>
@@ -149,6 +167,9 @@ get_header();
     </div>
 
     <div class="conteneur_titre-etudiant">
+    </div>  -->
+
+    <!-- <div class="conteneur_titre-etudiant">
 
       <h1 class="titre_projet-etudiant">PROJET <br> ETUDIANT</h1>
 
@@ -169,6 +190,9 @@ get_header();
     </div>
 
   </section> -->
+    </div> -->
+
+  </section>
 
   <!-- ******************************************************** SECTION PROJET ETUDIANT APPERCU ACCUEIL ************************************************************* -->
 
@@ -209,8 +233,16 @@ get_header();
 
     <!-- <section class="avenir">
 
+    <section class="avenir">
+
     </section> -->
 
 <?php
 get_sidebar();
 get_footer();
+
+
+
+function affichageAccueil(&$tPropriete){
+	$tPropriete['accueil'] = get_field('sectionaccueil'); // le type associer a la categorie de l'article
+}
