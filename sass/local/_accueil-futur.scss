@@ -1,0 +1,28 @@
+.groupeFutur{
+    background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    //premier groupe titre et img
+    .groupeTitreIMG{
+        // titre
+        h1{
+            width: 300px;
+        }
+        img{
+            width: 31vw;
+        }
+    }
+
+    .groupeTextesAccueilFutur{
+        .wp-block-group__inner-container{
+            display: flex;
+        }
+        .imgFleche{
+            display: flex;
+            justify-content: center;
+            img{
+                width: 80vw;
+            }
+        }
+    }
+}
