@@ -80,9 +80,8 @@
                             }
                         }
                     }
-
-                    .wp-block-group{
-                        // mot diagonale
+                    //tous les mot en diagonales
+                    .wp-block-group{   
                         p{
                             margin: 0;
                             z-index: 2;
@@ -106,6 +105,9 @@
                             @include media-tablette{
                                 margin-left: -12%;
                                 width:  400px;
+                            }
+                            p{
+                                transform: inherit;
                             }
                             p:hover{cursor: inherit; text-shadow: inherit;}
                             h2{
