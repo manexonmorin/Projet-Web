@@ -1,102 +1,70 @@
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// **************************************** PARTIE ANIMATION BULLES ET COMPOSANTES *************************************** \\
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-.site-branding{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.site-title{
-    margin-top: 0;
-    margin-bottom: 0;
-    a{
-        // font-family: magistral,sans-serif;
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        color: white;
+.GroupeBulle{
+    width: 100vw;
+    // Balise parent des bulles à effet flottant
+    .lesbulles{
+        display: flex;
+        flex-direction: row;
+        display: block;
+        position: relative;
     }
 }
 
-/// lA PARTIE BODY DU SITE \\\
-
-body{
-    overflow-x: hidden;
+.groupe2premiereBulles{
+    width: 100vw;
+    .wp-block-group__inner-container{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    // premiere bulle
+    .bulleIntera1{
+        // Le texte de la première bulle.
+        h2{
+        font-weight: 400;
+        margin: 0 auto;
+        text-align: center;
+        }
+    }
+    // 2e bulle
+    .bulleIntera2{
+        margin-top: 20vh;
+        @include media-tablette{
+            margin-top: 10vh;
+        }
+        // texte 2e bulle
+        .titreBulle2{
+            font-weight: bolder;
+        }
+    }
 }
 
-.entry-content{
-    margin: 0;
-}
-
-.category-accueil{
-    margin: 0;
-}
-
-// Balise parent des bulles à effet flottant
-.lesbulles{
-    display: flex;
-    flex-direction: row;
-    height: 100vh;
-}
-
-// *************************************************** Première bulle à effet flottant **************************************** \\
-// La forme des boules et leur couleurs de base et leur positions d'origines
+// classe qui cible toutes les bulles
 .bulleIntera{
-    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 500px;
-    height: 250px;
-    content: "";
+    width: 40vw;
+    height: 150px;
     border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
-    // background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
-    transform: scale(1);
     animation: wave 5s linear infinite alternate;
-    margin: 100px;
+    @include media-tablette{
+        height: 250px;
+    }
+    .wp-block-group__inner-container{
+        flex-wrap: nowrap;
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
-.bulleIntera1{
-    position: absolute;
-    top: 10%;
-}
-
-// Le texte dans la première bulle.
-.titreBulle{
-    font-family: magistral,sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    text-decoration: none;
-    text-align: left;
-    color: white;
-    margin: 0 0;
-}
-
-.effetGras-bulle1{
-    font-weight: bolder;
-}
-
-// *************************************************** Deuxième bulle à effet flottant **************************************** \\
-// Deuxième bulle à effet flottant mais avec une position plus centrer vers le bas qui contient le texte de bienvenue
-.bulleIntera2{
-    position: absolute;
-    top: 47%;
-    left: 30%;
-    width: 254px;
-}
-
-.titreBulle2{
-    font-weight: bolder;
-}
 
 // *************************************************** Troisième bulle à effet flottant **************************************** \\
 // Troisième bulle à effet flottant mais avec une position plus vers la droite qui contient une photo du tim
 .bulleIntera3{
-    position: absolute;
-    top: 17%;
-    right: 0%;
-    //background-image: url(images/Capture.PNG);
+    margin: 0 auto;
+    width: 254px;
+    height: 150px;
 }
 
 // Les animation de la première bulle par keyframes

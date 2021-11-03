@@ -124,9 +124,45 @@ add_action( 'after_setup_theme', 'timfilp_content_width', 0 );
 function timfilp_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'timfilp' ),
-			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'timfilp' ),
+			'name'          => esc_html__( 'infosSite', 'FlipTIM' ),
+			'id'            => 'footer-1',
+			'description'   => esc_html__( 'Add widgets here.', 'FlipTIM' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'NavFooter', 'FlipTIM' ),
+			'id'            => 'footer-2',
+			'description'   => esc_html__( 'Add widgets here.', 'FlipTIM' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'LocalisationFooter', 'FlipTIM' ),
+			'id'            => 'footer-3',
+			'description'   => esc_html__( 'Add widgets here.', 'FlipTIM' ),
+			'before_widget' => '<section id="%1$s" class="widget %2$s">',
+			'after_widget'  => '</section>',
+			'before_title'  => '<h2 class="widget-title">',
+			'after_title'   => '</h2>',
+		)
+	);
+
+	register_sidebar(
+		array(
+			'name'          => esc_html__( 'ReseauxSociaux', 'FlipTIM' ),
+			'id'            => 'footer-4',
+			'description'   => esc_html__( 'Add widgets here.', 'FlipTIM' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
