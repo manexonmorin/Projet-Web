@@ -43,11 +43,12 @@
         width: 50px;
         height: 50px;
         border-radius: 33%;
+        opacity: 0;
     }
 
     // -----------------------------------------------------------------------------------------------
 
-    // Bulle projet 1
+    // Bulle logiciel jeu
     .logiciel-1{
         top: 8%;
         left: 43%;
@@ -56,29 +57,47 @@
         background-repeat: no-repeat;
         background-position: center;
 
-        .enfant3{
-            opacity: 0;
+        .enfant1{
             top: -29%;
-            // background-image: url(images/afterEffect.png) ;
+            //background-image: url(images/afterEffect.png) ;
             background-size: contain;
         }
 
-        .enfant4{
-            opacity: 0;
+        .enfant2{
             top: -12%;
             left: -13%;
             // background-image: url(images/premiere.png);
             background-size: cover;
         }
+
+        .enfant11{
+            top: -26%;
+            right: 11%;
+        }
+
+        .enfant12{
+            top: 1%;
+            right: -21%;
+        }
     }
 
     .logiciel-1:hover{
-        .enfant3{
+        .enfant1{
             opacity: 1;
             transition: opacity 1.5s;
         }
 
-        .enfant4{
+        .enfant2{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant11{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant12{
             opacity: 1;
             transition: opacity 1.5s;
         }
@@ -86,7 +105,7 @@
 
     // -----------------------------------------------------------------------------------------------
 
-    // Bulle projet 2
+    // Bulle logiciel creation
     .logiciel-2{
         top: 35%;
         left: 14%;
@@ -95,29 +114,37 @@
         background-repeat: no-repeat;
         background-position: center;
 
-        .enfant1{
-            opacity: 0;
+        .enfant3{
             top: -29%;
             //background-image: url(images/afterEffect.png) ;
             background-size: contain;
         }
 
-        .enfant2{
-            opacity: 0;
+        .enfant4{
             top: -12%;
             left: -13%;
             // background-image: url(images/premiere.png);
             background-size: cover;
         }
+
+        .enfant13{
+            top: -26%;
+            right: 11%;
+        }
     }
 
     .logiciel-2:hover{
-        .enfant1{
+        .enfant3{
             opacity: 1;
             transition: opacity 1.5s;
         }
 
-        .enfant2{
+        .enfant4{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant13{
             opacity: 1;
             transition: opacity 1.5s;
         }
@@ -125,7 +152,7 @@
 
     // -----------------------------------------------------------------------------------------------
 
-    // Bulle projet 3
+    // Bulle logiciel web
     .logiciel-3{
         bottom: 5%;
         left: 32%;
@@ -135,18 +162,31 @@
         background-position: center;
 
         .enfant5{
-            opacity: 0;
             top: -29%;
             // background-image: url(images/afterEffect.png) ;
             background-size: contain;
         }
 
         .enfant6{
-            opacity: 0;
             top: -12%;
             left: -13%;
             // background-image: url(images/premiere.png);
             background-size: cover;
+        }
+
+        .enfant14{
+            top: -26%;
+            right: 11%;
+        }
+
+        .enfant15{
+            top: 1%;
+            right: -21%;
+        }
+
+        .enfant16{
+            top: 37%;
+            right: -28%;
         }
     }
 
@@ -157,6 +197,21 @@
         }
 
         .enfant6{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant14{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant15{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant16{
             opacity: 1;
             transition: opacity 1.5s;
         }
@@ -174,14 +229,12 @@
         background-position: center;
 
         .enfant7{
-            opacity: 0;
             top: -29%;
             // background-image: url(images/afterEffect.png) ;
             background-size: contain;
         }
 
         .enfant8{
-            opacity: 0;
             top: -12%;
             left: -13%;
             // background-image: url(images/premiere.png);
@@ -213,18 +266,26 @@
         background-position: center;
 
         .enfant9{
-            opacity: 0;
             top: -29%;
             // background-image: url(images/afterEffect.png) ;
             background-size: contain;
         }
 
         .enfant10{
-            opacity: 0;
             top: -12%;
             left: -13%;
             // background-image: url(images/premiere.png);
             background-size: cover;
+        }
+
+        .enfant17{
+            top: -26%;
+            right: 11%;
+        }
+
+        .enfant18{
+            top: 1%;
+            right: -21%;
         }
     }
 
@@ -235,6 +296,16 @@
         }
 
         .enfant10{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant17{
+            opacity: 1;
+            transition: opacity 1.5s;
+        }
+
+        .enfant18{
             opacity: 1;
             transition: opacity 1.5s;
         }
