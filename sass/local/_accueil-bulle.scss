@@ -1,5 +1,9 @@
 .GroupeBulle{
+margin-top: 11vh;
     width: 100vw;
+    @include media-tablette{
+        margin-top: 13vh;
+    }
     // Balise parent des bulles à effet flottant
     .lesbulles{
         display: flex;
