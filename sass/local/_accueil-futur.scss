@@ -1,5 +1,6 @@
 .groupeFutur{
-    background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    background-image: url(../../../../uploads/2021/10/montagne2-compress.jpg);
+    background-image: url(  http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     //premier groupe titre et img
@@ -80,14 +81,19 @@
                             }
                         }
                     }
-                    //tous les mot en diagonales
-                    .wp-block-group{   
+                    // les 3 mots cibler 
+                    .wp-block-group{
                         p{
                             margin: 0;
                             z-index: 2;
                             font-size:clamp(.7rem, 3vw , 1rem);
+                            padding: 3px 6px;
                             @include media-tablette{
                                 font-size: 1.3rem;
+                            }
+                            &:hover{
+                                border-radius: 10px;
+                                background-color: rgba(255, 255, 255, 0.084);
                             }
                         }
                         // bulles flotantes infos
@@ -108,6 +114,7 @@
                             }
                             p{
                                 transform: inherit;
+                                padding: inherit;
                             }
                             p:hover{cursor: inherit; text-shadow: inherit;}
                             h2{
