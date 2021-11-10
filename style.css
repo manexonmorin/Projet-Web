@@ -1054,482 +1054,482 @@ textarea {
 
 @keyframes particle-animation-1 {
   100% {
-    transform: translate3d(76vw, 88vh, 67px);
+    transform: translate3d(23vw, 66vh, 70px);
   }
 }
 
 .particle:nth-child(1) {
   animation: particle-animation-1 60s infinite;
-  opacity: 0.96;
+  opacity: 0.08;
   height: 7px;
   width: 7px;
   animation-delay: -0.2s;
-  transform: translate3d(41vw, 13vh, 96px);
-  background: #268ed9;
+  transform: translate3d(30vw, 45vh, 56px);
+  background: #47d926;
 }
 
 @keyframes particle-animation-2 {
   100% {
-    transform: translate3d(13vw, 17vh, 6px);
+    transform: translate3d(8vw, 1vh, 44px);
   }
 }
 
 .particle:nth-child(2) {
   animation: particle-animation-2 60s infinite;
-  opacity: 0.28;
-  height: 7px;
-  width: 7px;
+  opacity: 0.93;
+  height: 6px;
+  width: 6px;
   animation-delay: -0.4s;
-  transform: translate3d(68vw, 37vh, 26px);
-  background: #d94726;
+  transform: translate3d(79vw, 45vh, 85px);
+  background: #d926d3;
 }
 
 @keyframes particle-animation-3 {
   100% {
-    transform: translate3d(36vw, 17vh, 19px);
+    transform: translate3d(19vw, 18vh, 78px);
   }
 }
 
 .particle:nth-child(3) {
   animation: particle-animation-3 60s infinite;
-  opacity: 0.79;
-  height: 10px;
-  width: 10px;
+  opacity: 0.5;
+  height: 6px;
+  width: 6px;
   animation-delay: -0.6s;
-  transform: translate3d(81vw, 75vh, 88px);
-  background: #269ad9;
+  transform: translate3d(29vw, 36vh, 16px);
+  background: #d98526;
 }
 
 @keyframes particle-animation-4 {
   100% {
-    transform: translate3d(7vw, 22vh, 43px);
+    transform: translate3d(22vw, 24vh, 57px);
   }
 }
 
 .particle:nth-child(4) {
   animation: particle-animation-4 60s infinite;
-  opacity: 0.33;
-  height: 7px;
-  width: 7px;
+  opacity: 0.12;
+  height: 8px;
+  width: 8px;
   animation-delay: -0.8s;
-  transform: translate3d(78vw, 24vh, 40px);
-  background: #d926c7;
+  transform: translate3d(85vw, 32vh, 15px);
+  background: #26d941;
 }
 
 @keyframes particle-animation-5 {
   100% {
-    transform: translate3d(70vw, 41vh, 81px);
+    transform: translate3d(25vw, 47vh, 89px);
   }
 }
 
 .particle:nth-child(5) {
   animation: particle-animation-5 60s infinite;
   opacity: 0.6;
-  height: 8px;
-  width: 8px;
+  height: 9px;
+  width: 9px;
   animation-delay: -1s;
-  transform: translate3d(40vw, 79vh, 12px);
-  background: #d0d926;
+  transform: translate3d(72vw, 20vh, 62px);
+  background: #26cad9;
 }
 
 @keyframes particle-animation-6 {
   100% {
-    transform: translate3d(53vw, 30vh, 30px);
+    transform: translate3d(7vw, 26vh, 18px);
   }
 }
 
 .particle:nth-child(6) {
   animation: particle-animation-6 60s infinite;
-  opacity: 0.5;
-  height: 8px;
-  width: 8px;
+  opacity: 0.66;
+  height: 6px;
+  width: 6px;
   animation-delay: -1.2s;
-  transform: translate3d(63vw, 8vh, 23px);
-  background: #8526d9;
+  transform: translate3d(23vw, 28vh, 76px);
+  background: #26d994;
 }
 
 @keyframes particle-animation-7 {
   100% {
-    transform: translate3d(63vw, 33vh, 50px);
+    transform: translate3d(36vw, 29vh, 48px);
   }
 }
 
 .particle:nth-child(7) {
   animation: particle-animation-7 60s infinite;
-  opacity: 0.46;
-  height: 8px;
-  width: 8px;
+  opacity: 0.55;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.4s;
-  transform: translate3d(16vw, 11vh, 9px);
-  background: #2644d9;
+  transform: translate3d(39vw, 30vh, 97px);
+  background: #4dd926;
 }
 
 @keyframes particle-animation-8 {
   100% {
-    transform: translate3d(10vw, 24vh, 61px);
+    transform: translate3d(65vw, 2vh, 6px);
   }
 }
 
 .particle:nth-child(8) {
   animation: particle-animation-8 60s infinite;
-  opacity: 0.52;
-  height: 8px;
-  width: 8px;
+  opacity: 0.82;
+  height: 6px;
+  width: 6px;
   animation-delay: -1.6s;
-  transform: translate3d(86vw, 70vh, 24px);
-  background: #d99726;
+  transform: translate3d(84vw, 85vh, 18px);
+  background: #26d9be;
 }
 
 @keyframes particle-animation-9 {
   100% {
-    transform: translate3d(42vw, 70vh, 41px);
+    transform: translate3d(56vw, 16vh, 19px);
   }
 }
 
 .particle:nth-child(9) {
   animation: particle-animation-9 60s infinite;
-  opacity: 0.67;
-  height: 6px;
-  width: 6px;
+  opacity: 0.1;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.8s;
-  transform: translate3d(43vw, 79vh, 24px);
-  background: #53d926;
+  transform: translate3d(3vw, 20vh, 77px);
+  background: #26d93b;
 }
 
 @keyframes particle-animation-10 {
   100% {
-    transform: translate3d(28vw, 77vh, 19px);
+    transform: translate3d(77vw, 70vh, 43px);
   }
 }
 
 .particle:nth-child(10) {
   animation: particle-animation-10 60s infinite;
-  opacity: 0.59;
-  height: 9px;
-  width: 9px;
+  opacity: 0.64;
+  height: 6px;
+  width: 6px;
   animation-delay: -2s;
-  transform: translate3d(90vw, 72vh, 19px);
-  background: #2674d9;
+  transform: translate3d(73vw, 45vh, 21px);
+  background: #266ed9;
 }
 
 @keyframes particle-animation-11 {
   100% {
-    transform: translate3d(17vw, 17vh, 63px);
+    transform: translate3d(89vw, 71vh, 9px);
   }
 }
 
 .particle:nth-child(11) {
   animation: particle-animation-11 60s infinite;
-  opacity: 0.92;
+  opacity: 0.3;
   height: 7px;
   width: 7px;
   animation-delay: -2.2s;
-  transform: translate3d(53vw, 72vh, 40px);
-  background: #6e26d9;
+  transform: translate3d(53vw, 21vh, 78px);
+  background: #4dd926;
 }
 
 @keyframes particle-animation-12 {
   100% {
-    transform: translate3d(78vw, 45vh, 82px);
+    transform: translate3d(89vw, 5vh, 31px);
   }
 }
 
 .particle:nth-child(12) {
   animation: particle-animation-12 60s infinite;
-  opacity: 0.63;
-  height: 8px;
-  width: 8px;
+  opacity: 0.45;
+  height: 10px;
+  width: 10px;
   animation-delay: -2.4s;
-  transform: translate3d(15vw, 46vh, 15px);
-  background: #2691d9;
+  transform: translate3d(70vw, 73vh, 87px);
+  background: #65d926;
 }
 
 @keyframes particle-animation-13 {
   100% {
-    transform: translate3d(38vw, 30vh, 96px);
+    transform: translate3d(7vw, 79vh, 10px);
   }
 }
 
 .particle:nth-child(13) {
   animation: particle-animation-13 60s infinite;
-  opacity: 0.19;
+  opacity: 0.08;
   height: 10px;
   width: 10px;
   animation-delay: -2.6s;
-  transform: translate3d(55vw, 15vh, 49px);
-  background: #265fd9;
+  transform: translate3d(44vw, 85vh, 58px);
+  background: #91d926;
 }
 
 @keyframes particle-animation-14 {
   100% {
-    transform: translate3d(27vw, 12vh, 17px);
+    transform: translate3d(67vw, 16vh, 24px);
   }
 }
 
 .particle:nth-child(14) {
   animation: particle-animation-14 60s infinite;
-  opacity: 0.49;
-  height: 9px;
-  width: 9px;
+  opacity: 0.82;
+  height: 10px;
+  width: 10px;
   animation-delay: -2.8s;
-  transform: translate3d(50vw, 54vh, 92px);
-  background: #d92680;
+  transform: translate3d(52vw, 39vh, 14px);
+  background: #d93e26;
 }
 
 @keyframes particle-animation-15 {
   100% {
-    transform: translate3d(78vw, 43vh, 30px);
+    transform: translate3d(51vw, 49vh, 88px);
   }
 }
 
 .particle:nth-child(15) {
   animation: particle-animation-15 60s infinite;
-  opacity: 0.09;
-  height: 10px;
-  width: 10px;
+  opacity: 0.97;
+  height: 6px;
+  width: 6px;
   animation-delay: -3s;
-  transform: translate3d(82vw, 21vh, 48px);
-  background: #26d9c4;
+  transform: translate3d(22vw, 28vh, 92px);
+  background: #6826d9;
 }
 
 @keyframes particle-animation-16 {
   100% {
-    transform: translate3d(20vw, 56vh, 81px);
+    transform: translate3d(30vw, 36vh, 85px);
   }
 }
 
 .particle:nth-child(16) {
   animation: particle-animation-16 60s infinite;
-  opacity: 0.11;
-  height: 9px;
-  width: 9px;
+  opacity: 0.51;
+  height: 8px;
+  width: 8px;
   animation-delay: -3.2s;
-  transform: translate3d(82vw, 69vh, 75px);
-  background: #26d935;
+  transform: translate3d(42vw, 9vh, 36px);
+  background: #3ed926;
 }
 
 @keyframes particle-animation-17 {
   100% {
-    transform: translate3d(8vw, 69vh, 59px);
+    transform: translate3d(19vw, 26vh, 50px);
   }
 }
 
 .particle:nth-child(17) {
   animation: particle-animation-17 60s infinite;
-  opacity: 0.96;
-  height: 10px;
-  width: 10px;
+  opacity: 0.22;
+  height: 6px;
+  width: 6px;
   animation-delay: -3.4s;
-  transform: translate3d(5vw, 54vh, 90px);
-  background: #97d926;
+  transform: translate3d(21vw, 21vh, 58px);
+  background: #d92688;
 }
 
 @keyframes particle-animation-18 {
   100% {
-    transform: translate3d(26vw, 39vh, 13px);
+    transform: translate3d(55vw, 35vh, 100px);
   }
 }
 
 .particle:nth-child(18) {
   animation: particle-animation-18 60s infinite;
   opacity: 0.2;
-  height: 7px;
-  width: 7px;
+  height: 9px;
+  width: 9px;
   animation-delay: -3.6s;
-  transform: translate3d(76vw, 52vh, 45px);
-  background: #26d93b;
+  transform: translate3d(54vw, 64vh, 13px);
+  background: #d9269a;
 }
 
 @keyframes particle-animation-19 {
   100% {
-    transform: translate3d(66vw, 79vh, 4px);
+    transform: translate3d(73vw, 19vh, 65px);
   }
 }
 
 .particle:nth-child(19) {
   animation: particle-animation-19 60s infinite;
-  opacity: 0.28;
-  height: 10px;
-  width: 10px;
+  opacity: 0.01;
+  height: 6px;
+  width: 6px;
   animation-delay: -3.8s;
-  transform: translate3d(90vw, 43vh, 42px);
-  background: #d026d9;
+  transform: translate3d(76vw, 40vh, 70px);
+  background: #b2d926;
 }
 
 @keyframes particle-animation-20 {
   100% {
-    transform: translate3d(1vw, 21vh, 13px);
+    transform: translate3d(81vw, 28vh, 82px);
   }
 }
 
 .particle:nth-child(20) {
   animation: particle-animation-20 60s infinite;
-  opacity: 0.61;
-  height: 8px;
-  width: 8px;
+  opacity: 0.29;
+  height: 9px;
+  width: 9px;
   animation-delay: -4s;
-  transform: translate3d(39vw, 40vh, 86px);
-  background: #26d3d9;
+  transform: translate3d(33vw, 44vh, 19px);
+  background: #d926a0;
 }
 
 @keyframes particle-animation-21 {
   100% {
-    transform: translate3d(34vw, 24vh, 54px);
+    transform: translate3d(14vw, 68vh, 65px);
   }
 }
 
 .particle:nth-child(21) {
   animation: particle-animation-21 60s infinite;
-  opacity: 0.75;
-  height: 9px;
-  width: 9px;
+  opacity: 0.79;
+  height: 8px;
+  width: 8px;
   animation-delay: -4.2s;
-  transform: translate3d(10vw, 15vh, 55px);
-  background: #26d94d;
+  transform: translate3d(11vw, 88vh, 94px);
+  background: #d94d26;
 }
 
 @keyframes particle-animation-22 {
   100% {
-    transform: translate3d(81vw, 41vh, 9px);
+    transform: translate3d(45vw, 53vh, 97px);
   }
 }
 
 .particle:nth-child(22) {
   animation: particle-animation-22 60s infinite;
-  opacity: 0.89;
-  height: 6px;
-  width: 6px;
+  opacity: 0.63;
+  height: 7px;
+  width: 7px;
   animation-delay: -4.4s;
-  transform: translate3d(71vw, 85vh, 7px);
-  background: #8b26d9;
+  transform: translate3d(62vw, 38vh, 15px);
+  background: #3bd926;
 }
 
 @keyframes particle-animation-23 {
   100% {
-    transform: translate3d(58vw, 87vh, 16px);
+    transform: translate3d(65vw, 24vh, 20px);
   }
 }
 
 .particle:nth-child(23) {
   animation: particle-animation-23 60s infinite;
-  opacity: 0.17;
-  height: 10px;
-  width: 10px;
+  opacity: 0.7;
+  height: 7px;
+  width: 7px;
   animation-delay: -4.6s;
-  transform: translate3d(5vw, 41vh, 10px);
-  background: #d92656;
+  transform: translate3d(46vw, 63vh, 96px);
+  background: #d926a6;
 }
 
 @keyframes particle-animation-24 {
   100% {
-    transform: translate3d(76vw, 57vh, 17px);
+    transform: translate3d(73vw, 77vh, 30px);
   }
 }
 
 .particle:nth-child(24) {
   animation: particle-animation-24 60s infinite;
-  opacity: 0.23;
-  height: 10px;
-  width: 10px;
+  opacity: 0.3;
+  height: 6px;
+  width: 6px;
   animation-delay: -4.8s;
-  transform: translate3d(44vw, 75vh, 23px);
-  background: #2926d9;
+  transform: translate3d(16vw, 37vh, 54px);
+  background: #267ad9;
 }
 
 @keyframes particle-animation-25 {
   100% {
-    transform: translate3d(52vw, 74vh, 84px);
+    transform: translate3d(83vw, 59vh, 2px);
   }
 }
 
 .particle:nth-child(25) {
   animation: particle-animation-25 60s infinite;
-  opacity: 0.2;
-  height: 6px;
-  width: 6px;
+  opacity: 0.56;
+  height: 10px;
+  width: 10px;
   animation-delay: -5s;
-  transform: translate3d(24vw, 56vh, 9px);
-  background: #d926ac;
+  transform: translate3d(76vw, 42vh, 21px);
+  background: #d99126;
 }
 
 @keyframes particle-animation-26 {
   100% {
-    transform: translate3d(70vw, 66vh, 69px);
+    transform: translate3d(73vw, 58vh, 33px);
   }
 }
 
 .particle:nth-child(26) {
   animation: particle-animation-26 60s infinite;
-  opacity: 0.11;
-  height: 10px;
-  width: 10px;
+  opacity: 0.98;
+  height: 9px;
+  width: 9px;
   animation-delay: -5.2s;
-  transform: translate3d(24vw, 59vh, 15px);
-  background: #9ad926;
+  transform: translate3d(59vw, 23vh, 50px);
+  background: #4a26d9;
 }
 
 @keyframes particle-animation-27 {
   100% {
-    transform: translate3d(88vw, 65vh, 26px);
+    transform: translate3d(19vw, 61vh, 23px);
   }
 }
 
 .particle:nth-child(27) {
   animation: particle-animation-27 60s infinite;
-  opacity: 0.35;
-  height: 7px;
-  width: 7px;
+  opacity: 0.76;
+  height: 9px;
+  width: 9px;
   animation-delay: -5.4s;
-  transform: translate3d(6vw, 70vh, 68px);
-  background: #2694d9;
+  transform: translate3d(37vw, 55vh, 51px);
+  background: #2647d9;
 }
 
 @keyframes particle-animation-28 {
   100% {
-    transform: translate3d(11vw, 56vh, 52px);
+    transform: translate3d(71vw, 78vh, 10px);
   }
 }
 
 .particle:nth-child(28) {
   animation: particle-animation-28 60s infinite;
-  opacity: 0.13;
-  height: 7px;
-  width: 7px;
+  opacity: 0.25;
+  height: 8px;
+  width: 8px;
   animation-delay: -5.6s;
-  transform: translate3d(19vw, 87vh, 91px);
-  background: #d926ca;
+  transform: translate3d(28vw, 15vh, 22px);
+  background: #cdd926;
 }
 
 @keyframes particle-animation-29 {
   100% {
-    transform: translate3d(88vw, 13vh, 100px);
+    transform: translate3d(47vw, 75vh, 46px);
   }
 }
 
 .particle:nth-child(29) {
   animation: particle-animation-29 60s infinite;
-  opacity: 0.05;
-  height: 7px;
-  width: 7px;
+  opacity: 0.79;
+  height: 10px;
+  width: 10px;
   animation-delay: -5.8s;
-  transform: translate3d(17vw, 79vh, 36px);
-  background: #26d947;
+  transform: translate3d(65vw, 2vh, 90px);
+  background: #d3d926;
 }
 
 @keyframes particle-animation-30 {
   100% {
-    transform: translate3d(66vw, 85vh, 23px);
+    transform: translate3d(36vw, 58vh, 27px);
   }
 }
 
 .particle:nth-child(30) {
   animation: particle-animation-30 60s infinite;
-  opacity: 0.5;
+  opacity: 0.74;
   height: 7px;
   width: 7px;
   animation-delay: -6s;
-  transform: translate3d(40vw, 18vh, 31px);
-  background: #26d9a9;
+  transform: translate3d(34vw, 59vh, 38px);
+  background: #26d926;
 }
 
 .sectionCamaraderie {
@@ -2178,6 +2178,10 @@ textarea {
 --------------------------------------------- */
 /* Cammaraderie
 --------------------------------------------- */
+.sectionConcours {
+  margin-top: 5vh;
+}
+
 .sectionConcours .wp-block-group__inner-container {
   display: flex;
 }
@@ -2268,6 +2272,79 @@ textarea {
   mask-size: 100%;
   mask-repeat: no-repeat;
   width: 100%;
+}
+
+.titreProfesseur {
+  margin-left: 5vw;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container {
+  display: flex;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .wp-block-group__inner-container {
+  display: block;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs {
+  border-radius: 70% 46% 42% 58% / 60% 58% 42% 40%;
+  width: 30%;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs .wp-block-group__inner-container {
+  width: 100%;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs .wp-block-group__inner-container h2 {
+  border-radius: 0 100px 100px 0;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs .wp-block-group__inner-container h2:hover {
+  transition: all ease-out .2s;
+  cursor: pointer;
+  background-color: #7A28ED !important;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign {
+  display: none;
+  width: 70%;
+  box-shadow: 0 0 25px rgba(174, 146, 110, 0.296);
+  border-radius: 15px;
+  margin: 0 4vw;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure {
+  width: 30%;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure img, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure img, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure img, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure img, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container figure img {
+  border-radius: 100px;
+  width: 100%;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p {
+  margin: 2% 4%;
+  border-radius: 10px;
+  width: 70%;
+  word-wrap: break-word;
+}
+
+.groupeEntierOngletEtProf .wp-block-group__inner-container .descProfVisible {
+  display: flex;
 }
 
 .entry-content {
