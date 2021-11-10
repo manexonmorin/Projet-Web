@@ -1,5 +1,101 @@
 .sectionIntroCommunaute{ // La balise section pour communauté
     .wp-block-group__inner-container{ // groupe section par défaut WP
-        
+        display: flex;
+        // justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+
+        .texteEtImage{ // Div qui contient les textes et images de la communaute
+            .titreCommunaute{ // classe qui contient le titre "Communauté"
+                font-size: clamp(3.5rem, 50%, 4.75rem);
+                margin-bottom: 0;
+
+                @include media-telephone{
+                    font-size: clamp(2.5rem, 50%, 4.75rem);
+                    color: red;
+                }
+
+                @include media-tablette{
+                    font-size: clamp(3.5rem, 50%, 4.75rem);
+                    color: green;
+                }
+            }
+
+            .ImageCommunaute{ // l'image TIM
+                margin-bottom: 0;
+                width: 375px;
+
+                @include media-telephone{
+                    width: 12rem;
+                }
+
+                @include media-tablette{
+                    width: 305px;
+                }
+            }
+
+            .texteCommunaute{ // Le paragraphe
+                margin: 0;
+                font-size: clamp(2rem, 50%, 4.5rem);
+
+                @include media-telephone{
+                    font-size: clamp(1.2rem, 50%, 4.5rem);
+                }
+
+                @include media-tablette{
+                    font-size: clamp(1.7rem, 50%, 4.5rem);
+                }
+            }
+        }
+
+        .BulleActivité{ // Division qui contient toutes les bulles
+            @include media-tablette{
+                margin-top: 3vh;
+            }
+
+            .wp-block-group__inner-container{ // division par défaut de WP
+                display: flex;
+                flex-direction: row;
+                align-items: inherit;
+                width: 100vw;
+                justify-content: space-around;
+
+                @include media-telephone{
+                    flex-direction: column;
+                    margin-top: 2vh;
+                }
+
+                .FormeBulle{ // balise qui donne la forme des bulles
+                    width: 250px;
+                    border-radius: 50%;
+
+                    @include media-telephone{
+                        width: 135px;
+                        margin-left: 3vh;
+                        margin-top: 0;
+                        // margin-bottom: 0;
+                    }
+
+                    @include media-tablette{
+                        width: 160px;
+                    }
+
+                    &:nth-child(2){ // 2ène bulle dans l'accueil communauté
+                        margin-top: 15vh;
+
+                        @include media-telephone{
+                            margin-top: 0;
+                            margin-left: 24vh;
+                            margin-bottom: 0;
+                        }
+
+                        @include media-tablette{
+                            margin-top: inherit;
+                        }
+                    }
+                }
+            }
+        }
     }
 } 
