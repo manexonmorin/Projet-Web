@@ -119,15 +119,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Communauté
 --------------------------------------------- */
-
-
-
-/* Cammaraderie
---------------------------------------------- */
 @import "local/communaute-concours";
 @import "local/communaute-vieEtudiante";
 @import "local/communaute-communauteProf";
 @import "local/communaute-intro";
 
+
+/* Projet Étudiant
+--------------------------------------------- */
+@import "local/projet-etudiant-intro";
 
 @import "local/style-base"; // style general de la structure WP
