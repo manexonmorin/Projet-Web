@@ -5,7 +5,6 @@
 
 			<header class="page-header">
 			</header><!-- .page-header -->
-			<section class="contenuDesSpectacles">
                 
 			<?php
 			while ( have_posts() ) :
@@ -15,8 +14,6 @@
 
 			endwhile;
 			?>
-			
-			</section><!-- fin section contenuSpectacle-->
 
 		<?php endif;?>
 
