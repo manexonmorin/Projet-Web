@@ -1,0 +1,27 @@
+.groupeUniversite{
+    margin-top: 10vh;
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    //texte descriptif des universites
+    .descUniversite{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    // photo des universite
+    .GroupePhotoUniversite{
+        margin: 2% 5%;
+        .wp-block-group__inner-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+            figure{
+                margin: 0 5%;
+                border-radius: 100px;
+            }
+        }
+    }
+}

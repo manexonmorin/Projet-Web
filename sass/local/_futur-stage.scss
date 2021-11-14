@@ -1,0 +1,29 @@
+.groupeStage{
+    margin-top: 10vh;
+    h1{
+        display: flex;
+        justify-content: center;
+    }
+    //texte descriptif des Stages
+    .descStage{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 55%;
+        margin: 0 auto;
+    }
+
+    // photo des Stage
+    .GroupePhotoStage{
+        margin: 2% 5%;
+        .wp-block-group__inner-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+            figure{
+                margin: 0 5%;
+                border-radius: 100px;
+            }
+        }
+    }
+}
