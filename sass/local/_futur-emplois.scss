@@ -1,0 +1,74 @@
+.groupeFuturEmplois{
+    width: 100vw;
+    position: relative;
+    .wp-block-group__inner-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+
+// marge des icones
+.iconeFuturEmploisPart1{margin-left: 4%;}
+.iconeFuturEmploisPart2{margin-right: 4%;}
+
+.iconeFuturEmploisPart1, .iconeFuturEmploisPart2{
+    .wp-block-group__inner-container{
+        display: flex;
+        flex-direction: column;
+        // cible les 4 cours
+    .iconeEmploisFutur{
+        border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
+        transition: all  ease-in .3s;
+        margin: 20% 0;
+            &:hover{
+                scale: 1.05;
+                cursor: pointer;
+            }
+        }// fin iconesEmploisFutur
+    }
+}
+
+// titre "Emplois"
+.titreEmploisFutur{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    font-size:clamp(1.2rem, 3vw , 1.5rem);
+}
+
+.EmploisContenu{
+    z-index: 1;
+    border-radius: 50px;
+    display: none;
+    .wp-block-group__inner-container{
+        display: flex;
+        flex-direction: column;
+        // cible chaque groupe de prof individuel
+        .wp-block-group__inner-container{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            // image du prof
+            figure{
+                width: 20%;
+                img{
+                    border-radius: 100px;
+                    width: 100%;
+                }
+            }
+            // citation prof
+            p{
+                overflow-wrap: break-word;
+                border-radius: 100px;
+                margin: 2% 2%;
+                width: 70%;
+            }
+        }
+    }
+}
+
+.visibleFuturEmplois{
+    display: flex;
+}
