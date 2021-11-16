@@ -1,0 +1,60 @@
+.contenuCoursIntro{
+    .groupeImagesCours{
+        width: 100vw;
+        .wp-block-group__inner-container{
+            width: 100vw;
+            display: flex;
+            flex-wrap: nowrap;
+            z-index: 1;
+            figure{
+                width: 100vw;
+                position: absolute;
+                flex-wrap: nowrap;
+                &:first-of-type{
+                    position: relative;
+                }
+                img{
+                    width: 100%;
+                }
+                // image de samourai
+            }
+            .samourai{
+                clip-path: polygon(75% 0, 100% 0, 100% 100%, 52% 100%);
+            }
+            .video{
+                clip-path: polygon(70% 0, 91% 0, 69% 99%, 41% 100%);
+            }
+        }
+    }
+
+    // 5 bulles mauves
+    .groupeFlottantTypesCours{
+        width: 100vw;
+        .wp-block-group__inner-container{
+            display: flex;
+            width: 100%;
+            .wp-block-group{
+                z-index: 2;
+                width: 100%;
+                margin: 0 4%;
+                border-radius: 70% 46% 52% 68% / 60% 58% 42% 40%;
+                p{
+                    margin: 3vh auto;         
+                    @include media-tablette{
+                        margin: 6vh auto;
+                    }
+                    @include media-desktop{
+                        margin: 10vh auto;
+                    }
+                }
+            }
+        }
+    } // fin bulles mauves
+}// fin groupe global
+
+.titreGrilleCours{ // titre "Grille de cours"
+    text-shadow: 0 0 20px rgba(255, 186, 68, 0.488);
+    font-size: clamp(1.2rem, 50%, 4.5rem);
+    width: 100%;
+    text-align: center;
+}

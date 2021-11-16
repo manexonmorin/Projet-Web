@@ -116,6 +116,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 /* Cours
 --------------------------------------------- */
+@import "local/cours-intro";
 
 /* Communauté
 --------------------------------------------- */
@@ -130,14 +131,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "local/projet-etudiant-creation";
 @import "local/projet-etudiant-prog";
 
-/* Projet Étudiant
+/* Futur
 --------------------------------------------- */
 @import "local/futur-emplois";
 @import "local/futur-universite";
 @import "local/futur-stage";
 @import "local/futur-temoignageEtudiant";
-
-
 
 
 @import "local/style-base"; // style general de la structure WP

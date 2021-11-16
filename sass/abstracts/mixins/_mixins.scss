@@ -19,7 +19,7 @@
 }
 
 @mixin media-tablette{
-	@media (min-width : 430px) and (max-width: 750px){
+	@media (min-width : 430px) and (max-width: 1150px){
 		@content;
 	}
 }
