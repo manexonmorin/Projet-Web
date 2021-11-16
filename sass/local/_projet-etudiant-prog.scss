@@ -13,6 +13,15 @@
                 margin-bottom: 5vh;
                 margin-top: 10vh;
 
+                @include media-telephone{
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                @include media-tablette{
+                    flex-wrap: wrap;
+                }
+
                 .meilleurProjet{
                     img{
                         width: 22vw;
@@ -24,6 +33,14 @@
                         transition: all 1.5s ease-in;
                         // -webkit-box-shadow: 0px 0px 5px 8px #000000; 
                         // box-shadow: 0px 0px 5px 8px #000000;
+                    }
+
+                    @include media-telephone{
+                        width: inherit;
+                    }
+
+                    @include media-tablette{
+                        width: inherit;
                     }
 
                     img:hover{

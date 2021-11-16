@@ -227,3 +227,13 @@ function extraireAccueil ($query){
 }
 
 add_action('pre_get_posts','extraireAccueil');
+
+function extraireCommunaute($query){
+	if(!is_admin() && is_category(10) && $query->is_main_query() ){
+		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
+		$query->set('meta_key', 'ordre' );
+		$query->set('orderby', array('meta_value' => 'ASC') );
+	}
+}
+
+add_action('pre_get_posts','extraireCommunaute');
