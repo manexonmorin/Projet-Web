@@ -11,22 +11,32 @@
             height: 100vh;
             display: flex;
             justify-content: center;
+            flex-direction: column;
             align-items: center;
 
             .typeSujet{ // Élément de base poue les deux cercles création et programmation
                 width: 27em;
-                border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
-                -webkit-box-shadow: 0px 0px 7px 4px #26D9DB; 
-                box-shadow: 0px 0px 7px 4px #26D9DB;
                 cursor: pointer;
             }
 
             .divProg{ // division qui cible seulement la bulle de création
-                border-radius: 70% 40% 38% 55% / 55% 58% 42% 40%;
+                a{
+                    img{
+                        border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
+                        -webkit-box-shadow: 0px 0px 7px 4px #26D9DB; 
+                        box-shadow: 0px 0px 7px 4px #26D9DB;
+                    }
+                }
             } 
 
             .divCreation{ // division qui cible seulement la bulle de programmation
-                border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
+                a{
+                    img{
+                        border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
+                        -webkit-box-shadow: 0px 0px 7px 4px #26D9DB; 
+                        box-shadow: 0px 0px 7px 4px #26D9DB;
+                    }
+                }
             } 
 
         }
