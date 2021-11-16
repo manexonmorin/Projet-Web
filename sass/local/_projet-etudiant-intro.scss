@@ -3,20 +3,45 @@
     .wp-block-group__inner-container{ // division par defaut WP
         display: flex;
         flex-direction: row;
+
+        @include media-telephone{
+            flex-direction: column;
+        }
     }
 
     .formeCarre{ // forme de base des deux carré création et programmation
+
+        @include media-telephone{
+            display: flex;
+            justify-content: center;
+        }
+
+        @include media-tablette{
+
+        }
         .wp-block-group__inner-container{ // division par défaut WP
             width: 50vw;
             height: 100vh;
-            display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
 
+            @include media-telephone{
+                height: inherit;
+                margin-top: 12%;
+            }
+
             .typeSujet{ // Élément de base poue les deux cercles création et programmation
                 width: 27em;
                 cursor: pointer;
+
+                @include media-telephone{
+                    width: inherit;
+                }
+
+                @include media-tablette{
+                    width: 32vw;
+                }
             }
 
             .divProg{ // division qui cible seulement la bulle de création
