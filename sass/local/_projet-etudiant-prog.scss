@@ -1,0 +1,66 @@
+.sectionDesProgs{ // Section qui englobe la page création
+    .wp-block-group__inner-container{ // division par défaut de WP
+
+        .titreProjetProg{
+            text-align: center;
+            margin-top: 10vh;
+        }
+
+        .projet_vedette{ // section qui montre les 3 meilleurs projet. ---> les 3 rectangles
+            .wp-block-group__inner-container{ // division par défaut de WP
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 5vh;
+                margin-top: 10vh;
+
+                .meilleurProjet{
+                    img{
+                        width: 22vw;
+                        height: 20vh;
+                        border: 2px solid black;
+                        border-radius: 19%;
+                        -webkit-filter: grayscale(100%);
+                        filter: grayscale(100%);
+                        transition: all 1.5s ease-in;
+                        // -webkit-box-shadow: 0px 0px 5px 8px #000000; 
+                        // box-shadow: 0px 0px 5px 8px #000000;
+                    }
+
+                    img:hover{
+                        transition: all 1.5s ease-out;
+                        -webkit-box-shadow: 0px 0px 27px 7px #000000; 
+                        box-shadow: 0px 0px 27px 7px #000000;
+                        -webkit-filter: none;
+                        filter: none;
+                    }
+                }
+            }
+        }
+
+        .projetProg{
+            .wp-block-group__inner-container{ // division par défaut de WP
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+
+                .projetNormal{ // les projets normaux qui ne sont pas vrmt wow
+                    img{
+                        border: 2px solid black;
+                        border-radius: 19%;
+                        -webkit-filter: grayscale(100%);
+                        filter: grayscale(100%);
+                        transition: all 1.5s ease-in;
+                    }
+
+                    img:hover{
+                        transition: all 1.5s ease-out;
+                        -webkit-box-shadow: 0px 0px 27px 7px #000000; 
+                        box-shadow: 0px 0px 27px 7px #000000;
+                        -webkit-filter: none;
+                        filter: none;
+                    }
+                }
+            }
+        } 
+    }
+}
