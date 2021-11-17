@@ -11,10 +11,10 @@
 
 // Div qui s'appelle conteneur_titre-etudiant. Il contient le titre et la bulle qui affiches les projets en entier
 .conteneur_titre-etudiant{
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
     padding-top: 110px;
-    width: 17vw;
+    width: 100vw;
 }
 
 // balise h1 pour le titre
@@ -40,47 +40,39 @@
 // balise parents des bulles qui affichent les 5 meilleurs projet
 .conteneur_bulle_projet{
     display: flex;
-    flex-direction: row;
-    width: 99vw;
-    height: 55vh;
+    flex-direction: column;
+    width: 100vw;
 
     // Les bulles qui afficheront les 5 meilleurs projet sur la page d'accueil
     .conteneur_projet{
-        position: absolute;
         width: 200px;
         height: 200px;
         background-color: white;
         border-radius: 50%;
-        // margin: 30px;
-        -webkit-box-shadow:0px 0px 267px 2px rgba(45,255,196,0.9);
-        -moz-box-shadow: 0px 0px 267px 2px rgba(45,255,196,0.9);
-        box-shadow: 0px 0px 267px 2px rgba(45,255,196,0.9);
+        margin-left: 5%;
+        margin-right: 5%;
+        -webkit-box-shadow:0px 0px 27px 2px rgba(45,255,196,0.9);
+        -moz-box-shadow: 0px 0px 27px 2px rgba(45,255,196,0.9);
+        box-shadow: 0px 0px 27px 2px rgba(45,255,196,0.9);
     }
 
-    .projet-un{
-        // position: absolute;
-        // top: 5%;
-        left: 10%;
+    .bloc1{
+        .wp-block-group__inner-container{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10%;
+        }
     }
 
-    .projet-deux{
-        bottom: 6%;
-        left: 22%;
-    }
+    .bloc2{
+        .wp-block-group__inner-container{
+            display: flex;
+            justify-content: center;
+            margin-bottom: 10%;
 
-    .projet-trois{
-        bottom: 6%;
-        right: 43%;
-    
-    }
-
-    .projet-quatre{
-        bottom: 6%;
-        right: 22%;    
-    }
-
-    .projet-cinq{
-        // top: 5%;
-        right: 10%;
+            div:nth-child(2){
+                margin-top: 3%;
+            }
+        }
     }
 }
