@@ -1,0 +1,53 @@
+.session1{
+    .wp-block-group__inner-container{
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: 0 auto;
+        // contient tout les cours de la session
+        .coursSession{
+            width: 100%;
+            border-radius: 70% 52% 62% 100% / 50% 58% 65% 100%;
+            .wp-block-group__inner-container{
+                display: flex;
+                flex-direction: column;
+
+                // titre de chaque cours
+                .titreCours{
+                    border-top: 2px solid #A1DAFF;
+                    border-bottom: 2px solid #A1DAFF;
+                    .wp-block-group__inner-container{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        flex-wrap: nowrap;
+                    }
+                    figure{
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        margin: 0%;
+                    }
+                }// fin titre cours
+
+                // descrition des cours qui est cache
+                .descriptionCours{
+                    // display: none;
+                    transition: all .5s ease-in;
+                    height: 0;
+                    p{
+                        opacity: 0;
+                    }
+                }
+
+                .DescCoursVisible{
+                    height: auto;
+                    p{
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+}
