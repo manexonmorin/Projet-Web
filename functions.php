@@ -182,7 +182,7 @@ function timfilp_scripts() {
 	wp_enqueue_script( 'timfilp-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'timfilp-afficherDescProf', get_template_directory_uri() . '/js/afficherDescProf.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'timfilp-afficherDescEmplois', get_template_directory_uri() . '/js/afficherDescEmplois.js', array(), _S_VERSION, true );
-
+	wp_enqueue_script( 'timfilp-afficherDescCours', get_template_directory_uri() . '/js/afficherDescCours.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -217,6 +217,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
 function extraireAccueil ($query){
 	if(!is_admin() && $query->is_front_page() && $query->is_main_query() ){
 		$query->set('category_name', 'accueil' );
@@ -225,8 +226,18 @@ function extraireAccueil ($query){
 		$query->set('orderby', array('meta_value' => 'ASC') );
 	}
 }
-
 add_action('pre_get_posts','extraireAccueil');
+
+
+function extraireCours($query){
+	if(!is_admin() && is_category(9) && $query->is_main_query() ){
+		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
+		$query->set('meta_key', 'ordre' );
+		$query->set('orderby', array('meta_value' => 'ASC') );
+	}
+}
+add_action('pre_get_posts','extraireCours');
+
 
 function extraireCommunaute($query){
 	if(!is_admin() && is_category(10) && $query->is_main_query() ){
@@ -235,5 +246,14 @@ function extraireCommunaute($query){
 		$query->set('orderby', array('meta_value' => 'ASC') );
 	}
 }
-
 add_action('pre_get_posts','extraireCommunaute');
+
+
+function extraireFutur($query){
+	if(!is_admin() && is_category(6) && $query->is_main_query() ){
+		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
+		$query->set('meta_key', 'ordre' );
+		$query->set('orderby', array('meta_value' => 'ASC') );
+	}
+}
+add_action('pre_get_posts','extraireFutur');

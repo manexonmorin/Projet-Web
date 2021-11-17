@@ -1,0 +1,82 @@
+.contenuCoursIntro{
+    .groupeImagesCours{
+        width: 100vw;
+        .wp-block-group__inner-container{
+            width: 100vw;
+            display: flex;
+            flex-wrap: nowrap;
+            z-index: 1;
+            figure{
+                width: 100vw;
+                position: absolute;
+                flex-wrap: nowrap;
+                transition: all .45s ease-in;
+                filter:blur(5px);
+                &:hover{
+                    filter: blur(0px);
+                    z-index: 3;
+                    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+                }
+                &:first-of-type{
+                    position: relative;
+                }
+                img{
+                    width: 100%;
+                }
+                // image de samourai
+            }
+
+            // chaque image individuelles en clip path
+            .jeux{
+                clip-path: polygon(00% 0, 20% 0, 40% 100%, 00% 100%);
+            }
+            .web{
+                clip-path: polygon(20% 0, 40% 0, 60% 100%, 10% 100%);
+            }
+            .design{
+                clip-path: polygon(40% 0, 60% 0, 60% 100%, 30% 100%);
+            }
+            .video{
+                clip-path: polygon(60% 0, 80% 0, 80% 100%, 50% 100%);
+            }
+            .samourai{
+                clip-path: polygon(80% 0, 100% 0, 100% 100%, 70% 100%);
+            }
+        }
+    }
+
+    // 5 bulles mauves
+    .groupeFlottantTypesCours{
+        z-index: 10;
+        width: 100vw;
+        position: fixed;
+        bottom: 5%;
+        .wp-block-group__inner-container{
+            display: flex;
+            width: 100%;
+            // chaque bulles individuelles
+            .wp-block-group{
+                z-index: 2;
+                width: 100%;
+                margin: 0 4%;
+                border-radius: 70% 46% 52% 68% / 60% 58% 42% 40%;
+                p{
+                    margin: 3vh auto;         
+                    @include media-tablette{
+                        margin: 6vh auto;
+                    }
+                    @include media-desktop{
+                        margin: 10vh auto;
+                    }
+                }
+            }
+        }
+    } // fin bulles mauves
+}// fin groupe global
+
+.titreGrilleCours{ // titre "Grille de cours"
+    text-shadow: 0 0 22px rgba(255, 186, 68, 0.281);
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
+    width: 100%;
+    text-align: center;
+}
