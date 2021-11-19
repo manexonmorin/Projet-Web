@@ -4,6 +4,17 @@
         justify-content: center;
         width: 80%;
         margin: 0 auto;
+        .tirteSession1{
+            width: 20%;
+            .wp-block-group__inner-container{
+                p{           
+                    text-align: center;
+                    padding: 12px 0;
+                    width: 100%;
+                    border-radius: 17px;
+                }
+            }
+        }
         // contient tout les cours de la session
         .coursSession{
             width: 100%;
@@ -47,6 +58,13 @@
                         opacity: 1;
                     }
                 }
+                .DescCoursInvisible{
+                    height: 0;
+                    p{
+                        opacity: 0;
+                    }
+                }
+
             }
         }
     }
