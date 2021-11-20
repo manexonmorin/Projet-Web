@@ -33,6 +33,14 @@
                         flex-direction: row;
                         justify-content: space-between;
                         flex-wrap: nowrap;
+                        .divTexteCours{   
+                            width: 100%;
+                            background-color: red !important;
+                            input[type="checkbox"]:checked{
+                                    border: 20px solid black;
+                                    background-color: rebeccapurple;
+                        }
+                        }
                     }
                     figure{
                         display: flex;
@@ -52,13 +60,13 @@
                     }
                 }
 
-                .DescCoursVisible{
+                .DescCoursVisible ~ .descriptionCours{
                     height: auto;
                     p{
                         opacity: 1;
                     }
                 }
-                .DescCoursInvisible{
+                .DescCoursInvisible ~ .descriptionCours{
                     height: 0;
                     p{
                         opacity: 0;

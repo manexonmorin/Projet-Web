@@ -5,25 +5,22 @@
     let boutonTitreCours = document.querySelectorAll(".titreCours");
 	
 	// contenu cache
-    let descriptionCours = document.querySelectorAll(".descriptionCours");
+    let descriptionCours = document.querySelector(".descriptionCours");
+
 
 
 	for(let i=0; i<boutonTitreCours.length; i++){
 		boutonTitreCours[i].addEventListener('mousedown', function(){
 		// si appuie sur bouton "Web"
 			if(boutonTitreCours[i].classList.contains('DescCoursVisible') == false){
-				// si contient la classe qui le rend visible
-				for(let i=0; i<descriptionCours.length; i++){
-					descriptionCours[i].classList.add('DescCoursVisible');
-				}
-				console.log('ici')
+				// ajoute une classe qui elle affecte ~ la classe de description en visible (voir scss "cour-session")
+				boutonTitreCours[i].classList.remove('DescCoursInvisible');
+				boutonTitreCours[i].classList.add('DescCoursVisible');
 			}
 			else{
-				console.log("ici")
-				for(let i=0; i<descriptionCours.length; i++){
-					descriptionCours[i].classList.remove('DescCoursVisible');
-					descriptionCours[i].classList.add('DescCoursInvisible');
-				}
+				// retire la classe et affecte une qui cache la description (voir scss "cour-session")
+				boutonTitreCours[i].classList.remove('DescCoursVisible');
+				boutonTitreCours[i].classList.add('DescCoursInvisible');
 			}
 
 
