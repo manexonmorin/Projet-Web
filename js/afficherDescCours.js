@@ -23,7 +23,6 @@
 				boutonTitreCours[i].classList.add('DescCoursInvisible');
 			}
 
-
     	})
 	}
 
