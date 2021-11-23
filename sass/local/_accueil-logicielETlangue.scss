@@ -4,6 +4,12 @@
 
 // section
 .language_logiciel{
+    margin-top: 6%;
+
+    @include media-telephone{
+        margin-top: 25vh;
+    }
+    
     .wp-block-group__inner-container{ // division par défaut de WP
         display: flex;
         flex-direction: column;
@@ -23,7 +29,15 @@
 .bulle_logiciel{
     width: 200px;
     height: 200px;
-    margin: 5%;
+
+    @include media-telephone{
+        order: 1;
+        width: 170px;
+        height: 170px;
+
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
     .wp-block-group__inner-container{
         // position: absolute;
         margin: 0;
@@ -40,7 +54,7 @@
 
         .sous_logi{
             .wp-block-group__inner-container{
-                width: none;
+                width: inherit;
             }
         }
     }
@@ -62,6 +76,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        @include media-telephone{
+            flex-direction: column;
+        }
     }
 }
 
@@ -70,6 +88,10 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+
+        @include media-telephone{
+            flex-direction: column;
+        }
     }
 }
 
@@ -81,10 +103,16 @@
     background-size: 100px, cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 4%;
+
+    @include media-telephone{
+        margin: inherit;
+        margin-bottom: 10vh;
+    }
 
     .enfant1{
         top: -29%;
-        //background-image: url(images/afterEffect.png) ;
+        left: 22%;
         background-size: contain;
     }
 
@@ -132,15 +160,23 @@
 
 // Bulle logiciel creation
 .logiciel-2{
-    top: 35%;
-    left: 14%;
+    position: relative;
     // background-image: url(images/video.png), linear-gradient(rgb(109,86,187), rgb(109,86,187));
     background-size: 100px, cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 11%;
+
+    @include media-telephone{
+        margin: inherit;
+
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
 
     .enfant3{
         top: -29%;
+        left: 26%;
         background-size: contain;
     }
 
@@ -177,14 +213,20 @@
 
 // Bulle logiciel web
 .logiciel-3{
-    bottom: 5%;
-    left: 32%;
+    position: relative;
     background-size: 100px, cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 3%;
+
+    @include media-telephone{
+        margin: inherit;
+        margin-bottom: 10vh;
+    }
 
     .enfant5{
-        top: -29%;
+        top: -25%;
+        left: 28%;
         background-size: contain;
     }
 
@@ -241,11 +283,16 @@
 
 // Bulle projet 4
 .logiciel-4{
-    bottom: 5%;
-    right: 32%;
+    position: relative;
     background-size: 100px, cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin: 3%;
+
+    @include media-telephone{
+        margin: inherit;
+        margin-bottom: 10vh;
+    }
 
     .enfant7{
         top: -29%;
@@ -275,14 +322,20 @@
 
 // Bulle projet 5
 .logiciel-5{
-    top: 35%;
-    right: 14%;
+    position: relative;
     background-size: 100px, cover;
     background-repeat: no-repeat;
     background-position: center;
+    margin-right: 11%;
+
+    @include media-telephone{
+        margin: inherit;
+        margin-bottom: 10vh;
+    }
 
     .enfant9{
         top: -29%;
+        left: 22%;
         background-size: contain;
     }
 

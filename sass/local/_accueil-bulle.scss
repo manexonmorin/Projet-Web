@@ -1,9 +1,11 @@
 .GroupeBulle{
 margin-top: 11vh;
     width: 100vw;
+
     @include media-tablette{
         margin-top: 13vh;
     }
+
     // Balise parent des bulles à effet flottant
     .lesbulles{
         display: flex;
@@ -33,6 +35,12 @@ margin-top: 11vh;
     // 2e bulle
     .bulleIntera2{
         margin-top: 20vh;
+
+        @include media-telephone{
+            margin-top: 35vh;
+            margin-bottom: 3vh;
+        }
+
         @include media-tablette{
             margin-top: 10vh;
         }
@@ -52,6 +60,7 @@ margin-top: 11vh;
     height: 150px;
     border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
     animation: wave 5s linear infinite alternate;
+
     @include media-tablette{
         height: 250px;
     }
@@ -69,6 +78,14 @@ margin-top: 11vh;
     margin: 0 auto;
     width: 254px;
     height: 150px;
+
+    @include media-telephone{
+        display: none;
+    }
+
+    @include media-tablette{
+        display: none;
+    }
 }
 
 // Les animation de la première bulle par keyframes
