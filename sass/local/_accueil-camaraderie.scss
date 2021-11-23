@@ -26,6 +26,14 @@
 
             // mots autour de "Camaderie"
             .sousMotsCamaraderie{
+
+                @include media-telephone{
+                    display: none;
+                }
+
+                @include media-tablette{
+                    display: none;
+                }
                 .wp-block-group__inner-container{
                     position: relative;
                     h2{
@@ -86,6 +94,11 @@
     }
     .imgCamaraderie{
         margin-top: -20vh;
+
+        @include media-telephone{
+            margin-top: -28vh;
+        }
+
         img{
             width: 100%;
         }

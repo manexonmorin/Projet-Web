@@ -6,6 +6,10 @@
 	font-weight: 400;
 	font-style: normal;
 
+	@include media-telephone{
+		display: block;
+	}
+
 	ul {
 		display: none;
 		list-style: none;
@@ -78,9 +82,15 @@
 
 /* Small menu. */
 .menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
+.main-navigation.toggled .menu-menutim-container{
+	transition: all 1.5s ease-in;
+	margin-top: inherit;
+
+	ul{
+		display: block;
+	}
 }
+
 
 @media screen and (min-width: 37.5em) {
 
