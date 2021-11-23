@@ -55,6 +55,7 @@
                 .descriptionCours{
                     transition: all .5s ease-in;
                     height: 0;
+                    display: none;
                     p{
                         opacity: 0;
                     }
@@ -63,12 +64,14 @@
                 // --------- fait apparaitre la description des cours avec le JS
                 .DescCoursVisible ~ .descriptionCours{
                     height: auto;
+                    display: block;
                     p{
                         opacity: 1;
                     }
                 }
                 .DescCoursInvisible ~ .descriptionCours{
                     height: 0;
+                    display: none;
                     p{
                         opacity: 0;
                     }
