@@ -1,6 +1,10 @@
 .groupeFuturEmplois{
     width: 100vw;
     position: relative;
+
+    @include media-telephone{
+        margin-top: 6vh;
+    }
     .wp-block-group__inner-container{
         display: flex;
         justify-content: space-between;

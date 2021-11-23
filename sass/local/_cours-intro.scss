@@ -1,4 +1,8 @@
 .contenuCoursIntro{
+
+    @include media-telephone{
+        margin-top: 6vh;
+    }
     .groupeImagesCours{
         width: 100vw;
         .wp-block-group__inner-container{
