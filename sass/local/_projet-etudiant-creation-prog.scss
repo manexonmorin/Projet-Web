@@ -1,7 +1,9 @@
-.sectionDesProgs{ // Section qui englobe la page création
+// test pour voir si les fichier gutenberg apparait dans le github
+
+.sectionProjetsEtudiants{ // Section qui englobe la page création
     .wp-block-group__inner-container{ // division par défaut de WP
 
-        .titreProjetProg{
+        .titreProjetEtudiant{
             text-align: center;
             margin-top: 10vh;
         }
@@ -26,27 +28,23 @@
                     img{
                         width: 22vw;
                         height: 20vh;
-                        border: 2px solid black;
-                        border-radius: 19%;
+                        border-radius: 19px;
                         -webkit-filter: grayscale(100%);
-                        filter: grayscale(100%);
+                        filter: grayscale(75%);
                         transition: all 1.5s ease-in;
-                        // -webkit-box-shadow: 0px 0px 5px 8px #000000; 
-                        // box-shadow: 0px 0px 5px 8px #000000;
-                    }
 
-                    @include media-telephone{
-                        width: inherit;
-                    }
+                        @include media-telephone{
+                            width: inherit;
+                        }
 
-                    @include media-tablette{
-                        width: inherit;
+                        @include media-tablette{
+                            width: inherit;
+                        }
                     }
 
                     img:hover{
-                        transition: all 1.5s ease-out;
-                        -webkit-box-shadow: 0px 0px 27px 7px #000000; 
-                        box-shadow: 0px 0px 27px 7px #000000;
+                        transition: all .4s ease-out;
+                        box-shadow: 0px 0px 30px 15px #8c92e429;
                         -webkit-filter: none;
                         filter: none;
                     }
@@ -54,26 +52,24 @@
             }
         }
 
-        .projetProg{
+        .projetEtudiants{
             .wp-block-group__inner-container{ // division par défaut de WP
                 display: flex;
                 justify-content: space-around;
                 flex-wrap: wrap;
+                margin: 0 5vw;
 
                 .projetNormal{ // les projets normaux qui ne sont pas vrmt wow
+                    margin: 2vh 2vw;
                     img{
-                        border: 2px solid black;
-                        border-radius: 19%;
-                        -webkit-filter: grayscale(100%);
-                        filter: grayscale(100%);
+                        border-radius: 15px;
+                        filter: grayscale(85%);
                         transition: all 1.5s ease-in;
                     }
 
                     img:hover{
-                        transition: all 1.5s ease-out;
-                        -webkit-box-shadow: 0px 0px 27px 7px #000000; 
-                        box-shadow: 0px 0px 27px 7px #000000;
-                        -webkit-filter: none;
+                        transition: all .4s ease-out;
+                        box-shadow: 0px 0px 30px 15px #8c92e429;
                         filter: none;
                     }
                 }

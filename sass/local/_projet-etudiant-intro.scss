@@ -52,9 +52,13 @@
             .divProg{ // division qui cible seulement la bulle de création
                 a{
                     img{
+                        transition: all 1s ;
+                        box-shadow: 0px 0px 100px 20px #24ce27;
                         border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
-                        -webkit-box-shadow: 0px 0px 7px 4px #26D9DB; 
-                        box-shadow: 0px 0px 7px 4px #26D9DB;
+                        &:hover{
+                            box-shadow: 0px 0px 100px 20px rgb(24, 242, 28); 
+                            border-radius: 80% 50% 40% 70% / 60% 50% 48% 65%;
+                        }
                     }
                 }
             } 
@@ -62,12 +66,16 @@
             .divCreation{ // division qui cible seulement la bulle de programmation
                 a{
                     img{
+                        transition: all 1s ;
                         border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
-                        -webkit-box-shadow: 0px 0px 7px 4px #26D9DB; 
-                        box-shadow: 0px 0px 7px 4px #26D9DB;
+                        box-shadow: 0px 0px 100px 20px #6b29ce;
+                        &:hover{
+                            box-shadow: 0px 0px 100px 20px #731afa;
+                            border-radius: 80% 70% 40% 70% / 80% 60% 60% 65%;
+                        }
                     }
                 }
-            } 
+            }
 
         }
     }
