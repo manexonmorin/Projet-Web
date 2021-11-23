@@ -33,8 +33,10 @@
 
 // balise a qui enmène vers la section projet
 .lien_projet{
-    text-decoration: none;
-    color: white;
+    a{
+        text-decoration: none;
+        color: white;
+    }
 }
 
 // balise parents des bulles qui affichent les 5 meilleurs projet
@@ -54,6 +56,11 @@
         -webkit-box-shadow:0px 0px 27px 2px rgba(45,255,196,0.9);
         -moz-box-shadow: 0px 0px 27px 2px rgba(45,255,196,0.9);
         box-shadow: 0px 0px 27px 2px rgba(45,255,196,0.9);
+
+        @include media-telephone{
+            width: 170px;
+            height: 170px;
+        }
     }
 
     .bloc1{
@@ -61,6 +68,18 @@
             display: flex;
             justify-content: space-between;
             margin-bottom: 10%;
+
+            @include media-telephone{
+                flex-direction: column;
+                margin-bottom: inherit;
+                transition: all ease-in 1.5s;
+            }
+
+            div:nth-child(2){
+                @include media-telephone{
+                    align-self: flex-end;
+                }
+            }
         }
     }
 
@@ -70,8 +89,21 @@
             justify-content: center;
             margin-bottom: 10%;
 
+            @include media-telephone{
+                flex-direction: column;
+            }
+
             div:nth-child(2){
                 margin-top: 3%;
+                @include media-telephone{
+                    align-self: flex-end;
+                }
+            }
+
+            div:nth-child(3){
+                @include media-telephone{
+                    display: none;
+                }
             }
         }
     }

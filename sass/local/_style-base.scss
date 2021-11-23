@@ -11,14 +11,32 @@
 // ***************************************************** lA PARTIE NAV **************************************** \\
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .menu-menutim-container{
+    transition: all 1.5s ease-out;
     width: 100vw;
+
+    @include media-telephone{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -74vh;
+    }
+
     ul{
         display: flex;
         justify-content: space-between;
-        // logo TIM NAV
-        img{
-            scale: 1.4;
+        transition: all ease-in 1.5s;
+
+        @include media-telephone{
+            display: block;
+            text-align: center;
         }
+
+        @include media-tablette{
+            font-size: 0.6rem;
+            transition: all ease-in 1.5s;
+        }
+
         // les onglets du nav
         li{
             justify-content: space-between;
@@ -41,9 +59,15 @@
 
 
 .menu-image{
+    transition: all ease-in 1.5s;
     width: 50px;
     height: 50px;
     align-self: flex-start;
+
+    @include media-tablette{
+        height: 36px;
+        transition: all ease-in 1.5s;
+    }
 }
 
 .site-branding{
