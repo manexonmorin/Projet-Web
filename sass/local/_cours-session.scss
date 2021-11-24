@@ -6,13 +6,26 @@
         width: 80%;
         margin: 0 auto;
         .tirteSession1{
-            width: 20%;
+            width: 28%;
+            @include media-tablette{
+                width: 30%;
+            }
             .wp-block-group__inner-container{
-                p{           
+                p{  
+                    font-size:clamp(.7rem, 1vw , 1rem);   
                     text-align: center;
-                    padding: 12px 0;
-                    width: 100%;
+                    padding: 12px 5px;
+                    width: 30vw;
                     border-radius: 17px;
+                    word-break: normal;
+                    @include media-tablette{
+                        font-size:clamp(1rem, 2.5vw , 1.2rem);
+                        width: 20vw;
+                    }
+                    @include media-desktop{
+                        font-size:clamp(1.1rem, 2.5vw , 1.25rem);
+                        width: 10vw;
+                    }
                 }
             }
         }
@@ -20,10 +33,12 @@
         .coursSession{
             width: 100%;
             border-radius: 70% 52% 62% 100% / 50% 58% 65% 100%;
+            @include media-tablette{
+            width: 100%;  
+            }
             .wp-block-group__inner-container{
                 display: flex;
                 flex-direction: column;
-
                 // titre de chaque cours
                 .titreCours{
                     border-top: 2px solid #A1DAFF;
