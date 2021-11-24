@@ -1,11 +1,13 @@
-maintenant je suis perdu
-allo c'est un test
-allo c'est françois :)
-2eme essai :)
-une autre ligne
+Bienvenue au TIM !
+Découvrez le merveilleux monde de la Technique d'Intégration Multimédia au travers d'un site aussi cool que le programme!
 
-un tout autre changement
-Bonsoir
+Envie de savoir quel logiciel on apprend? Quelles sont les perspectives d'avenir? Ou encore qui sont les merveilleux professeurs? Toutes ses infos s'y trouvent sur notre site et bien plus!
+
+Le site est entièrement modifiable par les administrateurs sur l'interface de Wordpress, adieux les modifications via le code sources !
+
+
+
+Le site web du TIM est une réalisation de Arthur, François et Benjamins.
 
 SOURCE CODE
 **Code pour les petites particules**
