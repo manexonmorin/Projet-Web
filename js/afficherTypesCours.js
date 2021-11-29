@@ -21,12 +21,33 @@
 				for(let i=0; i<boutonTitreCours.length; i++){
 					if(boutonTitreCours[i].classList.contains('TitreJeux')){
 						// ajoute un style qui les highlight des autre cours
+						// verifie si contient deja la classe qui rend visible
 						for(let i=0; i<courJeux.length; i++){
-							courJeux[i].classList.add('courSelectioner');
+							if(courJeux[i].classList.contains('courSelectioner')== false){
+								courJeux[i].classList.remove('courDeselectioner');
+								courJeux[i].classList.add('courSelectioner');
+							}
+						}// fin for principale
+
+						for(let i=0; i<courWeb.length; i++){
+							courWeb[i].classList.remove('courSelectioner');
+							courWeb[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<courVideo.length; i++){
+							courVideo[i].classList.remove('courSelectioner');
+							courVideo[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<courDesign.length; i++){
+							courDesign[i].classList.remove('courSelectioner');
+							courDesign[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<cour3D.length; i++){
+							cour3D[i].classList.remove('courSelectioner');
+							cour3D[i].classList.add('courDeselectioner');
 						}
 					}
 				}
-			}
+			}// fin type jeux
 
 		 	// si appuie sur bouton "Web"			
 			if(BoutonTypeCours[i].classList.contains('typeWeb')){
@@ -36,33 +57,119 @@
 						// verifie si contient deja la classe qui rend visible
 						for(let i=0; i<courWeb.length; i++){
 							if(courWeb[i].classList.contains('courSelectioner')== false){
+								courWeb[i].classList.remove('courDeselectioner');
 								courWeb[i].classList.add('courSelectioner');
 							}
-							else{
-								courWeb[i].classList.remove('courSelectioner');
-								courWeb[i].classList.add('courDeselectioner');
-							}
-						}// fin for
-					}
+						}// fin for principale
+
+						for(let i=0; i<courJeux.length; i++){
+							courJeux[i].classList.remove('courSelectioner');
+							courJeux[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<courVideo.length; i++){
+							courVideo[i].classList.remove('courSelectioner');
+							courVideo[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<courDesign.length; i++){
+							courDesign[i].classList.remove('courSelectioner');
+							courDesign[i].classList.add('courDeselectioner');
+						}
+						for(let i=0; i<cour3D.length; i++){
+							cour3D[i].classList.remove('courSelectioner');
+							cour3D[i].classList.add('courDeselectioner');
+						}
+					}// fin if
 				}// fin for globale
-			}
+			} // fin type web
 			
 		 	// si appuie sur bouton "Design"			
 			if(BoutonTypeCours[i].classList.contains('typeDesign')){
-				
-			}
+				// ajoute un style qui les highlight des autre cours
+				// verifie si contient deja la classe qui rend visible
+				for(let i=0; i<courDesign.length; i++){
+					if(courDesign[i].classList.contains('courSelectioner')== false){
+						courDesign[i].classList.remove('courDeselectioner');
+						courDesign[i].classList.add('courSelectioner');
+					}
+				}// fin for principale
+
+				for(let i=0; i<courJeux.length; i++){
+					courJeux[i].classList.remove('courSelectioner');
+					courJeux[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courVideo.length; i++){
+					courVideo[i].classList.remove('courSelectioner');
+					courVideo[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courWeb.length; i++){
+					courWeb[i].classList.remove('courSelectioner');
+					courWeb[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<cour3D.length; i++){
+					cour3D[i].classList.remove('courSelectioner');
+					cour3D[i].classList.add('courDeselectioner');
+				}
+			} // fin type design
 
 		 	// si appuie sur bouton "Video"			
-			if(boutonTitreCours[i].classList.contains('TitreVideo')){
+			if(BoutonTypeCours[i].classList.contains('typeVideo')){
+				// ajoute un style qui les highlight des autre cours
+				// verifie si contient deja la classe qui rend visible
+				console.log("ioci")
+				for(let i=0; i<courVideo.length; i++){
+					if(courVideo[i].classList.contains('courSelectioner')== false){
+						courVideo[i].classList.remove('courDeselectioner');
+						courVideo[i].classList.add('courSelectioner');
+					}
+				}// fin for principale
 
-
-			}
+				for(let i=0; i<courJeux.length; i++){
+					courJeux[i].classList.remove('courSelectioner');
+					courJeux[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courWeb.length; i++){
+					courWeb[i].classList.remove('courSelectioner');
+					courWeb[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courDesign.length; i++){
+					courDesign[i].classList.remove('courSelectioner');
+					courDesign[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<cour3D.length; i++){
+					cour3D[i].classList.remove('courSelectioner');
+					cour3D[i].classList.add('courDeselectioner');
+				}
+			} // fin type video
 
 		 	// si appuie sur bouton "3D"			
-			if(boutonTitreCours[i].classList.contains('Titre3D')){
+			if(BoutonTypeCours[i].classList.contains('type3D')){
+				// ajoute un style qui les highlight des autre cours
+				// verifie si contient deja la classe qui rend visible
+				console.log("oic")
+				for(let i=0; i<cour3D.length; i++){
+					if(cour3D[i].classList.contains('courSelectioner')== false){
+						cour3D[i].classList.remove('courDeselectioner');
+						cour3D[i].classList.add('courSelectioner');
+					}
+				}// fin for principale
 
-
-			}
+				for(let i=0; i<courJeux.length; i++){
+					courJeux[i].classList.remove('courSelectioner');
+					courJeux[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courVideo.length; i++){
+					courVideo[i].classList.remove('courSelectioner');
+					courVideo[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courDesign.length; i++){
+					courDesign[i].classList.remove('courSelectioner');
+					courDesign[i].classList.add('courDeselectioner');
+				}
+				for(let i=0; i<courWeb.length; i++){
+					courWeb[i].classList.remove('courSelectioner');
+					courWeb[i].classList.add('courDeselectioner');
+				}
+			} // fin type 3D
 			
 
     	})
