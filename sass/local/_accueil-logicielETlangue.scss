@@ -88,6 +88,11 @@
 
         h2{
             text-align: center;
+
+            a{
+                text-decoration: none;
+                color: #ffb703;
+            }
         }
 
         @include media-telephone{
@@ -117,6 +122,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 4%;
+    animation: wave 5s linear ease-in-out infinite;
+    animation-delay: 2.5s;
 
     @include media-telephone{
         margin: inherit;
@@ -179,6 +186,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 11%;
+    animation: wave 5s linear ease-in-out infinite;
+    animation-delay: 5s;
 
     @include media-telephone{
         margin: inherit;
@@ -231,6 +240,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 3%;
+    animation: wave 5s linear alternate-reverse infinite;
+    animation-delay: 2.5s;
 
     @include media-telephone{
         margin: inherit;
@@ -301,6 +312,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin: 3%;
+    animation: wave 5s linear alternate-reverse infinite;
+    animation-delay: 5s;
 
     @include media-telephone{
         margin: inherit;
@@ -340,6 +353,8 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-right: 11%;
+    animation: wave 5s linear alternate infinite;
+
 
     @include media-telephone{
         margin: inherit;
