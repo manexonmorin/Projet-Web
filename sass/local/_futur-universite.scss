@@ -18,6 +18,26 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        .UniversIndividuelle{
+            .wp-block-group__inner-container{
+                // groupe de texte
+                .wp-block-group{
+                    display: flex;
+                    width: 200px;
+                    text-align: center;
+                    p{
+                        a{
+                            color: white;
+                            text-decoration: none;
+                            &:hover{
+                                color: rgb(212, 218, 255);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        // a toutes les imgs d'universites
             figure{
                 margin: 0 5%;
                 border-radius: 100px;
