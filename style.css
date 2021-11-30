@@ -704,7 +704,7 @@ textarea {
   display: block;
 }
 
-@media screen and (min-width: 37.5em) {
+@media screen and (min-width: 26.875em) {
   .menu-toggle {
     display: none;
   }
@@ -1085,486 +1085,487 @@ textarea {
 
 @keyframes particle-animation-1 {
   100% {
-    transform: translate3d(11vw, 18vh, 15px);
+    transform: translate3d(28vw, 48vh, 4px);
   }
 }
 
 .particle:nth-child(1) {
   animation: particle-animation-1 60s infinite;
-  opacity: 0.84;
-  height: 6px;
-  width: 6px;
+  opacity: 0.71;
+  height: 7px;
+  width: 7px;
   animation-delay: -0.2s;
-  transform: translate3d(52vw, 62vh, 2px);
-  background: #26d96b;
+  transform: translate3d(73vw, 85vh, 52px);
+  background: #d9a626;
 }
 
 @keyframes particle-animation-2 {
   100% {
-    transform: translate3d(26vw, 40vh, 59px);
+    transform: translate3d(78vw, 20vh, 50px);
   }
 }
 
 .particle:nth-child(2) {
   animation: particle-animation-2 60s infinite;
-  opacity: 0.91;
-  height: 9px;
-  width: 9px;
+  opacity: 0.3;
+  height: 8px;
+  width: 8px;
   animation-delay: -0.4s;
-  transform: translate3d(60vw, 62vh, 81px);
-  background: #2680d9;
+  transform: translate3d(4vw, 1vh, 96px);
+  background: #26a3d9;
 }
 
 @keyframes particle-animation-3 {
   100% {
-    transform: translate3d(36vw, 22vh, 75px);
+    transform: translate3d(53vw, 2vh, 15px);
   }
 }
 
 .particle:nth-child(3) {
   animation: particle-animation-3 60s infinite;
-  opacity: 0.79;
-  height: 9px;
-  width: 9px;
+  opacity: 0.2;
+  height: 10px;
+  width: 10px;
   animation-delay: -0.6s;
-  transform: translate3d(27vw, 57vh, 17px);
-  background: #d9af26;
+  transform: translate3d(77vw, 62vh, 63px);
+  background: #26d96e;
 }
 
 @keyframes particle-animation-4 {
   100% {
-    transform: translate3d(74vw, 75vh, 13px);
+    transform: translate3d(19vw, 18vh, 27px);
   }
 }
 
 .particle:nth-child(4) {
   animation: particle-animation-4 60s infinite;
-  opacity: 0.17;
+  opacity: 0.92;
   height: 9px;
   width: 9px;
   animation-delay: -0.8s;
-  transform: translate3d(3vw, 28vh, 34px);
-  background: #d926a9;
+  transform: translate3d(7vw, 58vh, 2px);
+  background: #26c7d9;
 }
 
 @keyframes particle-animation-5 {
   100% {
-    transform: translate3d(16vw, 55vh, 19px);
+    transform: translate3d(20vw, 3vh, 89px);
   }
 }
 
 .particle:nth-child(5) {
   animation: particle-animation-5 60s infinite;
-  opacity: 0.41;
-  height: 8px;
-  width: 8px;
+  opacity: 0.92;
+  height: 6px;
+  width: 6px;
   animation-delay: -1s;
-  transform: translate3d(18vw, 8vh, 76px);
-  background: #6e26d9;
+  transform: translate3d(48vw, 62vh, 86px);
+  background: #d9263e;
 }
 
 @keyframes particle-animation-6 {
   100% {
-    transform: translate3d(53vw, 87vh, 43px);
+    transform: translate3d(3vw, 17vh, 48px);
   }
 }
 
 .particle:nth-child(6) {
   animation: particle-animation-6 60s infinite;
-  opacity: 0.86;
+  opacity: 0.46;
   height: 10px;
   width: 10px;
   animation-delay: -1.2s;
-  transform: translate3d(80vw, 73vh, 69px);
-  background: #26d950;
+  transform: translate3d(26vw, 52vh, 98px);
+  background: #d93e26;
 }
 
 @keyframes particle-animation-7 {
   100% {
-    transform: translate3d(48vw, 81vh, 96px);
+    transform: translate3d(53vw, 5vh, 52px);
   }
 }
 
 .particle:nth-child(7) {
   animation: particle-animation-7 60s infinite;
-  opacity: 0.32;
-  height: 9px;
-  width: 9px;
+  opacity: 0.5;
+  height: 8px;
+  width: 8px;
   animation-delay: -1.4s;
-  transform: translate3d(60vw, 2vh, 18px);
-  background: #d9be26;
+  transform: translate3d(32vw, 69vh, 76px);
+  background: #d926c1;
 }
 
 @keyframes particle-animation-8 {
   100% {
-    transform: translate3d(88vw, 20vh, 50px);
+    transform: translate3d(36vw, 60vh, 23px);
   }
 }
 
 .particle:nth-child(8) {
   animation: particle-animation-8 60s infinite;
-  opacity: 0.06;
-  height: 7px;
-  width: 7px;
+  opacity: 0.24;
+  height: 6px;
+  width: 6px;
   animation-delay: -1.6s;
-  transform: translate3d(67vw, 51vh, 89px);
-  background: #d96b26;
+  transform: translate3d(12vw, 59vh, 54px);
+  background: #77d926;
 }
 
 @keyframes particle-animation-9 {
   100% {
-    transform: translate3d(24vw, 43vh, 94px);
+    transform: translate3d(46vw, 89vh, 55px);
   }
 }
 
 .particle:nth-child(9) {
   animation: particle-animation-9 60s infinite;
-  opacity: 0.22;
-  height: 7px;
-  width: 7px;
+  opacity: 0.28;
+  height: 6px;
+  width: 6px;
   animation-delay: -1.8s;
-  transform: translate3d(7vw, 41vh, 88px);
-  background: #d9265f;
+  transform: translate3d(68vw, 58vh, 36px);
+  background: #77d926;
 }
 
 @keyframes particle-animation-10 {
   100% {
-    transform: translate3d(3vw, 1vh, 59px);
+    transform: translate3d(63vw, 83vh, 86px);
   }
 }
 
 .particle:nth-child(10) {
   animation: particle-animation-10 60s infinite;
-  opacity: 0.6;
-  height: 9px;
-  width: 9px;
+  opacity: 0.06;
+  height: 10px;
+  width: 10px;
   animation-delay: -2s;
-  transform: translate3d(53vw, 30vh, 80px);
-  background: #d6d926;
+  transform: translate3d(49vw, 52vh, 43px);
+  background: #2665d9;
 }
 
 @keyframes particle-animation-11 {
   100% {
-    transform: translate3d(10vw, 28vh, 40px);
+    transform: translate3d(76vw, 72vh, 85px);
   }
 }
 
 .particle:nth-child(11) {
   animation: particle-animation-11 60s infinite;
-  opacity: 0.45;
-  height: 8px;
-  width: 8px;
+  opacity: 0.71;
+  height: 9px;
+  width: 9px;
   animation-delay: -2.2s;
-  transform: translate3d(72vw, 23vh, 94px);
-  background: #d92685;
+  transform: translate3d(1vw, 39vh, 67px);
+  background: #265fd9;
 }
 
 @keyframes particle-animation-12 {
   100% {
-    transform: translate3d(90vw, 67vh, 81px);
+    transform: translate3d(66vw, 39vh, 59px);
   }
 }
 
 .particle:nth-child(12) {
   animation: particle-animation-12 60s infinite;
-  opacity: 0.51;
-  height: 10px;
-  width: 10px;
+  opacity: 0.71;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.4s;
-  transform: translate3d(44vw, 41vh, 29px);
-  background: #26d97a;
+  transform: translate3d(51vw, 29vh, 60px);
+  background: #d96e26;
 }
 
 @keyframes particle-animation-13 {
   100% {
-    transform: translate3d(15vw, 90vh, 38px);
+    transform: translate3d(86vw, 34vh, 57px);
   }
 }
 
 .particle:nth-child(13) {
   animation: particle-animation-13 60s infinite;
-  opacity: 0.13;
-  height: 9px;
-  width: 9px;
+  opacity: 0.43;
+  height: 6px;
+  width: 6px;
   animation-delay: -2.6s;
-  transform: translate3d(49vw, 82vh, 65px);
-  background: #8526d9;
+  transform: translate3d(40vw, 27vh, 19px);
+  background: #d92629;
 }
 
 @keyframes particle-animation-14 {
   100% {
-    transform: translate3d(7vw, 21vh, 59px);
+    transform: translate3d(34vw, 80vh, 7px);
   }
 }
 
 .particle:nth-child(14) {
   animation: particle-animation-14 60s infinite;
-  opacity: 0.29;
-  height: 6px;
-  width: 6px;
+  opacity: 0.6;
+  height: 10px;
+  width: 10px;
   animation-delay: -2.8s;
-  transform: translate3d(14vw, 32vh, 58px);
-  background: #5326d9;
+  transform: translate3d(51vw, 83vh, 67px);
+  background: #26d9d9;
 }
 
 @keyframes particle-animation-15 {
   100% {
-    transform: translate3d(40vw, 72vh, 18px);
+    transform: translate3d(47vw, 72vh, 38px);
   }
 }
 
 .particle:nth-child(15) {
   animation: particle-animation-15 60s infinite;
-  opacity: 0.12;
-  height: 6px;
-  width: 6px;
+  opacity: 0.32;
+  height: 7px;
+  width: 7px;
   animation-delay: -3s;
-  transform: translate3d(23vw, 26vh, 10px);
-  background: #ac26d9;
+  transform: translate3d(74vw, 81vh, 40px);
+  background: #26d9d6;
 }
 
 @keyframes particle-animation-16 {
   100% {
-    transform: translate3d(83vw, 87vh, 48px);
+    transform: translate3d(2vw, 82vh, 60px);
   }
 }
 
 .particle:nth-child(16) {
   animation: particle-animation-16 60s infinite;
-  opacity: 0.81;
-  height: 6px;
-  width: 6px;
+  opacity: 0.52;
+  height: 8px;
+  width: 8px;
   animation-delay: -3.2s;
-  transform: translate3d(47vw, 22vh, 61px);
-  background: #c4d926;
+  transform: translate3d(50vw, 8vh, 42px);
+  background: #d9d326;
 }
 
 @keyframes particle-animation-17 {
   100% {
-    transform: translate3d(63vw, 49vh, 14px);
+    transform: translate3d(10vw, 55vh, 42px);
   }
 }
 
 .particle:nth-child(17) {
   animation: particle-animation-17 60s infinite;
-  opacity: 0.09;
+  opacity: 0.89;
   height: 8px;
   width: 8px;
   animation-delay: -3.4s;
-  transform: translate3d(37vw, 10vh, 10px);
-  background: #a3d926;
+  transform: translate3d(90vw, 74vh, 26px);
+  background: #d92662;
 }
 
 @keyframes particle-animation-18 {
   100% {
-    transform: translate3d(87vw, 49vh, 86px);
+    transform: translate3d(88vw, 85vh, 5px);
   }
 }
 
 .particle:nth-child(18) {
   animation: particle-animation-18 60s infinite;
-  opacity: 0.53;
+  opacity: 0.18;
   height: 9px;
   width: 9px;
   animation-delay: -3.6s;
-  transform: translate3d(23vw, 15vh, 37px);
-  background: #d9263e;
+  transform: translate3d(60vw, 8vh, 91px);
+  background: #d926c4;
 }
 
 @keyframes particle-animation-19 {
   100% {
-    transform: translate3d(83vw, 66vh, 47px);
+    transform: translate3d(70vw, 28vh, 96px);
   }
 }
 
 .particle:nth-child(19) {
   animation: particle-animation-19 60s infinite;
-  opacity: 0.54;
-  height: 7px;
-  width: 7px;
+  opacity: 0.71;
+  height: 10px;
+  width: 10px;
   animation-delay: -3.8s;
-  transform: translate3d(46vw, 73vh, 29px);
-  background: #d926a3;
+  transform: translate3d(5vw, 68vh, 88px);
+  background: #d9265c;
 }
 
 @keyframes particle-animation-20 {
   100% {
-    transform: translate3d(31vw, 84vh, 86px);
+    transform: translate3d(58vw, 36vh, 73px);
   }
 }
 
 .particle:nth-child(20) {
   animation: particle-animation-20 60s infinite;
-  opacity: 0.96;
-  height: 10px;
-  width: 10px;
+  opacity: 0.25;
+  height: 9px;
+  width: 9px;
   animation-delay: -4s;
-  transform: translate3d(23vw, 31vh, 26px);
-  background: #d9b526;
+  transform: translate3d(56vw, 23vh, 47px);
+  background: #26d98b;
 }
 
 @keyframes particle-animation-21 {
   100% {
-    transform: translate3d(50vw, 89vh, 69px);
+    transform: translate3d(74vw, 14vh, 96px);
   }
 }
 
 .particle:nth-child(21) {
   animation: particle-animation-21 60s infinite;
-  opacity: 0.61;
-  height: 8px;
-  width: 8px;
+  opacity: 0.77;
+  height: 10px;
+  width: 10px;
   animation-delay: -4.2s;
-  transform: translate3d(61vw, 17vh, 5px);
-  background: #26d97a;
+  transform: translate3d(11vw, 18vh, 69px);
+  background: #d95026;
 }
 
 @keyframes particle-animation-22 {
   100% {
-    transform: translate3d(23vw, 88vh, 85px);
+    transform: translate3d(87vw, 83vh, 100px);
   }
 }
 
 .particle:nth-child(22) {
   animation: particle-animation-22 60s infinite;
-  opacity: 0.5;
-  height: 9px;
-  width: 9px;
+  opacity: 0.29;
+  height: 7px;
+  width: 7px;
   animation-delay: -4.4s;
-  transform: translate3d(76vw, 46vh, 87px);
-  background: #c4d926;
+  transform: translate3d(49vw, 15vh, 59px);
+  background: #26d947;
 }
 
 @keyframes particle-animation-23 {
   100% {
-    transform: translate3d(77vw, 88vh, 84px);
+    transform: translate3d(24vw, 21vh, 32px);
   }
 }
 
 .particle:nth-child(23) {
   animation: particle-animation-23 60s infinite;
-  opacity: 0.98;
-  height: 10px;
-  width: 10px;
+  opacity: 0.71;
+  height: 6px;
+  width: 6px;
   animation-delay: -4.6s;
-  transform: translate3d(10vw, 40vh, 84px);
-  background: #26a3d9;
+  transform: translate3d(43vw, 16vh, 67px);
+  background: #266ed9;
 }
 
 @keyframes particle-animation-24 {
   100% {
-    transform: translate3d(70vw, 9vh, 32px);
+    transform: translate3d(29vw, 75vh, 59px);
   }
 }
 
 .particle:nth-child(24) {
   animation: particle-animation-24 60s infinite;
-  opacity: 0.8;
-  height: 7px;
-  width: 7px;
+  opacity: 0.67;
+  height: 10px;
+  width: 10px;
   animation-delay: -4.8s;
-  transform: translate3d(30vw, 3vh, 66px);
-  background: #d93226;
+  transform: translate3d(71vw, 36vh, 51px);
+  background: #d926a6;
 }
 
 @keyframes particle-animation-25 {
   100% {
-    transform: translate3d(1vw, 53vh, 100px);
+    transform: translate3d(76vw, 38vh, 19px);
   }
 }
 
 .particle:nth-child(25) {
   animation: particle-animation-25 60s infinite;
-  opacity: 1;
+  opacity: 0.2;
   height: 7px;
   width: 7px;
   animation-delay: -5s;
-  transform: translate3d(61vw, 62vh, 56px);
-  background: #8e26d9;
+  transform: translate3d(4vw, 61vh, 72px);
+  background: #26d94a;
 }
 
 @keyframes particle-animation-26 {
   100% {
-    transform: translate3d(24vw, 84vh, 95px);
+    transform: translate3d(9vw, 51vh, 5px);
   }
 }
 
 .particle:nth-child(26) {
   animation: particle-animation-26 60s infinite;
-  opacity: 0.49;
-  height: 9px;
-  width: 9px;
+  opacity: 0.03;
+  height: 10px;
+  width: 10px;
   animation-delay: -5.2s;
-  transform: translate3d(90vw, 21vh, 41px);
-  background: #d95926;
+  transform: translate3d(41vw, 34vh, 5px);
+  background: #d98826;
 }
 
 @keyframes particle-animation-27 {
   100% {
-    transform: translate3d(13vw, 57vh, 47px);
+    transform: translate3d(17vw, 73vh, 76px);
   }
 }
 
 .particle:nth-child(27) {
   animation: particle-animation-27 60s infinite;
-  opacity: 0.16;
-  height: 9px;
-  width: 9px;
+  opacity: 0.63;
+  height: 7px;
+  width: 7px;
   animation-delay: -5.4s;
-  transform: translate3d(12vw, 88vh, 3px);
-  background: #d026d9;
+  transform: translate3d(24vw, 20vh, 59px);
+  background: #26d0d9;
 }
 
 @keyframes particle-animation-28 {
   100% {
-    transform: translate3d(23vw, 66vh, 3px);
+    transform: translate3d(69vw, 64vh, 92px);
   }
 }
 
 .particle:nth-child(28) {
   animation: particle-animation-28 60s infinite;
-  opacity: 0.56;
-  height: 9px;
-  width: 9px;
+  opacity: 0.67;
+  height: 8px;
+  width: 8px;
   animation-delay: -5.6s;
-  transform: translate3d(44vw, 79vh, 46px);
-  background: #9d26d9;
+  transform: translate3d(28vw, 56vh, 54px);
+  background: #b526d9;
 }
 
 @keyframes particle-animation-29 {
   100% {
-    transform: translate3d(57vw, 87vh, 73px);
+    transform: translate3d(29vw, 73vh, 80px);
   }
 }
 
 .particle:nth-child(29) {
   animation: particle-animation-29 60s infinite;
-  opacity: 0.78;
+  opacity: 0.11;
   height: 7px;
   width: 7px;
   animation-delay: -5.8s;
-  transform: translate3d(40vw, 1vh, 85px);
-  background: #b8d926;
+  transform: translate3d(2vw, 65vh, 19px);
+  background: #65d926;
 }
 
 @keyframes particle-animation-30 {
   100% {
-    transform: translate3d(55vw, 80vh, 42px);
+    transform: translate3d(26vw, 29vh, 22px);
   }
 }
 
 .particle:nth-child(30) {
   animation: particle-animation-30 60s infinite;
-  opacity: 0.07;
-  height: 6px;
-  width: 6px;
+  opacity: 0.11;
+  height: 9px;
+  width: 9px;
   animation-delay: -6s;
-  transform: translate3d(17vw, 5vh, 82px);
-  background: #265fd9;
+  transform: translate3d(54vw, 52vh, 3px);
+  background: #264dd9;
 }
 
 .sectionCamaraderie {
   width: 100vw;
+  position: relative;
 }
 
 .sectionCamaraderie .GroupeMotCamaraderie {
@@ -1807,6 +1808,7 @@ textarea {
 
 .language_logiciel {
   margin-top: 6%;
+  position: relative;
 }
 
 @media (max-width: 430px) {
@@ -1836,10 +1838,17 @@ textarea {
 @media (max-width: 430px) {
   .bulle_logiciel {
     order: 1;
-    width: 170px;
-    height: 170px;
+    width: 130px;
+    height: 130px;
     margin-top: 1vh;
     margin-bottom: 1vh;
+  }
+}
+
+@media (min-width: 430px) and (max-width: 1150px) {
+  .bulle_logiciel {
+    width: 150px;
+    height: 150px;
   }
 }
 
@@ -1853,6 +1862,12 @@ textarea {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+}
+
+@media (max-width: 430px) {
+  .bulle_logiciel .wp-block-group__inner-container figure {
+    width: 13vw;
+  }
 }
 
 .bulle_logiciel .wp-block-group__inner-container .sous_logi .wp-block-group__inner-container {
@@ -1872,6 +1887,10 @@ textarea {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+
+.blocLogiciel1 .wp-block-group__inner-container h2 {
+  text-align: center;
 }
 
 @media (max-width: 430px) {
@@ -2158,8 +2177,8 @@ textarea {
 }
 
 .groupeFutur {
-  background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
-  background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+  position: relative;
+  background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2358,6 +2377,12 @@ textarea {
 
 /* Cours
 --------------------------------------------- */
+@media (max-width: 430px) {
+  .contenuCoursIntro {
+    margin-top: 6vh;
+  }
+}
+
 .contenuCoursIntro .groupeImagesCours {
   width: 100vw;
 }
@@ -2415,34 +2440,44 @@ textarea {
   z-index: 10;
   width: 100vw;
   position: fixed;
-  bottom: 5%;
+  bottom: 2.5%;
 }
 
 .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container {
   display: flex;
   width: 100%;
+  justify-content: space-around;
 }
 
 .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group {
   z-index: 2;
-  width: 100%;
+  width: 12vw;
   margin: 0 4%;
   border-radius: 70% 46% 52% 68% / 60% 58% 42% 40%;
 }
 
+@media (min-width: 430px) and (max-width: 1150px) {
+  .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group {
+    width: 10vw;
+  }
+}
+
 .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group p {
-  margin: 3vh auto;
+  font-size: clamp(1rem, 1vw, 1.2rem);
+  margin: 2vh auto;
 }
 
 @media (min-width: 430px) and (max-width: 1150px) {
   .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group p {
-    margin: 6vh auto;
+    margin: 4vh auto;
+    font-size: clamp(1rem, 1vw, 1.2rem);
   }
 }
 
 @media (min-width: 1150px) {
   .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group p {
-    margin: 10vh auto;
+    margin: 6vh auto;
+    font-size: clamp(1.8rem, 2.5vw, 1.85rem);
   }
 }
 
@@ -2465,14 +2500,36 @@ textarea {
 }
 
 .session1 .wp-block-group__inner-container .tirteSession1 {
-  width: 20%;
+  width: 28%;
+}
+
+@media (min-width: 430px) and (max-width: 1150px) {
+  .session1 .wp-block-group__inner-container .tirteSession1 {
+    width: 30%;
+  }
 }
 
 .session1 .wp-block-group__inner-container .tirteSession1 .wp-block-group__inner-container p {
+  font-size: clamp(0.7rem, 1vw, 1rem);
   text-align: center;
-  padding: 12px 0;
-  width: 100%;
+  padding: 12px 5px;
+  width: 30vw;
   border-radius: 17px;
+  word-break: normal;
+}
+
+@media (min-width: 430px) and (max-width: 1150px) {
+  .session1 .wp-block-group__inner-container .tirteSession1 .wp-block-group__inner-container p {
+    font-size: clamp(1rem, 2.5vw, 1.2rem);
+    width: 20vw;
+  }
+}
+
+@media (min-width: 1150px) {
+  .session1 .wp-block-group__inner-container .tirteSession1 .wp-block-group__inner-container p {
+    font-size: clamp(1.1rem, 2.5vw, 1.25rem);
+    width: 10vw;
+  }
 }
 
 .session1 .wp-block-group__inner-container .coursSession {
@@ -2480,9 +2537,24 @@ textarea {
   border-radius: 70% 52% 62% 100% / 50% 58% 65% 100%;
 }
 
+@media (min-width: 430px) and (max-width: 1150px) {
+  .session1 .wp-block-group__inner-container .coursSession {
+    width: 100%;
+  }
+}
+
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container {
   display: flex;
   flex-direction: column;
+}
+
+.session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .courSelectioner {
+  transition: all .3s;
+  background-color: rgba(137, 204, 255, 0.31);
+}
+
+.session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .courDeselectioner {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours {
@@ -2498,14 +2570,9 @@ textarea {
   flex-wrap: nowrap;
 }
 
-.session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours .wp-block-group__inner-container .divTexteCours {
-  width: 100%;
-  background-color: red !important;
-}
-
-.session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours .wp-block-group__inner-container .divTexteCours input[type="checkbox"]:checked {
-  border: 20px solid black;
-  background-color: rebeccapurple;
+.session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours .wp-block-group__inner-container p {
+  padding-left: 10px;
+  width: 90%;
 }
 
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours figure {
@@ -2513,6 +2580,7 @@ textarea {
   flex-direction: column;
   justify-content: center;
   margin: 0%;
+  width: 10%;
 }
 
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .descriptionCours {
@@ -2590,19 +2658,29 @@ textarea {
 }
 
 .sectionConcours .wp-block-group__inner-container .imgConcours .wp-block-group__inner-container {
-  margin-right: 10%;
+  margin-right: 7%;
 }
 
 .sectionConcours .wp-block-group__inner-container .imgConcours .wp-block-group__inner-container figure {
   width: 100%;
-  scale: 1.3;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  scale: 1.1;
 }
 
 .sectionConcours .wp-block-group__inner-container .imgConcours .wp-block-group__inner-container figure img {
-  mask-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/11/bubble.png);
-  mask-size: 100%;
-  mask-repeat: no-repeat;
-  width: 100%;
+  border-radius: 80% 50% 40% 70% / 60% 50% 48% 65%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+@media (max-width: 430px) {
+  .sectionIntroCommunaute {
+    margin-top: 6vh;
+  }
 }
 
 .sectionIntroCommunaute .wp-block-group__inner-container {
@@ -2636,7 +2714,7 @@ textarea {
 
 @media (max-width: 430px) {
   .sectionIntroCommunaute .wp-block-group__inner-container .texteEtImage .ImageCommunaute {
-    width: 12rem;
+    width: 120px;
   }
 }
 
@@ -2728,7 +2806,7 @@ textarea {
 .sectionConcours .wp-block-group__inner-container .GroupeConcours {
   width: 50%;
   flex-direction: row;
-  margin-left: 2%;
+  margin: 0 2%;
 }
 
 .sectionConcours .wp-block-group__inner-container .GroupeConcours .wp-block-group__inner-container {
@@ -2752,19 +2830,23 @@ textarea {
 }
 
 .sectionConcours .wp-block-group__inner-container .imgVieEtudiante .wp-block-group__inner-container {
-  margin-right: 10%;
+  margin-right: 7%;
 }
 
 .sectionConcours .wp-block-group__inner-container .imgVieEtudiante .wp-block-group__inner-container figure {
   width: 100%;
-  scale: 1.3;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  scale: 1.1;
 }
 
 .sectionConcours .wp-block-group__inner-container .imgVieEtudiante .wp-block-group__inner-container figure img {
-  mask-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/11/bubble-d.png);
-  mask-size: 100%;
-  mask-repeat: no-repeat;
-  width: 100%;
+  border-radius: 80% 50% 40% 70% / 60% 50% 48% 65%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .titreProfesseur {
@@ -2903,21 +2985,33 @@ textarea {
 }
 
 .sectionProjetIntro .formeCarre .wp-block-group__inner-container .divProg a img {
+  transition: all 1s;
+  box-shadow: 0px 0px 100px 20px #24ce27;
   border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
-  box-shadow: 0px 0px 7px 4px #26D9DB;
+}
+
+.sectionProjetIntro .formeCarre .wp-block-group__inner-container .divProg a img:hover {
+  box-shadow: 0px 0px 100px 20px #18ff1c;
+  border-radius: 80% 50% 40% 70% / 60% 50% 48% 65%;
 }
 
 .sectionProjetIntro .formeCarre .wp-block-group__inner-container .divCreation a img {
+  transition: all 1s;
   border-radius: 45% 68% 22% 70% / 60% 50% 48% 65%;
-  box-shadow: 0px 0px 7px 4px #26D9DB;
+  box-shadow: 0px 0px 100px 20px #732eda;
 }
 
-.sectionDesCreation .wp-block-group__inner-container .titreProjetCreation {
+.sectionProjetIntro .formeCarre .wp-block-group__inner-container .divCreation a img:hover {
+  box-shadow: 0px 0px 100px 20px #8331ff;
+  border-radius: 80% 70% 40% 70% / 80% 60% 60% 65%;
+}
+
+.sectionProjetsEtudiants .wp-block-group__inner-container .titreProjetEtudiant {
   text-align: center;
   margin-top: 10vh;
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
+.sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
   display: flex;
   justify-content: space-around;
   margin-bottom: 5vh;
@@ -2925,146 +3019,87 @@ textarea {
 }
 
 @media (max-width: 430px) {
-  .sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
+  .sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
     flex-direction: column;
     align-items: center;
   }
 }
 
 @media (min-width: 430px) and (max-width: 1150px) {
-  .sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
+  .sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
     flex-wrap: wrap;
   }
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
+.sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
   width: 22vw;
   height: 20vh;
-  border: 2px solid black;
-  border-radius: 19%;
-  filter: grayscale(100%);
+  border-radius: 19px;
+  filter: grayscale(75%);
   transition: all 1.5s ease-in;
 }
 
 @media (max-width: 430px) {
-  .sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
+  .sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
     width: inherit;
   }
 }
 
 @media (min-width: 430px) and (max-width: 1150px) {
-  .sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
+  .sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
     width: inherit;
   }
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img:hover {
-  transition: all 1.5s ease-out;
-  box-shadow: 0px 0px 27px 7px #000000;
+.sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img:hover {
+  transition: all .4s ease-out;
+  box-shadow: 0px 0px 30px 15px #8c92e429;
   filter: none;
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projetCreation .wp-block-group__inner-container {
+.sectionProjetsEtudiants .wp-block-group__inner-container .projetEtudiants .wp-block-group__inner-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 0 5vw;
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projetCreation .wp-block-group__inner-container .projetNormal img {
-  border: 2px solid black;
-  border-radius: 19%;
-  filter: grayscale(100%);
+.sectionProjetsEtudiants .wp-block-group__inner-container .projetEtudiants .wp-block-group__inner-container .projetNormal {
+  margin: 2vh 2vw;
+}
+
+.sectionProjetsEtudiants .wp-block-group__inner-container .projetEtudiants .wp-block-group__inner-container .projetNormal img {
+  border-radius: 15px;
+  filter: grayscale(85%);
   transition: all 1.5s ease-in;
 }
 
-.sectionDesCreation .wp-block-group__inner-container .projetCreation .wp-block-group__inner-container .projetNormal img:hover {
-  transition: all 1.5s ease-out;
-  box-shadow: 0px 0px 27px 7px #000000;
-  filter: none;
-}
-
-.sectionDesProgs .wp-block-group__inner-container .titreProjetProg {
-  text-align: center;
-  margin-top: 10vh;
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 5vh;
-  margin-top: 10vh;
-}
-
-@media (max-width: 430px) {
-  .sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (min-width: 430px) and (max-width: 1150px) {
-  .sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
-    flex-wrap: wrap;
-  }
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img {
-  width: 22vw;
-  height: 20vh;
-  border: 2px solid black;
-  border-radius: 19%;
-  filter: grayscale(100%);
-  transition: all 1.5s ease-in;
-}
-
-@media (max-width: 430px) {
-  .sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet {
-    width: inherit;
-  }
-}
-
-@media (min-width: 430px) and (max-width: 1150px) {
-  .sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet {
-    width: inherit;
-  }
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container .meilleurProjet img:hover {
-  transition: all 1.5s ease-out;
-  box-shadow: 0px 0px 27px 7px #000000;
-  filter: none;
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projetProg .wp-block-group__inner-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projetProg .wp-block-group__inner-container .projetNormal img {
-  border: 2px solid black;
-  border-radius: 19%;
-  filter: grayscale(100%);
-  transition: all 1.5s ease-in;
-}
-
-.sectionDesProgs .wp-block-group__inner-container .projetProg .wp-block-group__inner-container .projetNormal img:hover {
-  transition: all 1.5s ease-out;
-  box-shadow: 0px 0px 27px 7px #000000;
+.sectionProjetsEtudiants .wp-block-group__inner-container .projetEtudiants .wp-block-group__inner-container .projetNormal img:hover {
+  transition: all .4s ease-out;
+  box-shadow: 0px 0px 30px 15px #8c92e429;
   filter: none;
 }
 
 /* Futur
 --------------------------------------------- */
 .groupeFuturEmplois {
+  margin-top: 5vh;
   width: 100vw;
+  height: 40vw;
   position: relative;
+}
+
+@media (max-width: 430px) {
+  .groupeFuturEmplois {
+    margin-top: 6vh;
+  }
 }
 
 .groupeFuturEmplois .wp-block-group__inner-container {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  height: 100%;
 }
 
 .iconeFuturEmploisPart1 {
@@ -3075,12 +3110,21 @@ textarea {
   margin-right: 4%;
 }
 
+.iconeFuturEmploisPart1, .iconeFuturEmploisPart2 {
+  width: 15%;
+  height: 100%;
+}
+
 .iconeFuturEmploisPart1 .wp-block-group__inner-container, .iconeFuturEmploisPart2 .wp-block-group__inner-container {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 }
 
 .iconeFuturEmploisPart1 .wp-block-group__inner-container .iconeEmploisFutur, .iconeFuturEmploisPart2 .wp-block-group__inner-container .iconeEmploisFutur {
+  width: 100%;
+  height: 100%;
   border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
   transition: all  ease-in .3s;
   margin: 20% 0;
@@ -3091,18 +3135,37 @@ textarea {
   cursor: pointer;
 }
 
+.iconeFuturEmploisPart1 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container, .iconeFuturEmploisPart2 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconeFuturEmploisPart1 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container figure, .iconeFuturEmploisPart2 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container figure {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.iconeFuturEmploisPart1 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container figure img, .iconeFuturEmploisPart2 .wp-block-group__inner-container .iconeEmploisFutur .wp-block-group__inner-container figure img {
+  width: 100%;
+}
+
 .titreEmploisFutur {
   position: absolute;
   z-index: 0;
-  top: 50%;
-  left: 50%;
+  top: 40%;
+  left: 43%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   font-size: clamp(1.2rem, 3vw, 1.5rem);
 }
 
 .EmploisContenu {
   z-index: 1;
-  border-radius: 50px;
+  border-radius: 20px;
   display: none;
+  width: 60%;
 }
 
 .EmploisContenu .wp-block-group__inner-container {
@@ -3243,6 +3306,7 @@ Les variables
 Le bouton buger
 ----------------------------------------------------------------------------------------- */
 #burger {
+  z-index: 10;
   background-color: rgba(255, 255, 255, 0);
   border: none;
   position: relative;
@@ -3460,5 +3524,16 @@ body {
   width: 100vw;
   height: 100vh;
   margin: 0 auto;
+  transition: all ease-in 1.5s;
+}
+
+.lien_page {
+  background-color: #ffb400;
+  width: 13vw;
+  height: 5vh;
+  position: absolute;
+  bottom: 30px;
+  right: 22px;
+  margin: 2%;
 }
 /*# sourceMappingURL=style.css.map */

@@ -183,7 +183,9 @@ function timfilp_scripts() {
 	wp_enqueue_script( 'timfilp-afficherDescProf', get_template_directory_uri() . '/js/afficherDescProf.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'timfilp-afficherDescEmplois', get_template_directory_uri() . '/js/afficherDescEmplois.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'timfilp-afficherDescCours', get_template_directory_uri() . '/js/afficherDescCours.js', array(), _S_VERSION, true );
-	wp_enqueue_script( 'theme4w4-burger', get_template_directory_uri() . '/js/burger.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'timfilp-afficherTypesCours', get_template_directory_uri() . '/js/afficherTypesCours.js', array(), _S_VERSION, true );
+
+	wp_enqueue_script( 'theme4w4-burger', get_template_directory_uri() . '/js/burger.js', array(), _S_VERSION, true ); 
 
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
@@ -230,6 +232,16 @@ function extraireAccueil ($query){
 	}
 }
 add_action('pre_get_posts','extraireAccueil');
+
+function extraireAccueil1 ($query){
+	if(!is_admin() && $query->is_category(3) && $query->is_main_query() ){
+		$query->set('category_name', 'accueil' );
+		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
+		$query->set('meta_key', 'ordre' );
+		$query->set('orderby', array('meta_value' => 'ASC') );
+	}
+}
+add_action('pre_get_posts','extraireAccueil1');
 
 
 function extraireCours($query){

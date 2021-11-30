@@ -1,4 +1,8 @@
 .sectionIntroCommunaute{ // La balise section pour communauté
+
+    @include media-telephone{
+        margin-top: 6vh;
+    }
     .wp-block-group__inner-container{ // groupe section par défaut WP
         display: flex;
         align-items: center;
@@ -24,7 +28,7 @@
                 width: 375px;
 
                 @include media-telephone{
-                    width: 12rem;
+                    width: 120px;
                 }
 
                 @include media-tablette{

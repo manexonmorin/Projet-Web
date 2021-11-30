@@ -1,4 +1,8 @@
 .contenuCoursIntro{
+
+    @include media-telephone{
+        margin-top: 6vh;
+    }
     .groupeImagesCours{
         width: 100vw;
         .wp-block-group__inner-container{
@@ -50,23 +54,30 @@
         z-index: 10;
         width: 100vw;
         position: fixed;
-        bottom: 5%;
+        bottom: 2.5%;
         .wp-block-group__inner-container{
             display: flex;
             width: 100%;
+            justify-content: space-around;
             // chaque bulles individuelles
             .wp-block-group{
                 z-index: 2;
-                width: 100%;
+                width:12vw;
                 margin: 0 4%;
                 border-radius: 70% 46% 52% 68% / 60% 58% 42% 40%;
+                @include media-tablette{
+                    width:10vw;
+                }
                 p{
-                    margin: 3vh auto;         
+                    font-size:clamp(1rem, 1vw , 1.2rem);
+                    margin: 2vh auto;  
                     @include media-tablette{
-                        margin: 6vh auto;
+                        margin: 4vh auto;
+                        font-size:clamp(1rem, 1vw , 1.2rem);
                     }
                     @include media-desktop{
-                        margin: 10vh auto;
+                        margin: 6vh auto;
+                        font-size:clamp(1.8rem, 2.5vw , 1.85rem);
                     }
                 }
             }

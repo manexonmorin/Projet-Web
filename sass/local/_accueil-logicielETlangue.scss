@@ -5,7 +5,8 @@
 // section
 .language_logiciel{
     margin-top: 6%;
-
+    position: relative;
+    
     @include media-telephone{
         margin-top: 25vh;
     }
@@ -32,11 +33,15 @@
 
     @include media-telephone{
         order: 1;
-        width: 170px;
-        height: 170px;
-
+        width: 130px;
+        height: 130px;
         margin-top: 1vh;
         margin-bottom: 1vh;
+    }
+
+    @include media-tablette{
+        width: 150px;
+        height: 150px;
     }
     .wp-block-group__inner-container{
         // position: absolute;
@@ -50,6 +55,10 @@
             justify-content: center;
             align-items: center;
             margin: 0 auto;
+
+            @include media-telephone{
+                width: 13vw;
+            }
         }
 
         .sous_logi{
@@ -76,6 +85,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        h2{
+            text-align: center;
+        }
 
         @include media-telephone{
             flex-direction: column;

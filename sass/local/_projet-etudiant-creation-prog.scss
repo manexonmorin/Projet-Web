@@ -1,0 +1,79 @@
+// test pour voir si les fichier gutenberg apparait dans le github
+
+.sectionProjetsEtudiants{ // Section qui englobe la page création
+    .wp-block-group__inner-container{ // division par défaut de WP
+
+        .titreProjetEtudiant{
+            text-align: center;
+            margin-top: 10vh;
+        }
+
+        .projet_vedette{ // section qui montre les 3 meilleurs projet. ---> les 3 rectangles
+            .wp-block-group__inner-container{ // division par défaut de WP
+                display: flex;
+                justify-content: space-around;
+                margin-bottom: 5vh;
+                margin-top: 10vh;
+
+                @include media-telephone{
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                @include media-tablette{
+                    flex-wrap: wrap;
+                }
+
+                .meilleurProjet{
+                    img{
+                        width: 22vw;
+                        height: 20vh;
+                        border-radius: 19px;
+                        -webkit-filter: grayscale(100%);
+                        filter: grayscale(75%);
+                        transition: all 1.5s ease-in;
+
+                        @include media-telephone{
+                            width: inherit;
+                        }
+
+                        @include media-tablette{
+                            width: inherit;
+                        }
+                    }
+
+                    img:hover{
+                        transition: all .4s ease-out;
+                        box-shadow: 0px 0px 30px 15px #8c92e429;
+                        -webkit-filter: none;
+                        filter: none;
+                    }
+                }
+            }
+        }
+
+        .projetEtudiants{
+            .wp-block-group__inner-container{ // division par défaut de WP
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
+                margin: 0 5vw;
+
+                .projetNormal{ // les projets normaux qui ne sont pas vrmt wow
+                    margin: 2vh 2vw;
+                    img{
+                        border-radius: 15px;
+                        filter: grayscale(85%);
+                        transition: all 1.5s ease-in;
+                    }
+
+                    img:hover{
+                        transition: all .4s ease-out;
+                        box-shadow: 0px 0px 30px 15px #8c92e429;
+                        filter: none;
+                    }
+                }
+            }
+        } 
+    }
+}
