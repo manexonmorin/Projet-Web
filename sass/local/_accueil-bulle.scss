@@ -25,6 +25,9 @@ margin-top: 11vh;
     }
     // premiere bulle
     .bulleIntera1{
+        animation: wave 5s linear ease-in-out infinite;
+        animation-delay: 2.5s;
+
         // Le texte de la première bulle.
         h2{
         font-weight: 400;
@@ -60,6 +63,7 @@ margin-top: 11vh;
     height: 150px;
     border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
     animation: wave 5s linear infinite alternate;
+    animation-delay: 5s;
 
     @include media-tablette{
         height: 250px;
@@ -78,6 +82,8 @@ margin-top: 11vh;
     margin: 0 auto;
     width: 254px;
     height: 150px;
+    animation: wave 5s linear infinite alternate;
+    animation-delay: 7.5s;
 
     @include media-telephone{
         display: none;
