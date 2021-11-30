@@ -54,7 +54,7 @@
         z-index: 10;
         width: 100vw;
         position: fixed;
-        bottom: 5%;
+        bottom: 2.5%;
         .wp-block-group__inner-container{
             display: flex;
             width: 100%;
@@ -70,13 +70,14 @@
                 }
                 p{
                     font-size:clamp(1rem, 1vw , 1.2rem);
-                    margin: 2vh auto;         
+                    margin: 2vh auto;  
                     @include media-tablette{
                         margin: 4vh auto;
-                        font-size:clamp(1.5rem, 2.5vw , 1.75rem);
+                        font-size:clamp(1rem, 1vw , 1.2rem);
                     }
                     @include media-desktop{
                         margin: 6vh auto;
+                        font-size:clamp(1.8rem, 2.5vw , 1.85rem);
                     }
                 }
             }
