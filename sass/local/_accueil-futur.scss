@@ -8,8 +8,8 @@
         display: none;
     }
 
-    // background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
-    background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    // background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     //background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,6 +52,11 @@
                     justify-content: space-between;
                     .wp-block-group:nth-child(1){
                         padding-left: 12vw; // mot "stages"
+
+                        a:hover{
+                            font-weight: bold;
+                        }
+
                         p:hover{
                             cursor: pointer;
                             text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
@@ -65,6 +70,11 @@
                         }
                     }
                     .wp-block-group:nth-child(2){ // mot "marche travail"
+
+                        a:hover{
+                            font-weight: bold;
+                        }
+
                         p:hover{
                             cursor: pointer;
                             text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
@@ -79,6 +89,11 @@
                     }
                     .wp-block-group:nth-child(3){
                         padding-right: 12vw;// mot "etudes"
+
+                        a:hover{
+                            font-weight: bold;
+                        }
+                        
                         p:hover{
                             cursor: pointer;
                             text-shadow: 0 0 15px rgba(255, 160, 108, 0.536);
@@ -114,7 +129,7 @@
                             position: absolute;
                             width:  250px;
                             top: -35vh;
-                            margin-left: -22%;
+                            margin-left: -6%;
                             border-radius: 10px;
                             padding: 10px;
                             text-align: center;

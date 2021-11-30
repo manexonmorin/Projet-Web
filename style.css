@@ -1025,6 +1025,7 @@ textarea {
   height: 150px;
   border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
   animation: wave 5s linear infinite alternate;
+  animation-delay: 5s;
 }
 
 @media (min-width: 430px) and (max-width: 1150px) {
@@ -1043,6 +1044,8 @@ textarea {
   margin: 0 auto;
   width: 254px;
   height: 150px;
+  animation: wave 5s linear infinite alternate;
+  animation-delay: 7.5s;
 }
 
 @media (max-width: 430px) {
@@ -1625,21 +1628,25 @@ textarea {
 .sectionCamaraderie .GroupeMotCamaraderie .wp-block-group__inner-container .sousMotsCamaraderie .wp-block-group__inner-container h2:nth-child(1) {
   top: -0vw;
   left: -40vw;
+  animation-delay: 1.5s;
 }
 
 .sectionCamaraderie .GroupeMotCamaraderie .wp-block-group__inner-container .sousMotsCamaraderie .wp-block-group__inner-container h2:nth-child(2) {
   top: 20vw;
   left: -50vw;
+  animation-delay: 3s;
 }
 
 .sectionCamaraderie .GroupeMotCamaraderie .wp-block-group__inner-container .sousMotsCamaraderie .wp-block-group__inner-container h2:nth-child(3) {
   top: 10vw;
   right: -30vw;
+  animation-delay: 4.5s;
 }
 
 .sectionCamaraderie .GroupeMotCamaraderie .wp-block-group__inner-container .sousMotsCamaraderie .wp-block-group__inner-container h2:nth-child(4) {
   bottom: -25vw;
   right: -26vw;
+  animation-delay: 6s;
 }
 
 .sectionCamaraderie .wp-block-image {
@@ -1917,6 +1924,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   margin: 4%;
+  animation: wave 5s linear ease-in-out infinite;
+  animation-delay: 2.5s;
 }
 
 @media (max-width: 430px) {
@@ -1974,6 +1983,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 11%;
+  animation: wave 5s linear ease-in-out infinite;
+  animation-delay: 5s;
 }
 
 @media (max-width: 430px) {
@@ -2022,6 +2033,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   margin: 3%;
+  animation: wave 5s linear alternate-reverse infinite;
+  animation-delay: 2.5s;
 }
 
 @media (max-width: 430px) {
@@ -2089,6 +2102,8 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   margin: 3%;
+  animation: wave 5s linear alternate-reverse infinite;
+  animation-delay: 5s;
 }
 
 @media (max-width: 430px) {
@@ -2125,6 +2140,7 @@ textarea {
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 11%;
+  animation: wave 5s linear alternate infinite;
 }
 
 @media (max-width: 430px) {
@@ -2178,7 +2194,7 @@ textarea {
 
 .groupeFutur {
   position: relative;
-  background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+  background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2325,7 +2341,7 @@ textarea {
   position: absolute;
   width: 250px;
   top: -35vh;
-  margin-left: -22%;
+  margin-left: -6%;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
@@ -3500,6 +3516,10 @@ La barre du millieu
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+}
+
 .entry-header {
   display: none;
 }
@@ -3558,7 +3578,6 @@ body {
   background-color: #ffb400;
   width: 13vw;
   height: 5vh;
-  position: absolute;
   bottom: 30px;
   right: 22px;
   margin: 2%;

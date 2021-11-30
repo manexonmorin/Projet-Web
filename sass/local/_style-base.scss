@@ -45,6 +45,10 @@
 
 }
 
+a{
+    text-decoration: none;
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************** lA PARTIE HEADER DU SITE **************************************** \\
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -55,8 +59,6 @@
 .entry-footer{
     display: none;
 }
-
-
 
 .menu-image{
     transition: all ease-in 1.5s;
@@ -108,8 +110,9 @@ body{
     background-color: #ffb400;
     width: 13vw;
     height: 5vh;
-    position: absolute;
+    // position: absolute;
     bottom: 30px;
     right: 22px;
     margin: 2%;
+    text-decoration: none;
 }
