@@ -5,7 +5,8 @@
 // section
 .language_logiciel{
     margin-top: 6%;
-
+    position: relative;
+    
     @include media-telephone{
         margin-top: 25vh;
     }
@@ -84,6 +85,10 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+
+        h2{
+            text-align: center;
+        }
 
         @include media-telephone{
             flex-direction: column;
