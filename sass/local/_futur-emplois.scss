@@ -75,26 +75,37 @@
     width: 60%;
     .wp-block-group__inner-container{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         // cible chaque groupe de prof individuel
         .wp-block-group__inner-container{
             display: flex;
-            flex-direction: row;
             width: 100%;
             // image du prof
             figure{
-                width: 20%;
+                display: flex;
+                align-items: center;
+                margin: 0 3%;
+                width: 55%;
                 img{
-                    border-radius: 100px;
+                    border-radius: 20px;
                     width: 100%;
                 }
             }
-            // citation prof
-            p{
-                overflow-wrap: break-word;
-                border-radius: 100px;
-                margin: 2% 2%;
-                width: 70%;
+            // groupe des textes 
+            .wp-block-group{
+                width: 45%;
+                .wp-block-group__inner-container{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    // texte indiv
+                    p{
+                        width: 100%;
+                        overflow-wrap: break-word;
+                        padding: 0% 2%;
+                        margin:10px 0;
+                    }
+                }
             }
         }
     }
