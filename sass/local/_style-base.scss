@@ -100,4 +100,16 @@ body{
     width: 100vw;
     height: 100vh;
     margin: 0 auto;
+    transition: all ease-in 1.5s;
+}
+
+/// lA PARTIE LIEN NAVIGATIONNEL VERS LES AUTRES DU SITE \\\
+.lien_page{
+    background-color: #ffb400;
+    width: 13vw;
+    height: 5vh;
+    position: absolute;
+    bottom: 30px;
+    right: 22px;
+    margin: 2%;
 }

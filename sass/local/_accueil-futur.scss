@@ -1,5 +1,5 @@
 .groupeFutur{
-
+    position: relative;
     @include media-telephone{
         display: none;
     }
@@ -8,7 +8,8 @@
         display: none;
     }
 
-    background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    // background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+    background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     //background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
