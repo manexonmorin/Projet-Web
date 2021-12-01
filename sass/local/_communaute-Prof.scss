@@ -1,0 +1,73 @@
+// titre "Professeur"
+.titreProfesseur{
+margin-left: 5vw;
+}
+
+.groupeEntierOngletEtProf{
+    .wp-block-group__inner-container{
+        display: flex;
+        .wp-block-group__inner-container{
+            display: block;
+        }
+        // onglet mauve selectionner categorie cours
+        .groupeTypesProfs{
+            border-radius: 70% 46% 42% 58% / 60% 58% 42% 40%;
+            width: 30%;
+            height: 60vh;
+            .wp-block-group__inner-container{
+                width: 100%;
+                h2{
+                    border-radius: 0 100px 100px 0;
+                    padding: 15px 0;
+                    text-align: center;
+                    &:hover{
+                        transition: all ease-out .2s;
+                        cursor: pointer;
+                        background-color: #7A28ED !important;
+                    }
+                }
+            }
+        }
+
+        .ProfWeb,.ProfJeux,.Prof3D,.ProfVideo,.ProfDesign{
+            display: none;
+            width: 70%;
+            box-shadow: 0 0 25px rgba(174, 146, 110, 0.296);
+            border-radius: 15px;
+            margin: 0 4vw;
+            .wp-block-group__inner-container{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .wp-block-group{
+                // cible chaque groupe de prof individuel
+                    .wp-block-group__inner-container{
+                        display: flex;
+                        flex-direction: row;
+                        width: 100%;
+                        // image du prof
+                        figure{
+                            width: 30%;
+                            img{
+                                border-radius: 10px;
+                                //width: 100%;
+                            }
+                        }
+                        // citation prof
+                        p{
+                            margin: 2% 4%;
+                            border-radius: 10px;
+                            width: 70%;
+                            word-wrap: break-word;
+                            
+                        }
+                    }
+                }
+            }
+        }
+        // affiche la case des prof (fonction JS)
+        .descProfVisible{
+            display: flex;
+        }
+    }
+}
