@@ -25,8 +25,17 @@ margin-top: 11vh;
     }
     // premiere bulle
     .bulleIntera1{
-        animation: wave 5s linear ease-in-out infinite;
-        animation-delay: 2.5s;
+        animation: waveBulle1 5s linear alternate infinite;
+    
+        @include media-tablette{
+            height: 250px;
+        }
+
+        .wp-block-group__inner-container{
+            flex-wrap: nowrap;
+            text-align: center;
+            flex-direction: column;
+        }
 
         // Le texte de la première bulle.
         h2{
@@ -35,6 +44,7 @@ margin-top: 11vh;
         text-align: center;
         }
     }
+
     // 2e bulle
     .bulleIntera2{
         margin-top: 20vh;
@@ -50,7 +60,6 @@ margin-top: 11vh;
                 mix-blend-mode: lighten;
                 border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
                 animation: wave 5s linear infinite alternate;
-                animation-delay: 5s;
                 height: 100%;
             }
         }
@@ -74,7 +83,6 @@ margin-top: 11vh;
     height: 150px;
     border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
     animation: wave 5s linear infinite alternate;
-    animation-delay: 5s;
 
     @include media-tablette{
         height: 250px;
@@ -83,25 +91,6 @@ margin-top: 11vh;
         flex-wrap: nowrap;
         text-align: center;
         flex-direction: column;
-    }
-}
-
-
-// *************************************************** Troisième bulle à effet flottant **************************************** \\
-// Troisième bulle à effet flottant mais avec une position plus vers la droite qui contient une photo du tim
-.bulleIntera3{
-    margin: 0 auto;
-    width: 254px;
-    height: 150px;
-    animation: wave 5s linear infinite alternate;
-    animation-delay: 7.5s;
-
-    @include media-telephone{
-        display: none;
-    }
-
-    @include media-tablette{
-        display: none;
     }
 }
 
@@ -121,6 +110,65 @@ margin-top: 11vh;
 
     80%{
         border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+    }
+}
+
+// Les animation de la deuxième bulle par keyframes
+@keyframes waveBulle1{
+    20%{
+        
+        border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+    }
+
+    40%{
+        border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+        
+    }
+
+    60%{
+        border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+    }
+
+    80%{
+        border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+    }
+}
+
+@keyframes waveBulle2{
+    20%{
+        border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+        
+    }
+
+    40%{
+        border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+        
+    }
+
+    60%{
+        
+        border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+    }
+
+    80%{
+        border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+    }
+}
+
+// *************************************************** Troisième bulle à effet flottant **************************************** \\
+// Troisième bulle à effet flottant mais avec une position plus vers la droite qui contient une photo du tim
+.bulleIntera3{
+    margin: 0 auto;
+    width: 254px;
+    height: 150px;
+    animation: waveBulle2 5s linear infinite alternate;
+
+    @include media-telephone{
+        display: none;
+    }
+
+    @include media-tablette{
+        display: none;
     }
 }
 
