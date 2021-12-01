@@ -38,7 +38,22 @@ margin-top: 11vh;
     // 2e bulle
     .bulleIntera2{
         margin-top: 20vh;
-
+        position: relative;
+        figure{
+            &::after{
+                content: "all";
+                background: linear-gradient(90deg, rgba(178,56,200,1) 0%, rgba(214,92,212,1) 35%, rgba(58,6,166,1) 61%, rgba(0,212,255,1) 100%); 
+                position: absolute;
+                width: 40vw;
+                left: 0;
+                top: 0;
+                mix-blend-mode: lighten;
+                border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
+                animation: wave 5s linear infinite alternate;
+                animation-delay: 5s;
+                height: 100%;
+            }
+        }
         @include media-telephone{
             margin-top: 35vh;
             margin-bottom: 3vh;
@@ -46,10 +61,6 @@ margin-top: 11vh;
 
         @include media-tablette{
             margin-top: 10vh;
-        }
-        // texte 2e bulle
-        .titreBulle2{
-            font-weight: bolder;
         }
     }
 }
