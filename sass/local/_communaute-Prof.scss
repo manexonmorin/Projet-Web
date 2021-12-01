@@ -13,6 +13,7 @@ margin-left: 5vw;
         .groupeTypesProfs{
             border-radius: 70% 46% 42% 58% / 60% 58% 42% 40%;
             width: 30%;
+            height: 60vh;
             .wp-block-group__inner-container{
                 width: 100%;
                 h2{
@@ -43,15 +44,12 @@ margin-left: 5vw;
                     .wp-block-group__inner-container{
                         display: flex;
                         flex-direction: row;
-                        align-items: center;
                         width: 100%;
                         // image du prof
                         figure{
                             width: 30%;
-                            margin-left: 1vw;
                             img{
                                 border-radius: 10px;
-                                margin-top: 10vh;
                                 //width: 100%;
                             }
                         }

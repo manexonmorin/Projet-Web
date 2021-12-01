@@ -26,6 +26,11 @@
                     width: 200px;
                     text-align: center;
                     p{
+                        // border-top: 2px solid white;
+                        padding-bottom: 15px;
+                        &:not(:last-child){
+                            border-bottom: 2px solid white;
+                        }
                         a{
                             color: white;
                             text-decoration: none;

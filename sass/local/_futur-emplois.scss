@@ -97,9 +97,12 @@
                 .wp-block-group__inner-container{
                     display: flex;
                     flex-direction: column;
-                    justify-content: flex-start;
+                    justify-content: space-around;
+                    padding: 10% 0;
                     // texte indiv
                     p{
+                        display: flex;
+                        justify-content: space-around;
                         width: 100%;
                         overflow-wrap: break-word;
                         padding: 0% 2%;
