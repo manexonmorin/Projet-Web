@@ -11,7 +11,6 @@
 	let contenuEmploisVideo = document.querySelector(".emploisVideo");
 	let contenuEmploisCode = document.querySelector(".emploisCode");
 
-
 	for(let i=0; i<boutonEmplois.length; i++){
 		boutonEmplois[i].addEventListener('mousedown', function(){
 

@@ -115,7 +115,6 @@
 			if(BoutonTypeCours[i].classList.contains('typeVideo')){
 				// ajoute un style qui les highlight des autre cours
 				// verifie si contient deja la classe qui rend visible
-				console.log("ioci")
 				for(let i=0; i<courVideo.length; i++){
 					if(courVideo[i].classList.contains('courSelectioner')== false){
 						courVideo[i].classList.remove('courDeselectioner');
@@ -145,7 +144,6 @@
 			if(BoutonTypeCours[i].classList.contains('type3D')){
 				// ajoute un style qui les highlight des autre cours
 				// verifie si contient deja la classe qui rend visible
-				console.log("oic")
 				for(let i=0; i<cour3D.length; i++){
 					if(cour3D[i].classList.contains('courSelectioner')== false){
 						cour3D[i].classList.remove('courDeselectioner');
