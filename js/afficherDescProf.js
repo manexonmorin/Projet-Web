@@ -1,6 +1,5 @@
 // affiche le groupe de profs lié à l'onglet cliqué
 (function(){
-
     let bouton = document.querySelectorAll(".ongletProf");
 	
     let ProfWeb = document.querySelector(".ProfWeb");
@@ -11,8 +10,8 @@
 
 	let groupeTypesProfs = document.querySelectorAll(".profContenu");
 
-
 	for(let i=0; i<bouton.length; i++){
+
 		bouton[i].addEventListener('mousedown', function(){
 		// si appuie sur bouton "Web"
 			if(bouton[i].classList.contains('titreWeb')){
