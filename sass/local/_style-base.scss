@@ -69,6 +69,10 @@ a{
     @include media-tablette{
         height: 36px;
         transition: all ease-in 1.5s;
+
+        @include logo-tim{
+            display: none;
+        }
     }
 }
 
