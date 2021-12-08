@@ -224,7 +224,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 function extraireAccueil ($query){
-	if($query->is_front_page() && $query->is_main_query() ){
+	if(is_front_page() && $query->is_main_query() ){
 		$query->set('category_name', 'accueil' );
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
@@ -234,7 +234,7 @@ function extraireAccueil ($query){
 add_action('pre_get_posts','extraireAccueil');
 
 function extraireAccueil1 ($query){
-	if($query->is_category(3) && $query->is_main_query() ){
+	if(is_category(3) && $query->is_main_query() ){
 		$query->set('category_name', 'accueil' );
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
