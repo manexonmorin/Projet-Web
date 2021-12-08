@@ -1,211 +1,211 @@
 .GroupeBulle{
-margin-top: 11vh;
-    width: 100vw;
-
-    @include media-tablette{
-        margin-top: 13vh;
-    }
-
-    // Balise parent des bulles à effet flottant
-    .lesbulles{
-        display: flex;
-        flex-direction: row;
-        display: block;
-        position: relative;
-    }
-}
-
-.groupe2premiereBulles{
-    width: 100vw;
-    .wp-block-group__inner-container{
+    margin-top: 11vh;
         width: 100vw;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+    
+        @include media-tablette{
+            margin-top: 13vh;
+        }
+    
+        // Balise parent des bulles à effet flottant
+        .lesbulles{
+            display: flex;
+            flex-direction: row;
+            display: block;
+            position: relative;
+        }
     }
-    // premiere bulle
-    .bulleIntera1{
-        animation: waveBulle1 5s linear alternate infinite;
+    
+    .groupe2premiereBulles{
+        width: 100vw;
+        .wp-block-group__inner-container{
+            width: 100vw;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        // premiere bulle
+        .bulleIntera1{
+            animation: waveBulle1 5s linear alternate infinite;
+        
+            @include media-tablette{
+                height: 250px;
+            }
+    
+            .wp-block-group__inner-container{
+                flex-wrap: nowrap;
+                text-align: center;
+                flex-direction: column;
+            }
+    
+            // Le texte de la première bulle.
+            h2{
+            font-weight: 400;
+            margin: 0 auto;
+            text-align: center;
+            }
+        }
+    
+        // 2e bulle
+        .bulleIntera2{
+            margin-top: 20vh;
+            position: relative;
+            overflow: hidden;
+            figure{
+                &::after{
+                    content: " ";
+                    background: linear-gradient(90deg, rgba(178,56,200,1) 0%, rgba(214,92,212,1) 35%, rgba(58,6,166,1) 61%, rgba(0,212,255,1) 100%); 
+                    position: absolute;
+                    width: 40vw;
+                    left: 0;
+                    top: 0;
+                    mix-blend-mode: lighten;
+                    border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
+                    animation: wave 5s linear infinite alternate;
+                    height: 100%;
+                }
+                img{
+                    width: 80%;
+                }
+            }
+            @include media-telephone{
+                margin-top: 35vh;
+                margin-bottom: 3vh;
+            }
+    
+            @include media-tablette{
+                margin-top: 10vh;
+            }
+        }
+    }
+    
+    // classe qui cible toutes les bulles
+    .bulleIntera{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40vw;
+        height: 150px;
+        border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
+        animation: wave 5s linear infinite alternate;
     
         @include media-tablette{
             height: 250px;
         }
-
         .wp-block-group__inner-container{
             flex-wrap: nowrap;
             text-align: center;
             flex-direction: column;
         }
-
-        // Le texte de la première bulle.
-        h2{
-        font-weight: 400;
+    }
+    
+    // Les animation de la première bulle par keyframes
+    @keyframes wave{
+        20%{
+            border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+        }
+    
+        40%{
+            border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+        }
+    
+        60%{
+            border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+        }
+    
+        80%{
+            border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+        }
+    }
+    
+    // Les animation de la deuxième bulle par keyframes
+    @keyframes waveBulle1{
+        20%{
+            
+            border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+        }
+    
+        40%{
+            border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+            
+        }
+    
+        60%{
+            border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+        }
+    
+        80%{
+            border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+        }
+    }
+    
+    @keyframes waveBulle2{
+        20%{
+            border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
+            
+        }
+    
+        40%{
+            border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
+            
+        }
+    
+        60%{
+            
+            border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+        }
+    
+        80%{
+            border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
+        }
+    }
+    
+    // *************************************************** Troisième bulle à effet flottant **************************************** \\
+    // Troisième bulle à effet flottant mais avec une position plus vers la droite qui contient une photo du tim
+    .bulleIntera3{
         margin: 0 auto;
-        text-align: center;
-        }
-    }
-
-    // 2e bulle
-    .bulleIntera2{
-        margin-top: 20vh;
-        position: relative;
-        overflow: hidden;
-        figure{
-            &::after{
-                content: " ";
-                background: linear-gradient(90deg, rgba(178,56,200,1) 0%, rgba(214,92,212,1) 35%, rgba(58,6,166,1) 61%, rgba(0,212,255,1) 100%); 
-                position: absolute;
-                width: 40vw;
-                left: 0;
-                top: 0;
-                mix-blend-mode: lighten;
-                border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
-                animation: wave 5s linear infinite alternate;
-                height: 100%;
-            }
-            img{
-                width: 80%;
-            }
-        }
+        width: 254px;
+        height: 150px;
+        animation: waveBulle2 5s linear infinite alternate;
+    
         @include media-telephone{
-            margin-top: 35vh;
-            margin-bottom: 3vh;
+            display: none;
         }
-
+    
         @include media-tablette{
-            margin-top: 10vh;
+            display: none;
         }
     }
-}
-
-// classe qui cible toutes les bulles
-.bulleIntera{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40vw;
-    height: 150px;
-    border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
-    animation: wave 5s linear infinite alternate;
-
-    @include media-tablette{
-        height: 250px;
+    
+    // Le parent du div de particules 
+    .particle-container{
+        position: absolute;
+        top: 0;
+        left: 0;
     }
-    .wp-block-group__inner-container{
-        flex-wrap: nowrap;
-        text-align: center;
-        flex-direction: column;
+    
+    // La position et la forme des particules
+    .particle {
+        position: absolute;
+         border-radius: 50%;
     }
-}
-
-// Les animation de la première bulle par keyframes
-@keyframes wave{
-    20%{
-        border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
-    }
-
-    40%{
-        border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
-    }
-
-    60%{
-        border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
-    }
-
-    80%{
-        border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
-    }
-}
-
-// Les animation de la deuxième bulle par keyframes
-@keyframes waveBulle1{
-    20%{
+    
+    // Boucle qui passe à travers toutes les boules et change leur position aléatoirement
+    @for $i from 1 through 30 {
+        @keyframes particle-animation-#{$i} {
+            100% {
+                transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+            }
+        }
         
-        border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
+        // les paramètre des particules comme leur couleurs, tailles, etc.
+        .particle:nth-child(#{$i}){
+            animation: particle-animation-#{$i} 60s infinite;
+            $size: random(5) + 5 + px;
+            opacity: random(100)/100;
+            height: $size;
+            width: $size;
+            animation-delay: -$i * .2s;
+            transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+            background: hsl(random(360), 70%, 50%);
+        }
     }
-
-    40%{
-        border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
-        
-    }
-
-    60%{
-        border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
-    }
-
-    80%{
-        border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
-    }
-}
-
-@keyframes waveBulle2{
-    20%{
-        border-radius: 60% 40% 32% 68% / 38% 36% 64% 62%;
-        
-    }
-
-    40%{
-        border-radius: 45% 55% 62% 38% / 53% 51% 49% 47%;
-        
-    }
-
-    60%{
-        
-        border-radius: 60% 40% 57% 43% / 47% 62% 38% 53%;
-    }
-
-    80%{
-        border-radius: 45% 55% 49% 51% / 36% 51% 49% 64%;
-    }
-}
-
-// *************************************************** Troisième bulle à effet flottant **************************************** \\
-// Troisième bulle à effet flottant mais avec une position plus vers la droite qui contient une photo du tim
-.bulleIntera3{
-    margin: 0 auto;
-    width: 254px;
-    height: 150px;
-    animation: waveBulle2 5s linear infinite alternate;
-
-    @include media-telephone{
-        display: none;
-    }
-
-    @include media-tablette{
-        display: none;
-    }
-}
-
-// Le parent du div de particules 
-.particle-container{
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-// La position et la forme des particules
-.particle {
-	position: absolute;
- 	border-radius: 50%;
-}
-
-// Boucle qui passe à travers toutes les boules et change leur position aléatoirement
-@for $i from 1 through 30 {
-	@keyframes particle-animation-#{$i} {
-		100% {
-			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-		}
-	}
-	
-    // les paramètre des particules comme leur couleurs, tailles, etc.
-	.particle:nth-child(#{$i}){
-		animation: particle-animation-#{$i} 60s infinite;
-		$size: random(5) + 5 + px;
-		opacity: random(100)/100;
-		height: $size;
-		width: $size;
-		animation-delay: -$i * .2s;
-		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-		background: hsl(random(360), 70%, 50%);
-	}
-}

@@ -224,7 +224,7 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 function extraireAccueil ($query){
-	if(!is_admin() && $query->is_front_page() && $query->is_main_query() ){
+	if(is_front_page() && $query->is_main_query() ){
 		$query->set('category_name', 'accueil' );
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
@@ -234,7 +234,7 @@ function extraireAccueil ($query){
 add_action('pre_get_posts','extraireAccueil');
 
 function extraireAccueil1 ($query){
-	if(!is_admin() && $query->is_category(3) && $query->is_main_query() ){
+	if(is_category(3) && $query->is_main_query() ){
 		$query->set('category_name', 'accueil' );
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
@@ -245,7 +245,7 @@ add_action('pre_get_posts','extraireAccueil1');
 
 
 function extraireCours($query){
-	if(!is_admin() && is_category(9) && $query->is_main_query() ){
+	if(is_category(9) && $query->is_main_query() ){
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
 		$query->set('orderby', array('meta_value' => 'ASC') );
@@ -255,7 +255,7 @@ add_action('pre_get_posts','extraireCours');
 
 
 function extraireCommunaute($query){
-	if(!is_admin() && is_category(10) && $query->is_main_query() ){
+	if(is_category(10) && $query->is_main_query() ){
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
 		$query->set('orderby', array('meta_value' => 'ASC') );
@@ -265,7 +265,7 @@ add_action('pre_get_posts','extraireCommunaute');
 
 
 function extraireFutur($query){
-	if(!is_admin() && is_category(6) && $query->is_main_query() ){
+	if(is_category(6) && $query->is_main_query() ){
 		$query->set('post_per_page', -1 ); // -1 indique d'afficher tous les d'article
 		$query->set('meta_key', 'ordre' );
 		$query->set('orderby', array('meta_value' => 'ASC') );

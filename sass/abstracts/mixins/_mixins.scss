@@ -18,6 +18,12 @@
 	}
 }
 
+@mixin logo-tim{
+	@media (min-width: 37.5em){
+		@content;
+	}
+}
+
 @mixin media-tablette{
 	@media (min-width : 430px) and (max-width: 1150px){
 		@content;
