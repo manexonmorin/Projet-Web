@@ -26,7 +26,7 @@
         // premiere bulle
         .bulleIntera1{
             animation: waveBulle1 5s linear alternate infinite;
-        
+            height: 29vh;
             @include media-tablette{
                 height: 250px;
             }
@@ -47,13 +47,17 @@
     
         // 2e bulle
         .bulleIntera2{
+            height: 40vh;
             margin-top: 20vh;
             position: relative;
             overflow: hidden;
+            @include media-tablette{
+                height: 30vh;
+            }
             figure{
                 &::after{
                     content: " ";
-                    background: linear-gradient(90deg, rgba(178,56,200,1) 0%, rgba(214,92,212,1) 35%, rgba(58,6,166,1) 61%, rgba(0,212,255,1) 100%); 
+                    background: linear-gradient(310deg, rgba(70,0,187,1) 0%, rgba(147,0,255,1) 100%); 
                     position: absolute;
                     width: 40vw;
                     left: 0;
@@ -65,6 +69,14 @@
                 }
                 img{
                     width: 80%;
+                    @include media-tablette{
+                        width: 100%;
+                        scale: 1.2;
+                    }
+                    @include media-telephone{
+                        scale: 2.4;
+                        width: 150%;
+                    }
                 }
             }
             @include media-telephone{
@@ -164,7 +176,7 @@
     .bulleIntera3{
         margin: 0 auto;
         width: 254px;
-        height: 150px;
+        height: 130px;
         animation: waveBulle2 5s linear infinite alternate;
     
         @include media-telephone{
