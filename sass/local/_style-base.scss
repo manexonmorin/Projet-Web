@@ -7,6 +7,10 @@
     margin: 0;
 }
 
+#particle-container{
+    z-index: 20;
+}
+
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // ***************************************************** lA PARTIE NAV **************************************** \\
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -22,6 +26,14 @@
         margin-top: -74vh;
     }
 
+    @include logo-Tim{
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -74vh;
+    }
+
     ul{
         display: flex;
         justify-content: space-between;
@@ -29,6 +41,10 @@
 
         @include media-telephone{
             display: block;
+            text-align: center;
+        }
+
+        @include logo-Tim{
             text-align: center;
         }
 
@@ -67,12 +83,8 @@ a{
     align-self: flex-start;
 
     @include media-tablette{
-        height: 36px;
+        height: 25px;
         transition: all ease-in 1.5s;
-
-        @include logo-tim{
-            display: none;
-        }
     }
 }
 

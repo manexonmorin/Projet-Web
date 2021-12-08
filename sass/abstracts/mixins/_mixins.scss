@@ -12,14 +12,15 @@
 
 
 // ------ Media query
-@mixin media-desktop{
-	@media (min-width : 1150px) {
+
+@mixin logo-Tim {
+	@media (max-width: 38.4375em){
 		@content;
 	}
 }
 
-@mixin logo-tim{
-	@media (min-width: 37.5em){
+@mixin media-desktop{
+	@media (min-width : 1150px) {
 		@content;
 	}
 }
