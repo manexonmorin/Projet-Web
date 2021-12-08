@@ -49,9 +49,10 @@ margin-top: 11vh;
     .bulleIntera2{
         margin-top: 20vh;
         position: relative;
+        overflow: hidden;
         figure{
             &::after{
-                content: "all";
+                content: " ";
                 background: linear-gradient(90deg, rgba(178,56,200,1) 0%, rgba(214,92,212,1) 35%, rgba(58,6,166,1) 61%, rgba(0,212,255,1) 100%); 
                 position: absolute;
                 width: 40vw;
@@ -61,6 +62,9 @@ margin-top: 11vh;
                 border-radius: 54% 46% 42% 58% / 60% 58% 42% 40%;
                 animation: wave 5s linear infinite alternate;
                 height: 100%;
+            }
+            img{
+                width: 80%;
             }
         }
         @include media-telephone{

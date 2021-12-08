@@ -1,6 +1,7 @@
 .groupeTemoignage{
     margin-top: 10vh;
     h1{
+        margin-bottom: 5%;
         display: flex;
         justify-content: center;
     }
@@ -15,6 +16,7 @@
             figure{
                 width: 25%;
                 margin: 0 5%;
+                margin-bottom: 20px;
                 border-radius: 100px;
                 img{
                     margin: 0 auto;
