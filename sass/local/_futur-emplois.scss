@@ -62,10 +62,14 @@
     left: 43%;
     display: flex;
     justify-content: center;
-
     margin: 0 auto;
-
     font-size:clamp(1.2rem, 3vw , 1.5rem);
+    @include media-tablette{
+        font-size:clamp(.7rem, 3vw , .9rem);
+    }
+    @include media-telephone{
+        font-size:clamp(.6rem, 3vw , .7rem);
+    }
 }
 
 .EmploisContenu{
