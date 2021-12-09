@@ -144,4 +144,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 @import "local/burger";
 
 
+/* Footer
+--------------------------------------------- */
+@import "local/footer-infosSite";
+@import "local/footer-navFooter";
+@import "local/footer-localisationFooter";
+@import "local/footer-reseauxSociaux";
+
+
 @import "local/style-base"; // style general de la structure WP
