@@ -80,19 +80,21 @@
     .wp-block-group__inner-container{
         display: flex;
         flex-direction: row;
-        // cible chaque groupe de prof individuel
+        // cible chaque categorie de groupe
         .wp-block-group__inner-container{
             display: flex;
             width: 100%;
-            // image du prof
+            // image des catégories
             figure{
                 display: flex;
                 align-items: center;
                 margin: 0 3%;
                 width: 55%;
                 img{
+                    margin: 0 auto;
                     border-radius: 20px;
-                    width: 100%;
+                    width: 75%;
+                    height: 90%;
                 }
             }
             // groupe des textes 
