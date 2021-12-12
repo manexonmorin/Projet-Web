@@ -1,0 +1,140 @@
+footer{
+    background: linear-gradient(175deg, rgba(89,36,161,1) 0%, rgb(23, 11, 65) 100%); 
+    width: 100vw;
+.site-info{
+    display: flex;
+    width: 100%;
+    @include media-telephone{
+        flex-direction: column;
+    }
+    @include media-tablette{
+        flex-direction: column;
+    }
+    // cible tout les H2 et les P
+    h2,p{
+        background-color: rgba(255, 255, 255, 0) !important;
+    }
+
+    // -------- premiere colone
+    .infosSite{
+        width: 35%;
+        @include media-telephone{
+            margin-top: 2vh;
+            width: 100%;
+            display: flex;
+        }
+        @include media-tablette{
+            width: 100%;
+            display: flex;
+        }
+        section{
+            &:first-of-type{
+                @include media-tablette{
+                    width: 80%;
+                }
+                @include media-telephone{
+                    width: 80%;
+                }
+            }
+            &:last-of-type{
+                display: flex;
+                @include media-tablette{
+                    align-items: center;
+                }
+                @include media-telephone{
+                    align-items: center;
+                }
+            }
+        }
+        .wp-block-group{
+            .wp-block-group__inner-container{
+                h2,p{
+                    padding: 5% 10%;
+                    margin: 0;
+                }
+            }
+        }
+        figure{
+            padding: 0% 10% 0 10%;
+        }
+    }
+
+    // -------- 2e colone
+    .NavFooter{
+        // titre "Pages"
+        h2{
+            padding: 0 0;
+            text-align: center;
+        }
+        .widget_categories{
+            @include media-tablette{
+                text-align: center;
+            }
+            @include media-telephone{
+                text-align: center;
+            }
+            ul{
+                @include media-tablette{
+                    margin: 0;
+                    padding: 0;
+                }
+                @include media-telephone{
+                    margin: 0;
+                    padding: 0;
+                }
+                padding-left: 5px;
+                list-style: none;
+                li{
+                    a{
+                        transition: all .2s;
+                        color: white;
+                        &:hover{
+                            color: rgb(230, 210, 243);
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // -------- 3e colone
+    .LocalisationFooter{
+        h2,p {
+            text-align: center;
+            padding: 0 2.375em;
+        }
+    }
+
+    // -------- 4e colone
+    .ReseauxSociaux{
+        width: 25%;
+        display: flex;
+        align-items: center;
+        
+        @include media-tablette{
+            width: 100%;
+            justify-content: center;
+        }
+        @include media-telephone{
+            width: 100%;
+            justify-content: center;
+        }
+        section{
+            .wp-block-group__inner-container{
+                display: flex;
+                align-items: center;
+                figure{
+                    padding: 0 7px;
+                    img{
+                        transition: all .3s;
+                        &:hover{
+                            scale: 1.1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}// fin site-info
+}// fin footer
