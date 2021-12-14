@@ -25,6 +25,8 @@
                 }
 
                 .meilleurProjet{
+                    position: relative;
+                    
                     img{
                         width: 22vw;
                         height: 20vh;
@@ -42,11 +44,30 @@
                         }
                     }
 
-                    img:hover{
-                        transition: all .4s ease-out;
+                    figcaption{
+                        color: rgb(255, 255, 255);
+                        position: absolute;
+                        top: 60px;
+                        left: 34px;
+                        font-weight: bold;
+                        font-size: 1.1em;
+                        opacity: 0;
+                        text-align: center;
+                        transition: all 1.5s ease-in;
+                    }
+                }
+
+                .meilleurProjet:hover{
+                    img{
+                        transition: all 1.5s ease-out;
                         box-shadow: 0px 0px 30px 15px #8c92e429;
                         -webkit-filter: none;
                         filter: none;
+
+                        ~ figcaption{
+                            opacity: 1;
+                            transition: all 1.5s ease-out;
+                        }
                     }
                 }
             }
@@ -60,6 +81,7 @@
                 margin: 0 5vw;
 
                 .projetNormal{ // les projets normaux qui ne sont pas vrmt wow
+                    position: relative;
                     margin: 2vh 2vw;
                     img{
                         border-radius: 15px;
@@ -67,12 +89,39 @@
                         transition: all 1.5s ease-in;
                     }
 
-                    img:hover{
-                        transition: all .4s ease-out;
+                    figcaption{
+                        position: absolute;
+                        color: white;
+                        top: 78px;
+                        left: 10px;
+                        opacity: 0;
+                        font-weight: bold;
+                        font-size: 1.04em;
+                        text-align: center;
+                        transition: all 1.5s ease-in;
+                    }
+
+                    // img:hover{
+                    //     transition: all .4s ease-out;
+                    //     box-shadow: 0px 0px 30px 15px #8c92e429;
+                    //     filter: none;
+                    // }
+                }
+
+                .projetNormal:hover{
+                    img{
+                        transition: all 1.5s ease-out;
                         box-shadow: 0px 0px 30px 15px #8c92e429;
+                        -webkit-filter: none;
                         filter: none;
+
+                        ~ figcaption{
+                            opacity: 1;
+                            transition: all 1.5s ease-out;
+                        }
                     }
                 }
+
             }
         } 
     }
