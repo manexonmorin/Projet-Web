@@ -3,12 +3,16 @@
     h1{
         display: flex;
         justify-content: center;
+        font-family: "nasalization-rg";
     }
     //texte descriptif des universites
     .descUniversite{
         display: flex;
         justify-content: center;
         text-align: center;
+        h3{
+            font-family: "Magistral Regular";
+        }
     }
 
     // photo des universite

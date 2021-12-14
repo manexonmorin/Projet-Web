@@ -13,6 +13,7 @@
             .titreCommunaute{ // classe qui contient le titre "Communauté"
                 font-size: clamp(3.5rem, 50%, 4.75rem);
                 margin-bottom: 0;
+                font-family: "nasalization-rg";
 
                 @include media-telephone{
                     font-size: clamp(2.5rem, 50%, 4.75rem);

@@ -13,16 +13,36 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+
+            @include logo-Tim{
+                flex-wrap: nowrap;
+                flex-direction: column;
+                align-items: center;
+            }
+
             figure{
                 width: 25%;
                 margin: 0 5%;
                 margin-bottom: 20px;
                 border-radius: 100px;
+
+                @include logo-Tim{
+                    width: 50%;
+                    height: 48vh;
+                    overflow-y: scroll;
+                    border-radius: 0px;
+                }
+
                 img{
                     margin: 0 auto;
                     display: flex;
                     justify-content: center;
+
+                    @include logo-Tim{
+                        border-radius: 100px;
+                    }
                 }
+
                 figcaption{
                     color: #FFAF22;
                     text-align: center;

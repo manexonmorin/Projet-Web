@@ -64,6 +64,7 @@
     justify-content: center;
     margin: 0 auto;
     font-size:clamp(1.2rem, 3vw , 1.5rem);
+    font-family: "nasalization-rg";
     @include media-tablette{
         font-size:clamp(.7rem, 3vw , .9rem);
     }
@@ -90,6 +91,19 @@
                 align-items: center;
                 margin: 0 3%;
                 width: 55%;
+
+                @include media-telephone{
+                    display: none;
+                }
+
+                @include logo-Tim{
+                    display: none;
+                }
+
+                @include media-tablette{
+                    display: none;
+                }
+
                 img{
                     margin: 0 auto;
                     border-radius: 20px;
@@ -100,6 +114,15 @@
             // groupe des textes 
             .wp-block-group{
                 width: 45%;
+
+                @include media-telephone{
+                    width: 100%;
+                }
+
+                @include media-tablette{
+                    width: 100%;
+                }
+
                 .wp-block-group__inner-container{
                     display: flex;
                     flex-direction: column;
@@ -114,6 +137,13 @@
                         padding: 0% 2%;
                         margin:10px 0;
                     }
+
+                    @include media-telephone{
+                        p:nth-child(1){
+                            display: none;
+                        }
+                    }
+
                 }
             }
         }

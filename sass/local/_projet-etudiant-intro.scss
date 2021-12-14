@@ -1,5 +1,6 @@
 .sectionProjetIntro{ // la section du projet
     width: 100vw;
+    font-family: "Magistral Regular";
 
     @include media-telephone{
         margin-top: 6vh;
