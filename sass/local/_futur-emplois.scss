@@ -64,7 +64,7 @@
     justify-content: center;
     margin: 0 auto;
     font-size:clamp(1.2rem, 3vw , 1.5rem);
-    font-family: "nasalization-rg";
+    font-family: nasalization, sans-serif;
     @include media-tablette{
         font-size:clamp(.7rem, 3vw , .9rem);
     }
