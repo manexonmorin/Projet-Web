@@ -76,7 +76,7 @@
     width: 50px;
     height: 50px;
     border-radius: 33%;
-    opacity: 0;
+    // opacity: 0;
 }
 
 .blocLogiciel1{
@@ -124,6 +124,7 @@
     margin: 4%;
     animation: wave 5s linear ease-in-out infinite;
     animation-delay: 2.5s;
+    transition: ease-out all 1.5s;
 
     @include media-telephone{
         margin: inherit;
@@ -131,48 +132,61 @@
     }
 
     .enfant1{
-        top: -29%;
-        left: 22%;
-        background-size: contain;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant2{
-        top: -12%;
-        left: -13%;
-        // background-image: url(images/premiere.png);
-        background-size: cover;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant11{
-        top: -26%;
-        right: 11%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant12{
-        top: 1%;
-        right: -21%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 }
 
 .logiciel-1:hover{
     .enfant1{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -29%;
+        left: 22%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant2{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -12%;
+        left: -13%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant11{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -26%;
+        right: 11%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant12{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: 1%;
+        right: -21%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 }
 
@@ -197,37 +211,47 @@
     }
 
     .enfant3{
-        top: -29%;
-        left: 26%;
-        background-size: contain;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant4{
-        top: -12%;
-        left: -13%;
-        background-size: cover;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant13{
-        top: -26%;
-        right: 11%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 }
 
 .logiciel-2:hover{
     .enfant3{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -29%;
+        left: 26%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant4{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -12%;
+        left: -13%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant13{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -26%;
+        right: 11%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 }
 
@@ -249,57 +273,75 @@
     }
 
     .enfant5{
-        top: -25%;
-        left: 28%;
-        background-size: contain;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant6{
-        top: -12%;
-        left: -13%;
-        background-size: cover;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant14{
-        top: -26%;
-        right: 11%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant15{
-        top: 1%;
-        right: -21%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant16{
-        top: 37%;
-        right: -28%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 }
 
 .logiciel-3:hover{
     .enfant5{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -25%;
+        left: 28%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant6{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -12%;
+        left: -13%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant14{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -26%;
+        right: 11%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant15{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: 1%;
+        right: -21%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant16{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: 37%;
+        right: -28%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 }
 
@@ -321,26 +363,31 @@
     }
 
     .enfant7{
-        top: -29%;
-        background-size: contain;
+        top: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant8{
-        top: -12%;
-        left: -13%;
-        background-size: cover;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 }
 
 .logiciel-4:hover{
     .enfant7{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -29%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant8{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -12%;
+        left: -13%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 }
 
@@ -362,46 +409,60 @@
     }
 
     .enfant9{
-        top: -29%;
-        left: 22%;
-        background-size: contain;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant10{
-        top: -12%;
-        left: -13%;
-        background-size: cover;
+        top: 40%;
+        left: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant17{
-        top: -26%;
-        right: 11%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 
     .enfant18{
-        top: 1%;
-        right: -21%;
+        top: 40%;
+        right: 40%;
+        z-index: -1;
+        transition: ease-out all 1.5s;
     }
 }
 
 .logiciel-5:hover{
     .enfant9{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -29%;
+        left: 22%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant10{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -12%;
+        left: -13%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant17{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: -26%;
+        right: 11%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 
     .enfant18{
-        opacity: 1;
-        transition: opacity 1.5s;
+        top: 1%;
+        right: -21%;
+        transition: ease-in all 1.5s;
+        z-index: 1;
     }
 }
