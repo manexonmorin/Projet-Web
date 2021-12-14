@@ -624,7 +624,7 @@ textarea {
   display: flex;
   width: 100%;
   justify-content: flex-end;
-  font-family: nasalization, sans-serif;
+  font-family: "nasalization-rg";
   font-weight: 400;
   font-style: normal;
 }
@@ -975,6 +975,7 @@ textarea {
 .groupe2premiereBulles .bulleIntera1 {
   animation: waveBulle1 5s linear alternate infinite;
   height: 29vh;
+  font-family: "nasalization-rg";
 }
 @media (min-width: 430px) and (max-width: 1150px) {
   .groupe2premiereBulles .bulleIntera1 {
@@ -1133,262 +1134,262 @@ textarea {
 
 @keyframes particle-animation-1 {
   100% {
-    transform: translate3d(78vw, 11vh, 14px);
+    transform: translate3d(80vw, 17vh, 27px);
   }
 }
 .particle:nth-child(1) {
   animation: particle-animation-1 60s infinite;
-  opacity: 0.17;
+  opacity: 0.62;
   height: 9px;
   width: 9px;
   animation-delay: -0.2s;
-  transform: translate3d(33vw, 13vh, 66px);
-  background: #d9a026;
+  transform: translate3d(40vw, 69vh, 16px);
+  background: #ac26d9;
 }
 
 @keyframes particle-animation-2 {
   100% {
-    transform: translate3d(22vw, 51vh, 56px);
+    transform: translate3d(27vw, 20vh, 15px);
   }
 }
 .particle:nth-child(2) {
   animation: particle-animation-2 60s infinite;
-  opacity: 0.62;
-  height: 7px;
-  width: 7px;
+  opacity: 0.84;
+  height: 10px;
+  width: 10px;
   animation-delay: -0.4s;
-  transform: translate3d(15vw, 81vh, 11px);
-  background: #d92668;
+  transform: translate3d(51vw, 31vh, 44px);
+  background: #264dd9;
 }
 
 @keyframes particle-animation-3 {
   100% {
-    transform: translate3d(4vw, 38vh, 34px);
+    transform: translate3d(11vw, 9vh, 96px);
   }
 }
 .particle:nth-child(3) {
   animation: particle-animation-3 60s infinite;
-  opacity: 0.44;
-  height: 7px;
-  width: 7px;
+  opacity: 0.35;
+  height: 9px;
+  width: 9px;
   animation-delay: -0.6s;
-  transform: translate3d(75vw, 82vh, 65px);
-  background: #5fd926;
+  transform: translate3d(61vw, 65vh, 46px);
+  background: #d92668;
 }
 
 @keyframes particle-animation-4 {
   100% {
-    transform: translate3d(66vw, 74vh, 51px);
+    transform: translate3d(12vw, 46vh, 1px);
   }
 }
 .particle:nth-child(4) {
   animation: particle-animation-4 60s infinite;
-  opacity: 0.8;
+  opacity: 0.02;
   height: 9px;
   width: 9px;
   animation-delay: -0.8s;
-  transform: translate3d(84vw, 67vh, 88px);
-  background: #d9262c;
+  transform: translate3d(90vw, 37vh, 78px);
+  background: #26d99d;
 }
 
 @keyframes particle-animation-5 {
   100% {
-    transform: translate3d(39vw, 29vh, 50px);
+    transform: translate3d(13vw, 51vh, 68px);
   }
 }
 .particle:nth-child(5) {
   animation: particle-animation-5 60s infinite;
-  opacity: 0.56;
-  height: 10px;
-  width: 10px;
+  opacity: 0.59;
+  height: 9px;
+  width: 9px;
   animation-delay: -1s;
-  transform: translate3d(7vw, 13vh, 13px);
-  background: #d9267a;
+  transform: translate3d(39vw, 62vh, 40px);
+  background: #c1d926;
 }
 
 @keyframes particle-animation-6 {
   100% {
-    transform: translate3d(52vw, 61vh, 19px);
+    transform: translate3d(14vw, 86vh, 95px);
   }
 }
 .particle:nth-child(6) {
   animation: particle-animation-6 60s infinite;
-  opacity: 0.42;
-  height: 10px;
-  width: 10px;
+  opacity: 0.15;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.2s;
-  transform: translate3d(58vw, 45vh, 44px);
-  background: #d92694;
+  transform: translate3d(39vw, 61vh, 91px);
+  background: #26d962;
 }
 
 @keyframes particle-animation-7 {
   100% {
-    transform: translate3d(6vw, 71vh, 93px);
+    transform: translate3d(48vw, 29vh, 53px);
   }
 }
 .particle:nth-child(7) {
   animation: particle-animation-7 60s infinite;
-  opacity: 0.9;
-  height: 8px;
-  width: 8px;
+  opacity: 0.85;
+  height: 9px;
+  width: 9px;
   animation-delay: -1.4s;
-  transform: translate3d(31vw, 9vh, 67px);
-  background: #26d94a;
+  transform: translate3d(12vw, 35vh, 55px);
+  background: #26bbd9;
 }
 
 @keyframes particle-animation-8 {
   100% {
-    transform: translate3d(8vw, 3vh, 34px);
+    transform: translate3d(60vw, 13vh, 81px);
   }
 }
 .particle:nth-child(8) {
   animation: particle-animation-8 60s infinite;
-  opacity: 0.02;
+  opacity: 0.69;
   height: 7px;
   width: 7px;
   animation-delay: -1.6s;
-  transform: translate3d(69vw, 14vh, 17px);
-  background: #c1d926;
+  transform: translate3d(57vw, 81vh, 49px);
+  background: #7126d9;
 }
 
 @keyframes particle-animation-9 {
   100% {
-    transform: translate3d(85vw, 8vh, 29px);
+    transform: translate3d(70vw, 78vh, 35px);
   }
 }
 .particle:nth-child(9) {
   animation: particle-animation-9 60s infinite;
-  opacity: 0.5;
-  height: 9px;
-  width: 9px;
+  opacity: 0.26;
+  height: 7px;
+  width: 7px;
   animation-delay: -1.8s;
-  transform: translate3d(83vw, 35vh, 82px);
-  background: #d9265c;
+  transform: translate3d(25vw, 52vh, 33px);
+  background: #d626d9;
 }
 
 @keyframes particle-animation-10 {
   100% {
-    transform: translate3d(65vw, 61vh, 32px);
+    transform: translate3d(18vw, 82vh, 43px);
   }
 }
 .particle:nth-child(10) {
   animation: particle-animation-10 60s infinite;
-  opacity: 0.76;
-  height: 6px;
-  width: 6px;
+  opacity: 0.81;
+  height: 10px;
+  width: 10px;
   animation-delay: -2s;
-  transform: translate3d(73vw, 43vh, 93px);
-  background: #d926a9;
+  transform: translate3d(8vw, 63vh, 20px);
+  background: #a9d926;
 }
 
 @keyframes particle-animation-11 {
   100% {
-    transform: translate3d(34vw, 31vh, 19px);
+    transform: translate3d(13vw, 89vh, 35px);
   }
 }
 .particle:nth-child(11) {
   animation: particle-animation-11 60s infinite;
-  opacity: 0.8;
-  height: 9px;
-  width: 9px;
+  opacity: 0.93;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.2s;
-  transform: translate3d(22vw, 46vh, 93px);
-  background: #41d926;
+  transform: translate3d(66vw, 69vh, 5px);
+  background: #d9a626;
 }
 
 @keyframes particle-animation-12 {
   100% {
-    transform: translate3d(29vw, 71vh, 35px);
+    transform: translate3d(87vw, 51vh, 86px);
   }
 }
 .particle:nth-child(12) {
   animation: particle-animation-12 60s infinite;
-  opacity: 0.11;
+  opacity: 0.29;
   height: 7px;
   width: 7px;
   animation-delay: -2.4s;
-  transform: translate3d(54vw, 7vh, 51px);
-  background: #d926ca;
+  transform: translate3d(42vw, 36vh, 84px);
+  background: #d926ac;
 }
 
 @keyframes particle-animation-13 {
   100% {
-    transform: translate3d(41vw, 51vh, 14px);
+    transform: translate3d(75vw, 48vh, 53px);
   }
 }
 .particle:nth-child(13) {
   animation: particle-animation-13 60s infinite;
-  opacity: 0.56;
-  height: 6px;
-  width: 6px;
+  opacity: 0.21;
+  height: 9px;
+  width: 9px;
   animation-delay: -2.6s;
-  transform: translate3d(55vw, 42vh, 67px);
-  background: #264dd9;
+  transform: translate3d(23vw, 62vh, 63px);
+  background: #26d974;
 }
 
 @keyframes particle-animation-14 {
   100% {
-    transform: translate3d(38vw, 40vh, 92px);
+    transform: translate3d(17vw, 13vh, 69px);
   }
 }
 .particle:nth-child(14) {
   animation: particle-animation-14 60s infinite;
-  opacity: 0.17;
-  height: 10px;
-  width: 10px;
+  opacity: 0.63;
+  height: 8px;
+  width: 8px;
   animation-delay: -2.8s;
-  transform: translate3d(39vw, 8vh, 65px);
-  background: #26d9a9;
+  transform: translate3d(2vw, 36vh, 51px);
+  background: #26d9c4;
 }
 
 @keyframes particle-animation-15 {
   100% {
-    transform: translate3d(53vw, 24vh, 60px);
+    transform: translate3d(45vw, 36vh, 41px);
   }
 }
 .particle:nth-child(15) {
   animation: particle-animation-15 60s infinite;
-  opacity: 0.81;
-  height: 8px;
-  width: 8px;
+  opacity: 0.53;
+  height: 10px;
+  width: 10px;
   animation-delay: -3s;
-  transform: translate3d(14vw, 48vh, 59px);
-  background: #d92671;
+  transform: translate3d(36vw, 53vh, 11px);
+  background: #d92691;
 }
 
 @keyframes particle-animation-16 {
   100% {
-    transform: translate3d(9vw, 72vh, 8px);
+    transform: translate3d(10vw, 69vh, 85px);
   }
 }
 .particle:nth-child(16) {
   animation: particle-animation-16 60s infinite;
   opacity: 0.07;
-  height: 6px;
-  width: 6px;
+  height: 10px;
+  width: 10px;
   animation-delay: -3.2s;
-  transform: translate3d(72vw, 46vh, 16px);
-  background: #cdd926;
+  transform: translate3d(27vw, 87vh, 70px);
+  background: #d9d026;
 }
 
 @keyframes particle-animation-17 {
   100% {
-    transform: translate3d(52vw, 63vh, 66px);
+    transform: translate3d(41vw, 5vh, 68px);
   }
 }
 .particle:nth-child(17) {
   animation: particle-animation-17 60s infinite;
-  opacity: 0.97;
+  opacity: 0.04;
   height: 9px;
   width: 9px;
   animation-delay: -3.4s;
-  transform: translate3d(17vw, 8vh, 24px);
-  background: #c426d9;
+  transform: translate3d(76vw, 80vh, 2px);
+  background: #26cad9;
 }
 
 @keyframes particle-animation-18 {
   100% {
-    transform: translate3d(1vw, 53vh, 83px);
+    transform: translate3d(25vw, 15vh, 21px);
   }
 }
 .particle:nth-child(18) {
@@ -1397,193 +1398,194 @@ textarea {
   height: 10px;
   width: 10px;
   animation-delay: -3.6s;
-  transform: translate3d(87vw, 12vh, 1px);
-  background: #262cd9;
+  transform: translate3d(75vw, 74vh, 61px);
+  background: #26d9bb;
 }
 
 @keyframes particle-animation-19 {
   100% {
-    transform: translate3d(80vw, 28vh, 46px);
+    transform: translate3d(21vw, 44vh, 65px);
   }
 }
 .particle:nth-child(19) {
   animation: particle-animation-19 60s infinite;
-  opacity: 0.34;
-  height: 6px;
-  width: 6px;
+  opacity: 0.8;
+  height: 10px;
+  width: 10px;
   animation-delay: -3.8s;
-  transform: translate3d(63vw, 60vh, 90px);
-  background: #2638d9;
+  transform: translate3d(36vw, 84vh, 52px);
+  background: #9a26d9;
 }
 
 @keyframes particle-animation-20 {
   100% {
-    transform: translate3d(63vw, 82vh, 72px);
+    transform: translate3d(21vw, 66vh, 28px);
   }
 }
 .particle:nth-child(20) {
   animation: particle-animation-20 60s infinite;
-  opacity: 0.17;
-  height: 7px;
-  width: 7px;
+  opacity: 0.48;
+  height: 9px;
+  width: 9px;
   animation-delay: -4s;
-  transform: translate3d(76vw, 43vh, 18px);
-  background: #9dd926;
+  transform: translate3d(77vw, 23vh, 49px);
+  background: #d92f26;
 }
 
 @keyframes particle-animation-21 {
   100% {
-    transform: translate3d(39vw, 36vh, 21px);
+    transform: translate3d(66vw, 3vh, 31px);
   }
 }
 .particle:nth-child(21) {
   animation: particle-animation-21 60s infinite;
-  opacity: 0.1;
-  height: 10px;
-  width: 10px;
+  opacity: 0.17;
+  height: 6px;
+  width: 6px;
   animation-delay: -4.2s;
-  transform: translate3d(22vw, 32vh, 16px);
-  background: #26d9af;
+  transform: translate3d(63vw, 36vh, 83px);
+  background: #b8d926;
 }
 
 @keyframes particle-animation-22 {
   100% {
-    transform: translate3d(16vw, 69vh, 72px);
+    transform: translate3d(16vw, 70vh, 43px);
   }
 }
 .particle:nth-child(22) {
   animation: particle-animation-22 60s infinite;
-  opacity: 0.04;
+  opacity: 0.62;
   height: 8px;
   width: 8px;
   animation-delay: -4.4s;
-  transform: translate3d(11vw, 45vh, 82px);
-  background: #d95926;
+  transform: translate3d(84vw, 56vh, 1px);
+  background: #d92665;
 }
 
 @keyframes particle-animation-23 {
   100% {
-    transform: translate3d(39vw, 21vh, 48px);
+    transform: translate3d(50vw, 21vh, 25px);
   }
 }
 .particle:nth-child(23) {
   animation: particle-animation-23 60s infinite;
-  opacity: 0.87;
-  height: 10px;
-  width: 10px;
+  opacity: 0.7;
+  height: 7px;
+  width: 7px;
   animation-delay: -4.6s;
-  transform: translate3d(79vw, 14vh, 68px);
-  background: #d9262f;
+  transform: translate3d(66vw, 65vh, 70px);
+  background: #d9d926;
 }
 
 @keyframes particle-animation-24 {
   100% {
-    transform: translate3d(70vw, 54vh, 50px);
+    transform: translate3d(44vw, 46vh, 92px);
   }
 }
 .particle:nth-child(24) {
   animation: particle-animation-24 60s infinite;
-  opacity: 0.96;
-  height: 8px;
-  width: 8px;
+  opacity: 0.17;
+  height: 7px;
+  width: 7px;
   animation-delay: -4.8s;
-  transform: translate3d(71vw, 73vh, 45px);
-  background: #26d988;
+  transform: translate3d(30vw, 43vh, 83px);
+  background: #cdd926;
 }
 
 @keyframes particle-animation-25 {
   100% {
-    transform: translate3d(67vw, 83vh, 70px);
+    transform: translate3d(70vw, 73vh, 98px);
   }
 }
 .particle:nth-child(25) {
   animation: particle-animation-25 60s infinite;
-  opacity: 0.67;
+  opacity: 0.35;
   height: 10px;
   width: 10px;
   animation-delay: -5s;
-  transform: translate3d(43vw, 78vh, 62px);
-  background: #26b5d9;
+  transform: translate3d(28vw, 41vh, 74px);
+  background: #2650d9;
 }
 
 @keyframes particle-animation-26 {
   100% {
-    transform: translate3d(75vw, 58vh, 58px);
+    transform: translate3d(65vw, 68vh, 14px);
   }
 }
 .particle:nth-child(26) {
   animation: particle-animation-26 60s infinite;
-  opacity: 0.1;
-  height: 7px;
-  width: 7px;
+  opacity: 0.25;
+  height: 10px;
+  width: 10px;
   animation-delay: -5.2s;
-  transform: translate3d(80vw, 66vh, 64px);
-  background: #d9269a;
+  transform: translate3d(73vw, 51vh, 50px);
+  background: #26d9a9;
 }
 
 @keyframes particle-animation-27 {
   100% {
-    transform: translate3d(81vw, 26vh, 45px);
+    transform: translate3d(71vw, 57vh, 95px);
   }
 }
 .particle:nth-child(27) {
   animation: particle-animation-27 60s infinite;
-  opacity: 0.4;
-  height: 10px;
-  width: 10px;
+  opacity: 0.33;
+  height: 6px;
+  width: 6px;
   animation-delay: -5.4s;
-  transform: translate3d(34vw, 1vh, 83px);
-  background: #d92665;
+  transform: translate3d(59vw, 25vh, 6px);
+  background: #26d9c4;
 }
 
 @keyframes particle-animation-28 {
   100% {
-    transform: translate3d(28vw, 48vh, 23px);
+    transform: translate3d(30vw, 59vh, 67px);
   }
 }
 .particle:nth-child(28) {
   animation: particle-animation-28 60s infinite;
-  opacity: 0.47;
-  height: 10px;
-  width: 10px;
+  opacity: 0.96;
+  height: 7px;
+  width: 7px;
   animation-delay: -5.6s;
-  transform: translate3d(76vw, 74vh, 43px);
-  background: #d92926;
+  transform: translate3d(66vw, 24vh, 27px);
+  background: #71d926;
 }
 
 @keyframes particle-animation-29 {
   100% {
-    transform: translate3d(72vw, 36vh, 75px);
+    transform: translate3d(73vw, 83vh, 91px);
   }
 }
 .particle:nth-child(29) {
   animation: particle-animation-29 60s infinite;
-  opacity: 0.14;
-  height: 9px;
-  width: 9px;
+  opacity: 0.65;
+  height: 7px;
+  width: 7px;
   animation-delay: -5.8s;
-  transform: translate3d(74vw, 36vh, 51px);
-  background: #d9a026;
+  transform: translate3d(63vw, 40vh, 13px);
+  background: #d926a3;
 }
 
 @keyframes particle-animation-30 {
   100% {
-    transform: translate3d(10vw, 46vh, 18px);
+    transform: translate3d(66vw, 78vh, 13px);
   }
 }
 .particle:nth-child(30) {
   animation: particle-animation-30 60s infinite;
-  opacity: 0.1;
-  height: 7px;
-  width: 7px;
+  opacity: 0.08;
+  height: 9px;
+  width: 9px;
   animation-delay: -6s;
-  transform: translate3d(47vw, 10vh, 81px);
-  background: #d92685;
+  transform: translate3d(16vw, 23vh, 32px);
+  background: #d9269d;
 }
 
 .sectionCamaraderie {
   width: 100vw;
   position: relative;
+  font-family: "Magistral Regular";
 }
 .sectionCamaraderie .GroupeMotCamaraderie {
   display: flex;
@@ -1898,6 +1900,7 @@ textarea {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  font-family: "Magistral Regular";
 }
 .blocLogiciel1 .wp-block-group__inner-container h2 {
   text-align: center;
@@ -2225,7 +2228,7 @@ textarea {
 
 .groupeFutur {
   position: relative;
-  background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
+  background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -2246,6 +2249,7 @@ textarea {
   margin: 0 0 0 9%;
   width: 220px;
   font-size: 1.5rem;
+  font-family: "Magistral Regular";
 }
 @media (min-width: 430px) and (max-width: 1150px) {
   .groupeFutur .groupeTitreIMG h1 {
@@ -2366,6 +2370,9 @@ textarea {
     width: 400px;
   }
 }
+.groupeFutur .groupetxtETfleche .wp-block-group__inner-container .groupeMotsFutur .wp-block-group__inner-container .wp-block-group .infoTxtFuturAbsolute h2 {
+  font-family: "Magistral Regular";
+}
 .groupeFutur .groupetxtETfleche .wp-block-group__inner-container .groupeMotsFutur .wp-block-group__inner-container .wp-block-group .infoTxtFuturAbsolute p {
   transform: inherit;
   padding: inherit;
@@ -2456,6 +2463,7 @@ textarea {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  font-family: "nasalization-rg";
 }
 .contenuCoursIntro .groupeFlottantTypesCours .wp-block-group__inner-container .wp-block-group {
   z-index: 2;
@@ -2490,6 +2498,7 @@ textarea {
   font-size: clamp(1.5rem, 4vw, 2.2rem);
   width: 100%;
   text-align: center;
+  font-family: "Magistral Regular";
 }
 
 .session1 {
@@ -2552,6 +2561,7 @@ textarea {
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours {
   border-top: 2px solid #A1DAFF;
   border-bottom: 2px solid #A1DAFF;
+  font-family: "nasalization-rg";
 }
 .session1 .wp-block-group__inner-container .coursSession .wp-block-group__inner-container .titreCours .wp-block-group__inner-container {
   width: 100%;
@@ -2618,6 +2628,9 @@ textarea {
 .sectionConcours .wp-block-group__inner-container .GroupeConcours .wp-block-group__inner-container {
   flex-direction: column;
 }
+.sectionConcours .wp-block-group__inner-container .GroupeConcours .wp-block-group__inner-container h1 {
+  font-family: "Magistral Regular";
+}
 .sectionConcours .wp-block-group__inner-container .GroupeConcours .wp-block-group__inner-container .groupeMauveConcours {
   border-radius: 10px;
 }
@@ -2662,6 +2675,7 @@ textarea {
 .sectionIntroCommunaute .wp-block-group__inner-container .texteEtImage .titreCommunaute {
   font-size: clamp(3.5rem, 50%, 4.75rem);
   margin-bottom: 0;
+  font-family: "nasalization-rg";
 }
 @media (max-width: 430px) {
   .sectionIntroCommunaute .wp-block-group__inner-container .texteEtImage .titreCommunaute {
@@ -2795,10 +2809,16 @@ textarea {
 
 .titreProfesseur {
   margin-left: 5vw;
+  font-family: "Magistral Regular";
 }
 
 .groupeEntierOngletEtProf .wp-block-group__inner-container {
   display: flex;
+}
+@media (max-width: 430px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container {
+    flex-direction: column;
+  }
 }
 .groupeEntierOngletEtProf .wp-block-group__inner-container .wp-block-group__inner-container {
   display: block;
@@ -2807,6 +2827,11 @@ textarea {
   border-radius: 70% 46% 42% 58%/60% 58% 42% 40%;
   width: 30%;
   height: 60vh;
+}
+@media (max-width: 430px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs {
+    width: inherit;
+  }
 }
 .groupeEntierOngletEtProf .wp-block-group__inner-container .groupeTypesProfs .wp-block-group__inner-container {
   width: 100%;
@@ -2828,6 +2853,11 @@ textarea {
   border-radius: 15px;
   margin: 0 4vw;
 }
+@media (max-width: 430px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign {
+    width: inherit;
+  }
+}
 .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container {
   display: flex;
   flex-direction: column;
@@ -2838,6 +2868,16 @@ textarea {
   display: flex;
   flex-direction: row;
   width: 100%;
+}
+@media (max-width: 430px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
+    flex-direction: column;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
+    flex-direction: column;
+  }
 }
 .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container:first-of-type, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container:first-of-type, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container:first-of-type, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container:first-of-type, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container:first-of-type {
   margin-top: 5vh;
@@ -2878,6 +2918,18 @@ textarea {
   width: 70%;
   word-wrap: break-word;
 }
+@media (max-width: 430px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p {
+    margin: 2% auto;
+    width: 90%;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfWeb .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfJeux .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .Prof3D .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfVideo .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p, .groupeEntierOngletEtProf .wp-block-group__inner-container .ProfDesign .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p {
+    margin: 2% auto;
+    width: 90%;
+  }
+}
 .groupeEntierOngletEtProf .wp-block-group__inner-container .descProfVisible {
   display: flex;
 }
@@ -2886,6 +2938,7 @@ textarea {
 --------------------------------------------- */
 .sectionProjetIntro {
   width: 100vw;
+  font-family: "Magistral Regular";
 }
 @media (max-width: 430px) {
   .sectionProjetIntro {
@@ -2956,6 +3009,7 @@ textarea {
 .sectionProjetsEtudiants .wp-block-group__inner-container .titreProjetEtudiant {
   text-align: center;
   margin-top: 10vh;
+  font-family: "Magistral Regular";
 }
 .sectionProjetsEtudiants .wp-block-group__inner-container .projet_vedette .wp-block-group__inner-container {
   display: flex;
@@ -3124,6 +3178,7 @@ textarea {
   justify-content: center;
   margin: 0 auto;
   font-size: clamp(1.2rem, 3vw , 1.5rem);
+  font-family: "nasalization-rg";
 }
 @media (min-width: 430px) and (max-width: 1150px) {
   .titreEmploisFutur {
@@ -3156,6 +3211,21 @@ textarea {
   margin: 0 3%;
   width: 55%;
 }
+@media (max-width: 430px) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container figure {
+    display: none;
+  }
+}
+@media (max-width: 38.4375em) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container figure {
+    display: none;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container figure {
+    display: none;
+  }
+}
 .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container figure img {
   margin: 0 auto;
   border-radius: 20px;
@@ -3164,6 +3234,16 @@ textarea {
 }
 .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container .wp-block-group {
   width: 45%;
+}
+@media (max-width: 430px) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container .wp-block-group {
+    width: 100%;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container .wp-block-group {
+    width: 100%;
+  }
 }
 .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container {
   display: flex;
@@ -3179,6 +3259,11 @@ textarea {
   padding: 0% 2%;
   margin: 10px 0;
 }
+@media (max-width: 430px) {
+  .EmploisContenu .wp-block-group__inner-container .wp-block-group__inner-container .wp-block-group .wp-block-group__inner-container p:nth-child(1) {
+    display: none;
+  }
+}
 
 .visibleFuturEmplois {
   display: flex;
@@ -3190,11 +3275,15 @@ textarea {
 .groupeUniversite h1 {
   display: flex;
   justify-content: center;
+  font-family: "nasalization-rg";
 }
 .groupeUniversite .descUniversite {
   display: flex;
   justify-content: center;
   text-align: center;
+}
+.groupeUniversite .descUniversite h3 {
+  font-family: "Magistral Regular";
 }
 .groupeUniversite .GroupePhotoUniversite {
   margin: 2% 5%;
@@ -3233,6 +3322,7 @@ textarea {
 .groupeStage h1 {
   display: flex;
   justify-content: center;
+  font-family: "nasalization-rg";
 }
 .groupeStage .descStage {
   display: flex;
@@ -3240,6 +3330,9 @@ textarea {
   text-align: center;
   width: 55%;
   margin: 0 auto;
+}
+.groupeStage .descStage h3 {
+  font-family: "Magistral Regular";
 }
 .groupeStage .GroupePhotoStage {
   margin: 2% 5%;
@@ -3251,7 +3344,18 @@ textarea {
 }
 .groupeStage .GroupePhotoStage .wp-block-group__inner-container figure {
   margin: 0 5%;
+}
+.groupeStage .GroupePhotoStage .wp-block-group__inner-container figure img {
+  transition: all 0.6s;
   border-radius: 100px;
+}
+.groupeStage .GroupePhotoStage .wp-block-group__inner-container figure img:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.269);
+}
+.groupeStage .GroupePhotoStage .wp-block-group__inner-container figure figcaption {
+  color: white;
+  text-align: center;
 }
 
 .groupeTemoignage {
@@ -3270,16 +3374,36 @@ textarea {
   flex-wrap: wrap;
   justify-content: center;
 }
+@media (max-width: 38.4375em) {
+  .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container figure {
   width: 25%;
   margin: 0 5%;
   margin-bottom: 20px;
   border-radius: 100px;
 }
+@media (max-width: 38.4375em) {
+  .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container figure {
+    width: 50%;
+    height: 48vh;
+    overflow-y: scroll;
+    border-radius: 0px;
+  }
+}
 .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container figure img {
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+@media (max-width: 38.4375em) {
+  .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container figure img {
+    border-radius: 100px;
+  }
 }
 .groupeTemoignage .GroupeTemoignage .wp-block-group__inner-container figure figcaption {
   color: #FFAF22;
@@ -3408,6 +3532,145 @@ La barre du millieu
 
 /* Footer
 --------------------------------------------- */
+footer {
+  background: linear-gradient(175deg, #5924a1 0%, #170b41 100%);
+  width: 100vw;
+}
+footer .site-info {
+  display: flex;
+  width: 100%;
+}
+@media (max-width: 430px) {
+  footer .site-info {
+    flex-direction: column;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info {
+    flex-direction: column;
+  }
+}
+footer .site-info h2, footer .site-info p {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+footer .site-info .infosSite {
+  width: 35%;
+}
+@media (max-width: 430px) {
+  footer .site-info .infosSite {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .infosSite {
+    width: 100%;
+    display: flex;
+  }
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .infosSite section:first-of-type {
+    width: 80%;
+  }
+}
+@media (max-width: 430px) {
+  footer .site-info .infosSite section:first-of-type {
+    width: 80%;
+  }
+}
+footer .site-info .infosSite section:last-of-type {
+  display: flex;
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .infosSite section:last-of-type {
+    align-items: center;
+  }
+}
+@media (max-width: 430px) {
+  footer .site-info .infosSite section:last-of-type {
+    align-items: center;
+  }
+}
+footer .site-info .infosSite .wp-block-group .wp-block-group__inner-container h2, footer .site-info .infosSite .wp-block-group .wp-block-group__inner-container p {
+  padding: 5% 10%;
+  margin: 0;
+}
+footer .site-info .infosSite figure {
+  padding: 0% 10% 0 10%;
+}
+footer .site-info .NavFooter h2 {
+  padding: 0 0;
+  text-align: center;
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .NavFooter .widget_categories {
+    text-align: center;
+  }
+}
+@media (max-width: 430px) {
+  footer .site-info .NavFooter .widget_categories {
+    text-align: center;
+  }
+}
+footer .site-info .NavFooter .widget_categories ul {
+  padding-left: 5px;
+  list-style: none;
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .NavFooter .widget_categories ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 430px) {
+  footer .site-info .NavFooter .widget_categories ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+footer .site-info .NavFooter .widget_categories ul li a {
+  transition: all 0.2s;
+  color: white;
+}
+footer .site-info .NavFooter .widget_categories ul li a:hover {
+  color: #e6d2f3;
+}
+footer .site-info .LocalisationFooter h2, footer .site-info .LocalisationFooter p {
+  text-align: center;
+  padding: 0 2.375em;
+}
+footer .site-info .ReseauxSociaux {
+  width: 25%;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 430px) and (max-width: 1150px) {
+  footer .site-info .ReseauxSociaux {
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 430px) {
+  footer .site-info .ReseauxSociaux {
+    width: 100%;
+    justify-content: center;
+  }
+}
+footer .site-info .ReseauxSociaux section .wp-block-group__inner-container {
+  display: flex;
+  align-items: center;
+}
+footer .site-info .ReseauxSociaux section .wp-block-group__inner-container figure {
+  padding: 0 7px;
+}
+footer .site-info .ReseauxSociaux section .wp-block-group__inner-container figure img {
+  transition: all 0.3s;
+}
+footer .site-info .ReseauxSociaux section .wp-block-group__inner-container figure img:hover {
+  scale: 1.1;
+}
+
 .entry-content {
   margin: 0;
 }

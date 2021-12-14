@@ -3,6 +3,7 @@
     h1{
         display: flex;
         justify-content: center;
+        font-family: "nasalization-rg";
     }
     //texte descriptif des Stages
     .descStage{
@@ -11,6 +12,9 @@
         text-align: center;
         width: 55%;
         margin: 0 auto;
+        h3{
+            font-family: "Magistral Regular";
+        }
     }
 
     // photo des Stage
