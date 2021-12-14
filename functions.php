@@ -195,6 +195,12 @@ function timfilp_scripts() {
 
 add_action( 'wp_enqueue_scripts', 'timfilp_scripts' );
 
+function wpb_add_adobe_fonts() {
+	wp_enqueue_style( 'wpb-adobe-fonts', 'https://fonts.adobe.com/fonts?browse_mode=default&cc=true&filters=cl:ss&max_styles=26&min_styles=1', false ); 
+}
+	
+add_action( 'wp_enqueue_scripts', 'wpb_add_adobe_fonts' );
+
 /**
  * Implement the Custom Header feature.
  */
