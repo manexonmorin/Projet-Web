@@ -27,7 +27,7 @@
         .bulleIntera1{
             animation: waveBulle1 5s linear alternate infinite;
             height: 29vh;
-            font-family: "nasalization-rg";
+            font-family: nasalization, sans-serif;
             @include media-tablette{
                 height: 250px;
             }

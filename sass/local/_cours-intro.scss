@@ -59,7 +59,8 @@
             display: flex;
             width: 100%;
             justify-content: space-around;
-            font-family: "nasalization-rg";
+            font-family: nasalization, sans-serif;
+
             // chaque bulles individuelles
             .wp-block-group{
                 z-index: 2;
@@ -91,5 +92,5 @@
     font-size: clamp(1.5rem, 4vw, 2.2rem);
     width: 100%;
     text-align: center;
-    font-family: "Magistral Regular";
+    font-family: magistral, sans-serif;
 }
