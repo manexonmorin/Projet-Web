@@ -13,15 +13,22 @@
 .conteneur_titre-etudiant{
     display: flex;
     justify-content: center;
-    padding-top: 110px;
     width: 100vw;
+
+    .wp-block-group__inner-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 // balise h1 pour le titre
 .titre_projet-etudiant{
     font-family: magistral,sans-serif;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 4vh;
+    font-size: 3.5em;
 }
 
 // Bulle qui contient tout les projet a voir ainsi que le <a> vers la section projet
@@ -52,6 +59,7 @@
         margin-right: 5%;
 
         img{
+            width: 14vw;
             border-radius: 50%;
             -webkit-box-shadow: 0px 0px 55px 2px rgba(255, 183, 3, 0.2);
             -moz-box-shadow: 0px 0px 55px 2px rgba(255, 183, 3, 0.2);
@@ -97,7 +105,7 @@
         .wp-block-group__inner-container{
             display: flex;
             justify-content: space-between;
-            margin-bottom: 10%;
+            // margin-bottom: 10%;
 
             @include media-telephone{
                 flex-direction: column;

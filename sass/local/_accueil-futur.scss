@@ -10,11 +10,7 @@
 
     // background-image: url(http://localhost:81/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     // background-image: url(http://localhost/fliptim/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
-<<<<<<< HEAD
     // background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
-=======
-    //background-image: url(http://localhost:8888/TIMflip/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
->>>>>>> 4dd5d3966b26e9407510f30f9d589e34c3216cab
     background-image: url(http://eddym9.sg-host.com/wp-content/uploads/2021/10/montagne2-compress-scaled.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -26,7 +22,7 @@
             margin: 0 0 0 9%;
             width: 220px;
             font-size: 1.5rem;
-            font-family: magistral, sans-serif;
+            font-family: "Magistral Regular";
             @include media-tablette{
                 width: 320px;
                 font-size: 2.3rem;
@@ -144,7 +140,7 @@
                                 width:  400px;
                             }
                             h2{
-                                font-family: magistral, sans-serif;
+                                font-family: "Magistral Regular";
                             }
                             p{
                                 transform: inherit;
