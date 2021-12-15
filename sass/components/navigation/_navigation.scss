@@ -8,10 +8,12 @@
 
 	@include media-telephone{
 		display: block;
+		margin-top: 5vh;
 	}
 
 	@include logo-Tim{
 		display: block;
+		background-color: none;
 	}
 
 	ul {
@@ -81,6 +83,10 @@
 	.current-menu-item > a,
 	.current_page_ancestor > a,
 	.current-menu-ancestor > a {
+		text-decoration: none;
+		color: #ffb400;
+		font-weight: bold;
+		text-transform: uppercase;
 	}
 }
 
