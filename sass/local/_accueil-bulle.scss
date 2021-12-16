@@ -37,14 +37,16 @@
                 flex-wrap: nowrap;
                 text-align: center;
                 flex-direction: column;
+                font-size: 1.2em;
+
+                // Le texte de la première bulle.
+                h2{
+                    font-weight: 400;
+                    margin: 0 auto;
+                    text-align: center;
+                }
             }
     
-            // Le texte de la première bulle.
-            h2{
-            font-weight: 400;
-            margin: 0 auto;
-            text-align: center;
-            }
         }
     
         // 2e bulle

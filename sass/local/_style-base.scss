@@ -111,6 +111,7 @@ a{
 
 body{
     background-color: #072338;
+    scroll-behavior: smooth;
 }
 
 .site-main{
@@ -130,4 +131,44 @@ body{
     right: 22px;
     margin: 2%;
     text-decoration: none;
+}
+
+.menu-flottant{
+    z-index: 200;
+    position: fixed;
+    top: 243px;
+    left: -185px;
+    border-radius: 0px 25px 25px 0;
+    font-weight: 700;
+    background-color: #6613cd;
+    color: white;
+    width: 13vw;
+    transition: left .5s ease-out;
+
+    &:hover{
+        left: -11px;
+        transition: left .5s ease-in;
+    }
+    .wp-block-group__inner-container{
+        ul{
+            list-style: none;
+            margin-left: 19px;
+            margin-bottom: 4px;
+            padding-left: 0;
+            li{
+                margin: 1.5% 1.5%;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    scroll-behavior: smooth;
+
+                    &:hover{
+                        color: #ffb400;
+                        cursor: pointer;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+    }
 }

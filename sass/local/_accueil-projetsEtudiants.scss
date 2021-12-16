@@ -3,11 +3,10 @@
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // balise section avec classe projet_etudiant
-.projet_etudiant{
+#projet-etudiant{
     position: relative;
     width: 100vw;
     height: 100vh;
-    border: 1px solid black;
 }
 
 // Div qui s'appelle conteneur_titre-etudiant. Il contient le titre et la bulle qui affiches les projets en entier
