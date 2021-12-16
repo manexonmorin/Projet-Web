@@ -1,6 +1,8 @@
 .GroupeBulle{
-    margin-top: 11vh;
-        width: 100vw;
+    border: 1px solid black;
+    margin-top: 4vh;
+    padding-bottom: 4vh;
+    width: 100vw;
     
         @include media-tablette{
             margin-top: 13vh;
@@ -213,12 +215,14 @@
         // les paramètre des particules comme leur couleurs, tailles, etc.
         .particle:nth-child(#{$i}){
             animation: particle-animation-#{$i} 60s infinite;
-            $size: random(5) + 5 + px;
+            $size: random(30) + 10 + px;
+            $teinte: random(100) + 5;
+            $saturation: random(45) + 5;
             opacity: random(100)/100;
             height: $size;
             width: $size;
             animation-delay: -$i * .2s;
             transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
-            background: hsl(random(360), 70%, 50%);
+            background: hsl(268, $saturation, $teinte);
         }
     }
