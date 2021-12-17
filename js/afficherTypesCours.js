@@ -13,11 +13,12 @@
 	let courVideo = document.querySelectorAll(".TitreVideo");
 	let cour3D = document.querySelectorAll(".Titre3D");
 
+
 	for(let i=0; i<BoutonTypeCours.length; i++){
 		BoutonTypeCours[i].addEventListener('mousedown', function(){
-
 			 // si appuie sur bouton "Jeux"
 			if(BoutonTypeCours[i].classList.contains('typeJeux')){
+				console.log("ici")
 				for(let i=0; i<boutonTitreCours.length; i++){
 					if(boutonTitreCours[i].classList.contains('TitreJeux')){
 						// ajoute un style qui les highlight des autre cours

@@ -1,6 +1,7 @@
 // titre "Professeur"
 .titreProfesseur{
 margin-left: 5vw;
+margin-top: 15vh;
 font-family: magistral, sans-serif;
 }
 
@@ -57,6 +58,7 @@ font-family: magistral, sans-serif;
                 align-items: center;
                 justify-content: space-around;
                 .wp-block-group{
+                    width: 100%;
                 // cible chaque groupe de prof individuel
                     .wp-block-group__inner-container{
                         display: flex;
