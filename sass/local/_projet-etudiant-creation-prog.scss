@@ -26,9 +26,9 @@
                 }
 
                 .meilleurProjet{
-                    position: relative;
-                    
+                    position: relative;      
                     img{
+                        position: relative;
                         width: 22vw;
                         height: 20vh;
                         border-radius: 19px;
@@ -47,9 +47,10 @@
 
                     figcaption{
                         color: rgb(255, 255, 255);
+                        background-color: rgba(0,0,0,0.7);
+                        width: 100%;
                         position: absolute;
                         top: 60px;
-                        left: 34px;
                         font-weight: bold;
                         font-size: 1.1em;
                         opacity: 0;
@@ -93,8 +94,9 @@
                     figcaption{
                         position: absolute;
                         color: white;
+                        width: 100%;
+                        background-color: rgba(0,0,0,0.7);
                         top: 78px;
-                        left: 10px;
                         opacity: 0;
                         font-weight: bold;
                         font-size: 1.04em;
@@ -127,3 +129,14 @@
         } 
     }
 }
+
+// &::after{
+//     content: " ";
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     border-radius: 19px;
+//     background-color: black;
+//     height: 20vh;
+//     width: 22vw;
+// }
