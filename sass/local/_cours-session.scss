@@ -5,6 +5,9 @@
         justify-content: center;
         width: 80%;
         margin: 0 auto;
+        @include media-telephone{
+            flex-direction: column;
+        }
         .tirteSession1{
             width: 28%;
             @include media-tablette{

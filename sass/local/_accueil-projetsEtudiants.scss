@@ -52,6 +52,10 @@
     flex-direction: column;
     width: 100vw;
 
+    @include media-telephone{
+        margin-top: 10vh;
+    }
+
     // Les bulles qui afficheront les 5 meilleurs projet sur la page d'accueil
     .conteneur_projet{
         position: relative;
@@ -65,6 +69,10 @@
             -moz-box-shadow: 0px 0px 55px 2px rgba(255, 183, 3, 0.2);
             box-shadow: 0px 0px 55px 2px rgba(255, 183, 3, 0.2);
             transition: all 1.5s ease-in;
+
+            @include media-telephone{
+                width: inherit;
+            }
         }
 
         figcaption{
